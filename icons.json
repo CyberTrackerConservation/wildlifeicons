@@ -1,0 +1,25 @@
+{
+    "icons": [
+        {
+            "name": "Elephant",
+            "filename": "elephant.svg",
+            "description": "A majestic African elephant with tusks",
+            "keywords": ["elephant", "african", "wildlife", "mammal", "tusks"],
+            "style": "classic"
+        },
+        {
+            "name": "Lion",
+            "filename": "lion.svg",
+            "description": "A powerful male lion with mane",
+            "keywords": ["lion", "african", "wildlife", "mammal", "predator"],
+            "style": "monochrome"
+        },
+        {
+            "name": "Giraffe",
+            "filename": "giraffe.svg",
+            "description": "A tall giraffe with distinctive spots",
+            "keywords": ["giraffe", "african", "wildlife", "mammal", "tall"],
+            "style": "aerial"
+        }
+    ]
+} 

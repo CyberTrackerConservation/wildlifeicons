@@ -1,0 +1,604 @@
+:root {
+    --primary-color: #2c3e50;
+    --secondary-color: #3498db;
+    --background-color: #f5f6fa;
+    --card-background: #ffffff;
+    --text-color: #2c3e50;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f5f5f5;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1511497584788-876760111969');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.search-container {
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+}
+
+.search-icon {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    z-index: 1;
+}
+
+.search-container input {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 2.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    height: 40px;
+    box-sizing: border-box;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+.icon-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(96px, 1fr));
+    gap: 0.75rem;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.icon-item {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid #2c5e2c;
+    border-radius: 6px;
+    padding: 0.5rem;
+    text-align: center;
+    transition: all 0.2s ease;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 84px;
+    box-sizing: border-box;
+}
+
+.icon-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon-item.selected {
+    background-color: #e8f5e9;
+    border-color: #2c5e2c;
+    box-shadow: 0 0 0 2px #2c5e2c;
+}
+
+.icon-item img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+    margin-bottom: 0.25rem;
+    aspect-ratio: 1;
+}
+
+.icon-item h3 {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #2c3e50;
+    line-height: 1;
+}
+
+.icon-item p {
+    margin: 0.5rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.icon-item .keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.icon-item .keywords span {
+    background-color: #f8f9fa;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.icon-item .icon-checkbox {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    margin: 0;
+    cursor: pointer;
+    flex: 0 0 20px;
+    padding: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #2c5e2c;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color-adjust: exact;
+    print-color-adjust: exact;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.icon-item .icon-checkbox:checked {
+    background-color: #2c5e2c;
+    border-color: #2c5e2c;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.icon-item .icon-checkbox:focus {
+    border-color: #2c5e2c;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(44, 94, 44, 0.25);
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: white;
+    margin-top: 2rem;
+}
+
+.actions {
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.download-btn {
+    background-color: #2c5e2c;
+    color: white;
+    border: none;
+    padding: 0.35rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 32px;
+    box-sizing: border-box;
+    font-size: 0.9rem;
+}
+
+.download-btn:hover {
+    background-color: #1e421e;
+}
+
+.download-btn:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+}
+
+.download-btn i {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .icon-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 1rem;
+    }
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.style-filters {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.style-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.style-dropdown-btn {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #2c5e2c;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.style-dropdown-btn:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.style-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.95);
+    min-width: 180px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    z-index: 1;
+    border-radius: 4px;
+    padding: 0.5rem 0;
+    margin-top: 0.5rem;
+    right: 0;
+}
+
+.style-option {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    color: #2c3e50;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    user-select: none;
+    white-space: nowrap;
+    height: 32px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.style-option:hover {
+    background-color: rgba(44, 62, 80, 0.1);
+}
+
+.style-option input[type="checkbox"] {
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    max-width: 20px !important;
+    max-height: 20px !important;
+    margin: 0;
+    margin-right: 0.75rem;
+    cursor: pointer;
+    flex: 0 0 20px;
+    padding: 0;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid #2c5e2c;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color-adjust: exact;
+    print-color-adjust: exact;
+    box-sizing: border-box;
+}
+
+.style-option input[type="checkbox"]:checked {
+    background-color: #2c5e2c;
+    border-color: #2c5e2c;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
+}
+
+.style-option input[type="checkbox"]:focus {
+    border-color: #2c5e2c;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(44, 94, 44, 0.25);
+}
+
+.style-option span {
+    flex: 1;
+    line-height: 1;
+    font-size: 0.95rem;
+    text-align: left;
+    padding-left: 0;
+    min-width: 0;
+}
+
+.icon-style {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    background-color: #e8e8e8;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    text-transform: capitalize;
+    margin-top: 0.5rem;
+    color: #333;
+}
+
+.cart-btn {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #2c5e2c;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    position: relative;
+    transition: all 0.2s ease;
+}
+
+.cart-btn:not([disabled]) {
+    cursor: pointer;
+}
+
+.cart-btn:not([disabled]):hover {
+    background-color: #2c5e2c;
+    color: white;
+    transform: scale(1.1);
+}
+
+.cart-btn[disabled] {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #2c5e2c;
+    color: white;
+    border-radius: 50%;
+    padding: 0.1rem 0.4rem;
+    font-size: 0.8rem;
+    min-width: 18px;
+    text-align: center;
+}
+
+.cart-dropdown {
+    position: relative;
+}
+
+.cart-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: white;
+    min-width: 300px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    padding: 1rem;
+    z-index: 1000;
+    margin-top: 0.5rem;
+}
+
+.cart-content.show {
+    display: block;
+}
+
+.cart-items {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item img {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+}
+
+.cart-item .item-name {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.cart-item .remove-btn {
+    color: #dc3545;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.cart-item .remove-btn:hover {
+    color: #c82333;
+}
+
+.download-btn {
+    width: 100%;
+    background-color: #2c5e2c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.download-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.select-btn {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #2c5e2c;
+    border: none;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+}
+
+.select-btn:hover {
+    background-color: #2c5e2c;
+    color: white;
+}
+
+.select-btn.selected {
+    background-color: #2c5e2c;
+    color: white;
+}
+
+.icon-card {
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    border: 1px solid #eee;
+}
+
+.icon-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.icon-card.selected {
+    border-color: #2c5e2c;
+}
+
+.icon-card img {
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+}
+
+.icon-info {
+    text-align: center;
+    width: 100%;
+}
+
+.icon-name {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 0.25rem;
+}
+
+.icon-style {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.select-indicator {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #2c5e2c;
+    border-radius: 4px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.icon-card.selected .select-indicator {
+    background-color: #2c5e2c;
+    color: white;
+} 

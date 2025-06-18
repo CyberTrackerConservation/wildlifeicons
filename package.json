@@ -1,0 +1,11 @@
+{
+  "name": "wildlife-icons",
+  "version": "1.0.0",
+  "description": "A searchable repository of wildlife icons",
+  "scripts": {
+    "start": "http-server -p 8080"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+} 
