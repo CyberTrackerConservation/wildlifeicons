@@ -1,25 +1,6884 @@
 {
-    "icons": [
-        {
-            "name": "Elephant",
-            "filename": "elephant.svg",
-            "description": "A majestic African elephant with tusks",
-            "keywords": ["elephant", "african", "wildlife", "mammal", "tusks"],
-            "style": "classic"
-        },
-        {
-            "name": "Lion",
-            "filename": "lion.svg",
-            "description": "A powerful male lion with mane",
-            "keywords": ["lion", "african", "wildlife", "mammal", "predator"],
-            "style": "monochrome"
-        },
-        {
-            "name": "Giraffe",
-            "filename": "giraffe.svg",
-            "description": "A tall giraffe with distinctive spots",
-            "keywords": ["giraffe", "african", "wildlife", "mammal", "tall"],
-            "style": "aerial"
-        }
-    ]
-} 
+  "icons": [
+    {
+      "name": "Cutting Tools",
+      "filename": "SMART/color/Cutting_tools_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sound",
+      "filename": "SMART/color/Sound_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Machete Cut",
+      "filename": "SMART/color/Machete_cut_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Primates",
+      "filename": "SMART/color/Primates_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cercopithecidae",
+      "filename": "SMART/color/Cercopithecidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife Indirect Sign",
+      "filename": "SMART/color/Wildlife_indirect_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Homonidae",
+      "filename": "SMART/color/Homonidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Carnivora",
+      "filename": "SMART/color/Carnivora_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Infrastructure & Roads",
+      "filename": "SMART/color/Infrastructure & roads_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rod",
+      "filename": "SMART/color/Rod_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mushroom",
+      "filename": "SMART/color/Mushroom_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gravel",
+      "filename": "SMART/color/Gravel_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ammunition",
+      "filename": "SMART/color/Ammunition_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dock",
+      "filename": "SMART/color/Dock_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Footprint 2",
+      "filename": "SMART/color/Footprint_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mine",
+      "filename": "SMART/color/Mine_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unknown",
+      "filename": "SMART/color/Unknown_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gorilla",
+      "filename": "SMART/color/Gorilla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cow",
+      "filename": "SMART/color/Cow_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Diamonds",
+      "filename": "SMART/color/Diamonds_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Abandoned",
+      "filename": "SMART/color/Abandoned_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Car",
+      "filename": "SMART/color/Car_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Truck",
+      "filename": "SMART/color/Truck_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Other",
+      "filename": "SMART/color/Other_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Jaw Trap",
+      "filename": "SMART/color/Jaw_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Handsaw",
+      "filename": "SMART/color/Handsaw_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Knife",
+      "filename": "SMART/color/Knife_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tent",
+      "filename": "SMART/color/Tent_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Armed",
+      "filename": "SMART/color/People_armed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gall Bladder",
+      "filename": "SMART/color/Gall_bladder_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Carcass",
+      "filename": "SMART/color/Age_of_carcass_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unsuccessful Pursuit",
+      "filename": "SMART/color/Unsuccessful_pursuit_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camel",
+      "filename": "SMART/color/Camel_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Caterpillar",
+      "filename": "SMART/color/Caterpillar_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Destroyed",
+      "filename": "SMART/color/Destroyed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unarmed",
+      "filename": "SMART/color/Unarmed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bamboo",
+      "filename": "SMART/color/Bamboo_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Traps Snares",
+      "filename": "SMART/color/Traps_snares_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Type Of Sign",
+      "filename": "SMART/color/Type_of_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Scent",
+      "filename": "SMART/color/Scent_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gold",
+      "filename": "SMART/color/Gold_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Raft",
+      "filename": "SMART/color/Raft_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Pit Trap",
+      "filename": "SMART/color/Pit_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp",
+      "filename": "SMART/color/Camp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Equipment",
+      "filename": "SMART/color/Equipment_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Antlers",
+      "filename": "SMART/color/Antlers_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Active",
+      "filename": "SMART/color/Active_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippos",
+      "filename": "SMART/color/Hippos_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firearms & Ammunition",
+      "filename": "SMART/color/Firearms & ammunition_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Large",
+      "filename": "SMART/color/Large_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo",
+      "filename": "SMART/color/Buffalo_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Horns",
+      "filename": "SMART/color/Horns_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Paws",
+      "filename": "SMART/color/Paws_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Pollution",
+      "filename": "SMART/color/Pollution_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spent Cartridges",
+      "filename": "SMART/color/Spent_cartridges_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fish Trap",
+      "filename": "SMART/color/Fish_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wire Snare 2",
+      "filename": "SMART/color/Wire_snare_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Status",
+      "filename": "SMART/color/Status_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Machete",
+      "filename": "SMART/color/Machete_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Traditional Weapons",
+      "filename": "SMART/color/Traditional_weapons_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife Direct Observationai",
+      "filename": "SMART/color/Wildlife_direct_observationai_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Animal",
+      "filename": "SMART/color/Age_of_animal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Smoked",
+      "filename": "SMART/color/Smoked_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Armed",
+      "filename": "SMART/color/Armed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Garbage",
+      "filename": "SMART/color/Garbage_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Whole Animal",
+      "filename": "SMART/color/Whole_animal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Litter",
+      "filename": "SMART/color/Litter_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Elephant",
+      "filename": "SMART/color/Elephant_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Honey",
+      "filename": "SMART/color/Honey_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ground Hide",
+      "filename": "SMART/color/Ground_hide_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Charcoal",
+      "filename": "SMART/color/Charcoal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rocks & Minerals",
+      "filename": "SMART/color/Rocks & minerals_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Scrape",
+      "filename": "SMART/color/Scrape_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Canines",
+      "filename": "SMART/color/Canines_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Direct Observation",
+      "filename": "SMART/color/People_direct_observation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Horse",
+      "filename": "SMART/color/Horse_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Road",
+      "filename": "SMART/color/Road_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sex",
+      "filename": "SMART/color/Sex_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Proboscoidea",
+      "filename": "SMART/color/Proboscoidea_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Electric Rod",
+      "filename": "SMART/color/Electric_rod_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bovidae",
+      "filename": "SMART/color/Bovidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logs",
+      "filename": "SMART/color/Logs_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trophy Type",
+      "filename": "SMART/color/Trophy_type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Piece",
+      "filename": "SMART/color/Piece_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Arrested",
+      "filename": "SMART/color/Arrested_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Human Activity",
+      "filename": "SMART/color/Human_activity_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trail",
+      "filename": "SMART/color/Trail_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Natural",
+      "filename": "SMART/color/Natural_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Weapons & Gear Seized",
+      "filename": "SMART/color/Weapons & Gear_seized_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Timber",
+      "filename": "SMART/color/Timber_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Stump",
+      "filename": "SMART/color/Stump_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Heard",
+      "filename": "SMART/color/Heard_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Confiscated 1",
+      "filename": "SMART/color/Confiscated_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Written Warning",
+      "filename": "SMART/color/Written_warning_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Boulders",
+      "filename": "SMART/color/Boulders_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Penis",
+      "filename": "SMART/color/Penis_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Poison",
+      "filename": "SMART/color/Poison_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trophies Seized",
+      "filename": "SMART/color/Trophies_seized_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Juvenile",
+      "filename": "SMART/color/Juvenile_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Inactive",
+      "filename": "SMART/color/Inactive_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Collected",
+      "filename": "SMART/color/Collected_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Club",
+      "filename": "SMART/color/Club_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cooking Pot",
+      "filename": "SMART/color/Cooking_pot_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firewood",
+      "filename": "SMART/color/Firewood_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Carcass",
+      "filename": "SMART/color/Carcass_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cat",
+      "filename": "SMART/color/Cat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffidae",
+      "filename": "SMART/color/Giraffidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fire",
+      "filename": "SMART/color/Fire_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Track",
+      "filename": "SMART/color/Track_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action",
+      "filename": "SMART/color/Action_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sand",
+      "filename": "SMART/color/Sand_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Felidae",
+      "filename": "SMART/color/Felidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rhino",
+      "filename": "SMART/color/Rhino_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp Type",
+      "filename": "SMART/color/Camp_type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mammal",
+      "filename": "SMART/color/Mammal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cetartiodactyla",
+      "filename": "SMART/color/Cetartiodactyla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Medicinal Plants",
+      "filename": "SMART/color/Medicinal_plants_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Motorbike",
+      "filename": "SMART/color/Motorbike_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Small",
+      "filename": "SMART/color/Small_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action Taken People",
+      "filename": "SMART/color/Action_taken_people_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Axe",
+      "filename": "SMART/color/Axe_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Skin",
+      "filename": "SMART/color/Skin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Orchid",
+      "filename": "SMART/color/Orchid_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Type",
+      "filename": "SMART/color/Type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cart",
+      "filename": "SMART/color/Cart_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Indirect Sign",
+      "filename": "SMART/color/People_indirect_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chemical",
+      "filename": "SMART/color/Chemical_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dog",
+      "filename": "SMART/color/Dog_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firearms",
+      "filename": "SMART/color/Firearms_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Observed Only",
+      "filename": "SMART/color/Observed_only_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Perissodactyla",
+      "filename": "SMART/color/Perissodactyla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tusks",
+      "filename": "SMART/color/Tusks_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sub Adult",
+      "filename": "SMART/color/Sub_adult_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Domestic Animals",
+      "filename": "SMART/color/Domestic_animals_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Feeding",
+      "filename": "SMART/color/Feeding_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Village",
+      "filename": "SMART/color/Village_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wild Fruit",
+      "filename": "SMART/color/Wild_fruit_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Left At Scene",
+      "filename": "SMART/color/Left_at_scene_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Muzzle Loader",
+      "filename": "SMART/color/Muzzle_loader_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spears",
+      "filename": "SMART/color/Spears_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Species",
+      "filename": "SMART/color/Species_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Extractive Industry Basecamp",
+      "filename": "SMART/color/Extractive_industry_basecamp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fishing Tools",
+      "filename": "SMART/color/Fishing_tools_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffe",
+      "filename": "SMART/color/Giraffe_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Observed",
+      "filename": "SMART/color/Observed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife",
+      "filename": "SMART/color/Wildlife_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action Taken",
+      "filename": "SMART/color/Action_taken_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Semi Automatic",
+      "filename": "SMART/color/Semi_automatic_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Illegal",
+      "filename": "SMART/color/Illegal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bow",
+      "filename": "SMART/color/Bow_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dynamite",
+      "filename": "SMART/color/Dynamite_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Verbal Warning",
+      "filename": "SMART/color/Verbal_warning_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cephalphus Duikers",
+      "filename": "SMART/color/Cephalphus_duikers_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Shotgun",
+      "filename": "SMART/color/Shotgun_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippopotamidae",
+      "filename": "SMART/color/Hippopotamidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Male",
+      "filename": "SMART/color/Male_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cause Of Death",
+      "filename": "SMART/color/Cause_of_death_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sawmill",
+      "filename": "SMART/color/Sawmill_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chainsaw",
+      "filename": "SMART/color/Chainsaw_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Footprint 1",
+      "filename": "SMART/color/Footprint_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Infrastructure Size",
+      "filename": "SMART/color/Infrastructure_size_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ntfps",
+      "filename": "SMART/color/NTFPs_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Planks",
+      "filename": "SMART/color/Planks_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Goat",
+      "filename": "SMART/color/Goat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Eudorvas Gazelle",
+      "filename": "SMART/color/Eudorvas_gazelle_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Young",
+      "filename": "SMART/color/Young_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Capacity",
+      "filename": "SMART/color/Capacity_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Transportation",
+      "filename": "SMART/color/Transportation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Net",
+      "filename": "SMART/color/Net_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo Syncerus",
+      "filename": "SMART/color/Buffalo_syncerus_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult",
+      "filename": "SMART/color/Adult_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tree Hide",
+      "filename": "SMART/color/Tree_hide_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Sign",
+      "filename": "SMART/color/Age_of_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cut Pieces",
+      "filename": "SMART/color/Cut_pieces_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Female",
+      "filename": "SMART/color/Female_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Clay",
+      "filename": "SMART/color/Clay_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bridge",
+      "filename": "SMART/color/Bridge_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bicycle",
+      "filename": "SMART/color/Bicycle_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Confiscated 2",
+      "filename": "SMART/color/Confiscated_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult Female",
+      "filename": "SMART/color/Adult_female_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fresh",
+      "filename": "SMART/color/Fresh_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Nest",
+      "filename": "SMART/color/Nest_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chimp",
+      "filename": "SMART/color/Chimp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Med",
+      "filename": "SMART/color/Med_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Latex",
+      "filename": "SMART/color/Latex_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fossil",
+      "filename": "SMART/color/Fossil_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ratan",
+      "filename": "SMART/color/Ratan_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Resin",
+      "filename": "SMART/color/Resin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tarp",
+      "filename": "SMART/color/Tarp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Suidae",
+      "filename": "SMART/color/Suidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Registration Number",
+      "filename": "SMART/color/Registration_number_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Boat",
+      "filename": "SMART/color/Boat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushmeat",
+      "filename": "SMART/color/Bushmeat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dung",
+      "filename": "SMART/color/Dung_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spear",
+      "filename": "SMART/color/Spear_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Legal",
+      "filename": "SMART/color/Legal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wire Snare 1",
+      "filename": "SMART/color/Wire_snare_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Place Of Origin",
+      "filename": "SMART/color/Place_of_origin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult Male",
+      "filename": "SMART/color/Adult_male_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "color"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cutting Tools",
+      "filename": "SMART/line/Cutting_tools_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sound",
+      "filename": "SMART/line/Sound_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Machete Cut",
+      "filename": "SMART/line/Machete_cut_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Primates",
+      "filename": "SMART/line/Primates_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cercopithecidae",
+      "filename": "SMART/line/Cercopithecidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife Indirect Sign",
+      "filename": "SMART/line/Wildlife_indirect_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Homonidae",
+      "filename": "SMART/line/Homonidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Carnivora",
+      "filename": "SMART/line/Carnivora_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Infrastructure & Roads",
+      "filename": "SMART/line/Infrastructure & roads_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rod",
+      "filename": "SMART/line/Rod_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mushroom",
+      "filename": "SMART/line/Mushroom_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gravel",
+      "filename": "SMART/line/Gravel_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ammunition",
+      "filename": "SMART/line/Ammunition_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dock",
+      "filename": "SMART/line/Dock_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Footprint 2",
+      "filename": "SMART/line/Footprint_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mine",
+      "filename": "SMART/line/Mine_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unknown",
+      "filename": "SMART/line/Unknown_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gorilla",
+      "filename": "SMART/line/Gorilla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cow",
+      "filename": "SMART/line/Cow_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Diamonds",
+      "filename": "SMART/line/Diamonds_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Abandoned",
+      "filename": "SMART/line/Abandoned_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Car",
+      "filename": "SMART/line/Car_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Truck",
+      "filename": "SMART/line/Truck_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Other",
+      "filename": "SMART/line/Other_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Jaw Trap",
+      "filename": "SMART/line/Jaw_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Handsaw",
+      "filename": "SMART/line/Handsaw_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Knife",
+      "filename": "SMART/line/Knife_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tent",
+      "filename": "SMART/line/Tent_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Armed",
+      "filename": "SMART/line/People_armed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gall Bladder",
+      "filename": "SMART/line/Gall_bladder_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Carcass",
+      "filename": "SMART/line/Age_of_carcass_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unsuccessful Pursuit",
+      "filename": "SMART/line/Unsuccessful_pursuit_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camel",
+      "filename": "SMART/line/Camel_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Caterpillar",
+      "filename": "SMART/line/Caterpillar_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Destroyed",
+      "filename": "SMART/line/Destroyed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unarmed",
+      "filename": "SMART/line/Unarmed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bamboo",
+      "filename": "SMART/line/Bamboo_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Traps Snares",
+      "filename": "SMART/line/Traps_snares_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Type Of Sign",
+      "filename": "SMART/line/Type_of_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Scent",
+      "filename": "SMART/line/Scent_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gold",
+      "filename": "SMART/line/Gold_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Raft",
+      "filename": "SMART/line/Raft_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Pit Trap",
+      "filename": "SMART/line/Pit_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp",
+      "filename": "SMART/line/Camp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Equipment",
+      "filename": "SMART/line/Equipment_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Antlers",
+      "filename": "SMART/line/Antlers_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Active",
+      "filename": "SMART/line/Active_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippos",
+      "filename": "SMART/line/Hippos_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firearms & Ammunition",
+      "filename": "SMART/line/Firearms & ammunition_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Large",
+      "filename": "SMART/line/Large_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo",
+      "filename": "SMART/line/Buffalo_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Horns",
+      "filename": "SMART/line/Horns_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Paws",
+      "filename": "SMART/line/Paws_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Pollution",
+      "filename": "SMART/line/Pollution_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spent Cartridges",
+      "filename": "SMART/line/Spent_cartridges_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fish Trap",
+      "filename": "SMART/line/Fish_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wire Snare 2",
+      "filename": "SMART/line/Wire_snare_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Status",
+      "filename": "SMART/line/Status_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Machete",
+      "filename": "SMART/line/Machete_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Traditional Weapons",
+      "filename": "SMART/line/Traditional_weapons_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Animal",
+      "filename": "SMART/line/Age_of_animal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Smoked",
+      "filename": "SMART/line/Smoked_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Armed",
+      "filename": "SMART/line/Armed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Garbage",
+      "filename": "SMART/line/Garbage_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Whole Animal",
+      "filename": "SMART/line/Whole_animal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Litter",
+      "filename": "SMART/line/Litter_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Elephant",
+      "filename": "SMART/line/Elephant_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Honey",
+      "filename": "SMART/line/Honey_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ground Hide",
+      "filename": "SMART/line/Ground_hide_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Charcoal",
+      "filename": "SMART/line/Charcoal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rocks & Minerals",
+      "filename": "SMART/line/Rocks & minerals_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Scrape",
+      "filename": "SMART/line/Scrape_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Canines",
+      "filename": "SMART/line/Canines_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Direct Observation",
+      "filename": "SMART/line/People_direct_observation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Horse",
+      "filename": "SMART/line/Horse_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Road",
+      "filename": "SMART/line/Road_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sex",
+      "filename": "SMART/line/Sex_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Proboscoidea",
+      "filename": "SMART/line/Proboscoidea_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Electric Rod",
+      "filename": "SMART/line/Electric_rod_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bovidae",
+      "filename": "SMART/line/Bovidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logs",
+      "filename": "SMART/line/Logs_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trophy Type",
+      "filename": "SMART/line/Trophy_type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Piece",
+      "filename": "SMART/line/Piece_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Arrested",
+      "filename": "SMART/line/Arrested_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trail",
+      "filename": "SMART/line/Trail_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Natural",
+      "filename": "SMART/line/Natural_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Weapons & Gear Seized",
+      "filename": "SMART/line/Weapons & Gear_seized_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Timber",
+      "filename": "SMART/line/Timber_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Stump",
+      "filename": "SMART/line/Stump_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Heard",
+      "filename": "SMART/line/Heard_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Confiscated 1",
+      "filename": "SMART/line/Confiscated_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Written Warning",
+      "filename": "SMART/line/Written_warning_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Boulders",
+      "filename": "SMART/line/Boulders_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Penis",
+      "filename": "SMART/line/Penis_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Poison",
+      "filename": "SMART/line/Poison_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trophies Seized",
+      "filename": "SMART/line/Trophies_seized_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Juvenile",
+      "filename": "SMART/line/Juvenile_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Inactive",
+      "filename": "SMART/line/Inactive_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Collected",
+      "filename": "SMART/line/Collected_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Club",
+      "filename": "SMART/line/Club_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cooking Pot",
+      "filename": "SMART/line/Cooking_pot_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife Direct Observation",
+      "filename": "SMART/line/Wildlife_direct_observation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firewood",
+      "filename": "SMART/line/Firewood_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Carcass",
+      "filename": "SMART/line/Carcass_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cat",
+      "filename": "SMART/line/Cat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffidae",
+      "filename": "SMART/line/Giraffidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fire",
+      "filename": "SMART/line/Fire_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Track",
+      "filename": "SMART/line/Track_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action",
+      "filename": "SMART/line/Action_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sand",
+      "filename": "SMART/line/Sand_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Felidae",
+      "filename": "SMART/line/Felidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rhino",
+      "filename": "SMART/line/Rhino_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp Type",
+      "filename": "SMART/line/Camp_type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mammal",
+      "filename": "SMART/line/Mammal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cetartiodactyla",
+      "filename": "SMART/line/Cetartiodactyla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Medicinal Plants",
+      "filename": "SMART/line/Medicinal_plants_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Motorbike",
+      "filename": "SMART/line/Motorbike_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Small",
+      "filename": "SMART/line/Small_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action Taken People",
+      "filename": "SMART/line/Action_taken_people_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Axe",
+      "filename": "SMART/line/Axe_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Skin",
+      "filename": "SMART/line/Skin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Orchid",
+      "filename": "SMART/line/Orchid_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Type",
+      "filename": "SMART/line/Type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cart",
+      "filename": "SMART/line/Cart_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Indirect Sign",
+      "filename": "SMART/line/People_indirect_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chemical",
+      "filename": "SMART/line/Chemical_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dog",
+      "filename": "SMART/line/Dog_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firearms",
+      "filename": "SMART/line/Firearms_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Observed Only",
+      "filename": "SMART/line/Observed_only_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Perissodactyla",
+      "filename": "SMART/line/Perissodactyla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tusks",
+      "filename": "SMART/line/Tusks_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sub Adult",
+      "filename": "SMART/line/Sub_adult_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Domestic Animals",
+      "filename": "SMART/line/Domestic_animals_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Feeding",
+      "filename": "SMART/line/Feeding_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Village",
+      "filename": "SMART/line/Village_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wild Fruit",
+      "filename": "SMART/line/Wild_fruit_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Left At Scene",
+      "filename": "SMART/line/Left_at_scene_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Muzzle Loader",
+      "filename": "SMART/line/Muzzle_loader_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spears",
+      "filename": "SMART/line/Spears_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Species",
+      "filename": "SMART/line/Species_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Extractive Industry Basecamp",
+      "filename": "SMART/line/Extractive_industry_basecamp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fishing Tools",
+      "filename": "SMART/line/Fishing_tools_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffe",
+      "filename": "SMART/line/Giraffe_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Observed",
+      "filename": "SMART/line/Observed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife",
+      "filename": "SMART/line/Wildlife_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action Taken",
+      "filename": "SMART/line/Action_taken_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Semi Automatic",
+      "filename": "SMART/line/Semi_automatic_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Illegal",
+      "filename": "SMART/line/Illegal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bow",
+      "filename": "SMART/line/Bow_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dynamite",
+      "filename": "SMART/line/Dynamite_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Verbal Warning",
+      "filename": "SMART/line/Verbal_warning_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cephalphus Duikers",
+      "filename": "SMART/line/Cephalphus_duikers_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Shotgun",
+      "filename": "SMART/line/Shotgun_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippopotamidae",
+      "filename": "SMART/line/Hippopotamidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Male",
+      "filename": "SMART/line/Male_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cause Of Death",
+      "filename": "SMART/line/Cause_of_death_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sawmill",
+      "filename": "SMART/line/Sawmill_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chainsaw",
+      "filename": "SMART/line/Chainsaw_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Human  Activity",
+      "filename": "SMART/line/Human_ activity_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Footprint 1",
+      "filename": "SMART/line/Footprint_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Infrastructure Size",
+      "filename": "SMART/line/Infrastructure_size_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ntfps",
+      "filename": "SMART/line/NTFPs_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Planks",
+      "filename": "SMART/line/Planks_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Goat",
+      "filename": "SMART/line/Goat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Eudorvas Gazelle",
+      "filename": "SMART/line/Eudorvas_gazelle_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Young",
+      "filename": "SMART/line/Young_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Capacity",
+      "filename": "SMART/line/Capacity_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Transportation",
+      "filename": "SMART/line/Transportation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Net",
+      "filename": "SMART/line/Net_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo Syncerus",
+      "filename": "SMART/line/Buffalo_syncerus_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult",
+      "filename": "SMART/line/Adult_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tree Hide",
+      "filename": "SMART/line/Tree_hide_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Sign",
+      "filename": "SMART/line/Age_of_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cut Pieces",
+      "filename": "SMART/line/Cut_pieces_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Female",
+      "filename": "SMART/line/Female_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Clay",
+      "filename": "SMART/line/Clay_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bridge",
+      "filename": "SMART/line/Bridge_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bicycle",
+      "filename": "SMART/line/Bicycle_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Confiscated 2",
+      "filename": "SMART/line/Confiscated_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult Female",
+      "filename": "SMART/line/Adult_female_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fresh",
+      "filename": "SMART/line/Fresh_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Nest",
+      "filename": "SMART/line/Nest_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chimp",
+      "filename": "SMART/line/Chimp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Med",
+      "filename": "SMART/line/Med_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Latex",
+      "filename": "SMART/line/Latex_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fossil",
+      "filename": "SMART/line/Fossil_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ratan",
+      "filename": "SMART/line/Ratan_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Resin",
+      "filename": "SMART/line/Resin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tarp",
+      "filename": "SMART/line/Tarp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Suidae",
+      "filename": "SMART/line/Suidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Registration Number",
+      "filename": "SMART/line/Registration_number_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Boat",
+      "filename": "SMART/line/Boat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushmeat",
+      "filename": "SMART/line/Bushmeat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dung",
+      "filename": "SMART/line/Dung_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spear",
+      "filename": "SMART/line/Spear_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Legal",
+      "filename": "SMART/line/Legal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wire Snare 1",
+      "filename": "SMART/line/Wire_snare_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Place Of Origin",
+      "filename": "SMART/line/Place_of_origin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult Male",
+      "filename": "SMART/line/Adult_male_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "line"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cutting Tools",
+      "filename": "SMART/mono/Cutting_tools_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sound",
+      "filename": "SMART/mono/Sound_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Machete Cut",
+      "filename": "SMART/mono/Machete_cut_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Primates",
+      "filename": "SMART/mono/Primates_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cercopithecidae",
+      "filename": "SMART/mono/Cercopithecidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife Indirect Sign",
+      "filename": "SMART/mono/Wildlife_indirect_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Homonidae",
+      "filename": "SMART/mono/Homonidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Carnivora",
+      "filename": "SMART/mono/Carnivora_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Infrastructure & Roads",
+      "filename": "SMART/mono/Infrastructure & roads_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rod",
+      "filename": "SMART/mono/Rod_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mushroom",
+      "filename": "SMART/mono/Mushroom_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gravel",
+      "filename": "SMART/mono/Gravel_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ammunition",
+      "filename": "SMART/mono/Ammunition_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dock",
+      "filename": "SMART/mono/Dock_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Footprint 2",
+      "filename": "SMART/mono/Footprint_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mine",
+      "filename": "SMART/mono/Mine_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unknown",
+      "filename": "SMART/mono/Unknown_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gorilla",
+      "filename": "SMART/mono/Gorilla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cow",
+      "filename": "SMART/mono/Cow_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Diamonds",
+      "filename": "SMART/mono/Diamonds_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Abandoned",
+      "filename": "SMART/mono/Abandoned_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Car",
+      "filename": "SMART/mono/Car_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Truck",
+      "filename": "SMART/mono/Truck_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Other",
+      "filename": "SMART/mono/Other_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Jaw Trap",
+      "filename": "SMART/mono/Jaw_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Handsaw",
+      "filename": "SMART/mono/Handsaw_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Knife",
+      "filename": "SMART/mono/Knife_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tent",
+      "filename": "SMART/mono/Tent_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Armed",
+      "filename": "SMART/mono/People_armed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gall Bladder",
+      "filename": "SMART/mono/Gall_bladder_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Carcass",
+      "filename": "SMART/mono/Age_of_carcass_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unsuccessful Pursuit",
+      "filename": "SMART/mono/Unsuccessful_pursuit_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camel",
+      "filename": "SMART/mono/Camel_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Caterpillar",
+      "filename": "SMART/mono/Caterpillar_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Destroyed",
+      "filename": "SMART/mono/Destroyed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Unarmed",
+      "filename": "SMART/mono/Unarmed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bamboo",
+      "filename": "SMART/mono/Bamboo_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Traps Snares",
+      "filename": "SMART/mono/Traps_snares_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Type Of Sign",
+      "filename": "SMART/mono/Type_of_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Scent",
+      "filename": "SMART/mono/Scent_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Gold",
+      "filename": "SMART/mono/Gold_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Raft",
+      "filename": "SMART/mono/Raft_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Pit Trap",
+      "filename": "SMART/mono/Pit_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp",
+      "filename": "SMART/mono/Camp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Equipment",
+      "filename": "SMART/mono/Equipment_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Antlers",
+      "filename": "SMART/mono/Antlers_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Active",
+      "filename": "SMART/mono/Active_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippos",
+      "filename": "SMART/mono/Hippos_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firearms & Ammunition",
+      "filename": "SMART/mono/Firearms & ammunition_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Large",
+      "filename": "SMART/mono/Large_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo",
+      "filename": "SMART/mono/Buffalo_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Horns",
+      "filename": "SMART/mono/Horns_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Paws",
+      "filename": "SMART/mono/Paws_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Pollution",
+      "filename": "SMART/mono/Pollution_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fish Trap",
+      "filename": "SMART/mono/Fish_trap_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wire Snare 2",
+      "filename": "SMART/mono/Wire_snare_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Status",
+      "filename": "SMART/mono/Status_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Machete",
+      "filename": "SMART/mono/Machete_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Traditional Weapons",
+      "filename": "SMART/mono/Traditional_weapons_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Animal",
+      "filename": "SMART/mono/Age_of_animal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Smoked",
+      "filename": "SMART/mono/Smoked_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Armed",
+      "filename": "SMART/mono/Armed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Garbage",
+      "filename": "SMART/mono/Garbage_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Whole Animal",
+      "filename": "SMART/mono/Whole_animal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Litter",
+      "filename": "SMART/mono/Litter_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Elephant",
+      "filename": "SMART/mono/Elephant_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Honey",
+      "filename": "SMART/mono/Honey_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ground Hide",
+      "filename": "SMART/mono/Ground_hide_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Charcoal",
+      "filename": "SMART/mono/Charcoal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rocks & Minerals",
+      "filename": "SMART/mono/Rocks & minerals_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Scrape",
+      "filename": "SMART/mono/Scrape_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Canines",
+      "filename": "SMART/mono/Canines_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Direct Observation",
+      "filename": "SMART/mono/People_direct_observation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Horse",
+      "filename": "SMART/mono/Horse_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Road",
+      "filename": "SMART/mono/Road_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sex",
+      "filename": "SMART/mono/Sex_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Proboscoidea",
+      "filename": "SMART/mono/Proboscoidea_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Electric Rod",
+      "filename": "SMART/mono/Electric_rod_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bovidae",
+      "filename": "SMART/mono/Bovidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logs",
+      "filename": "SMART/mono/Logs_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trophy Type",
+      "filename": "SMART/mono/Trophy_type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Piece",
+      "filename": "SMART/mono/Piece_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Arrested",
+      "filename": "SMART/mono/Arrested_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trail",
+      "filename": "SMART/mono/Trail_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Natural",
+      "filename": "SMART/mono/Natural_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Weapons & Gear Seized",
+      "filename": "SMART/mono/Weapons & Gear_seized_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Timber",
+      "filename": "SMART/mono/Timber_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Stump",
+      "filename": "SMART/mono/Stump_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Heard",
+      "filename": "SMART/mono/Heard_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Confiscated 1",
+      "filename": "SMART/mono/Confiscated_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Written Warning",
+      "filename": "SMART/mono/Written_warning_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Boulders",
+      "filename": "SMART/mono/Boulders_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Penis",
+      "filename": "SMART/mono/Penis_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Poison",
+      "filename": "SMART/mono/Poison_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Trophies Seized",
+      "filename": "SMART/mono/Trophies_seized_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Juvenile",
+      "filename": "SMART/mono/Juvenile_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Inactive",
+      "filename": "SMART/mono/Inactive_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Collected",
+      "filename": "SMART/mono/Collected_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Club",
+      "filename": "SMART/mono/Club_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cooking Pot",
+      "filename": "SMART/mono/Cooking_pot_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife Direct Observation",
+      "filename": "SMART/mono/Wildlife_direct_observation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firewood",
+      "filename": "SMART/mono/Firewood_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Carcass",
+      "filename": "SMART/mono/Carcass_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cat",
+      "filename": "SMART/mono/Cat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffidae",
+      "filename": "SMART/mono/Giraffidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fire",
+      "filename": "SMART/mono/Fire_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Track",
+      "filename": "SMART/mono/Track_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action",
+      "filename": "SMART/mono/Action_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sand",
+      "filename": "SMART/mono/Sand_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Felidae",
+      "filename": "SMART/mono/Felidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Rhino",
+      "filename": "SMART/mono/Rhino_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp Type",
+      "filename": "SMART/mono/Camp_type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mammal",
+      "filename": "SMART/mono/Mammal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cetartiodactyla",
+      "filename": "SMART/mono/Cetartiodactyla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Medicinal Plants",
+      "filename": "SMART/mono/Medicinal_plants_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Motorbike",
+      "filename": "SMART/mono/Motorbike_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Small",
+      "filename": "SMART/mono/Small_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action Taken People",
+      "filename": "SMART/mono/Action_taken_people_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Axe",
+      "filename": "SMART/mono/Axe_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Skin",
+      "filename": "SMART/mono/Skin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Orchid",
+      "filename": "SMART/mono/Orchid_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Type",
+      "filename": "SMART/mono/Type_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cart",
+      "filename": "SMART/mono/Cart_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "People Indirect Sign",
+      "filename": "SMART/mono/People_indirect_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chemical",
+      "filename": "SMART/mono/Chemical_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dog",
+      "filename": "SMART/mono/Dog_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Firearms",
+      "filename": "SMART/mono/Firearms_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Observed Only",
+      "filename": "SMART/mono/Observed_only_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Perissodactyla",
+      "filename": "SMART/mono/Perissodactyla_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tusks",
+      "filename": "SMART/mono/Tusks_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sub Adult",
+      "filename": "SMART/mono/Sub_adult_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Domestic Animals",
+      "filename": "SMART/mono/Domestic_animals_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Feeding",
+      "filename": "SMART/mono/Feeding_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Village",
+      "filename": "SMART/mono/Village_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wild Fruit",
+      "filename": "SMART/mono/Wild_fruit_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Left At Scene",
+      "filename": "SMART/mono/Left_at_scene_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Muzzle Loader",
+      "filename": "SMART/mono/Muzzle_loader_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spears",
+      "filename": "SMART/mono/Spears_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spent Сartridges",
+      "filename": "SMART/mono/Spent_сartridges_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Species",
+      "filename": "SMART/mono/Species_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Extractive Industry Basecamp",
+      "filename": "SMART/mono/Extractive_industry_basecamp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fishing Tools",
+      "filename": "SMART/mono/Fishing_tools_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffe",
+      "filename": "SMART/mono/Giraffe_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Observed",
+      "filename": "SMART/mono/Observed_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wildlife",
+      "filename": "SMART/mono/Wildlife_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Action Taken",
+      "filename": "SMART/mono/Action_taken_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Semi Automatic",
+      "filename": "SMART/mono/Semi_automatic_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Illegal",
+      "filename": "SMART/mono/Illegal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bow",
+      "filename": "SMART/mono/Bow_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dynamite",
+      "filename": "SMART/mono/Dynamite_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Verbal Warning",
+      "filename": "SMART/mono/Verbal_warning_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cephalphus Duikers",
+      "filename": "SMART/mono/Cephalphus_duikers_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Shotgun",
+      "filename": "SMART/mono/Shotgun_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippopotamidae",
+      "filename": "SMART/mono/Hippopotamidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Male",
+      "filename": "SMART/mono/Male_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cause Of Death",
+      "filename": "SMART/mono/Cause_of_death_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sawmill",
+      "filename": "SMART/mono/Sawmill_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chainsaw",
+      "filename": "SMART/mono/Chainsaw_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Human  Activity",
+      "filename": "SMART/mono/Human_ activity_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Footprint 1",
+      "filename": "SMART/mono/Footprint_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Infrastructure Size",
+      "filename": "SMART/mono/Infrastructure_size_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ntfps",
+      "filename": "SMART/mono/NTFPs_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Planks",
+      "filename": "SMART/mono/Planks_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Goat",
+      "filename": "SMART/mono/Goat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Eudorvas Gazelle",
+      "filename": "SMART/mono/Eudorvas_gazelle_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Young",
+      "filename": "SMART/mono/Young_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Capacity",
+      "filename": "SMART/mono/Capacity_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Transportation",
+      "filename": "SMART/mono/Transportation_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Net",
+      "filename": "SMART/mono/Net_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo Syncerus",
+      "filename": "SMART/mono/Buffalo_syncerus_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult",
+      "filename": "SMART/mono/Adult_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tree Hide",
+      "filename": "SMART/mono/Tree_hide_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Age Of Sign",
+      "filename": "SMART/mono/Age_of_sign_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cut Pieces",
+      "filename": "SMART/mono/Cut_pieces_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Female",
+      "filename": "SMART/mono/Female_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Clay",
+      "filename": "SMART/mono/Clay_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bridge",
+      "filename": "SMART/mono/Bridge_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bicycle",
+      "filename": "SMART/mono/Bicycle_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Confiscated 2",
+      "filename": "SMART/mono/Confiscated_2_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult Female",
+      "filename": "SMART/mono/Adult_female_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fresh",
+      "filename": "SMART/mono/Fresh_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Nest",
+      "filename": "SMART/mono/Nest_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Chimp",
+      "filename": "SMART/mono/Chimp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Med",
+      "filename": "SMART/mono/Med_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Latex",
+      "filename": "SMART/mono/Latex_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fossil",
+      "filename": "SMART/mono/Fossil_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ratan",
+      "filename": "SMART/mono/Ratan_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Resin",
+      "filename": "SMART/mono/Resin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tarp",
+      "filename": "SMART/mono/Tarp_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Suidae",
+      "filename": "SMART/mono/Suidae_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Registration Number",
+      "filename": "SMART/mono/Registration_number_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Boat",
+      "filename": "SMART/mono/Boat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushmeat",
+      "filename": "SMART/mono/Bushmeat_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dung",
+      "filename": "SMART/mono/Dung_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spear",
+      "filename": "SMART/mono/Spear_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Legal",
+      "filename": "SMART/mono/Legal_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wire Snare 1",
+      "filename": "SMART/mono/Wire_snare_1_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Place Of Origin",
+      "filename": "SMART/mono/Place_of_origin_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Adult Male",
+      "filename": "SMART/mono/Adult_male_icon.svg",
+      "description": "",
+      "keywords": [
+        "SMART",
+        "mono"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Sable",
+      "filename": "aerial/wildlife/Sable.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Elephants Mixed",
+      "filename": "aerial/wildlife/Elephants mixed.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Topi",
+      "filename": "aerial/wildlife/Topi.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Croc",
+      "filename": "aerial/wildlife/Croc.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hippo",
+      "filename": "aerial/wildlife/Hippo.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cheetah",
+      "filename": "aerial/wildlife/Cheetah.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushbuck",
+      "filename": "aerial/wildlife/Bushbuck.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Yellow Baboon",
+      "filename": "aerial/wildlife/Yellow baboon.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Warthog",
+      "filename": "aerial/wildlife/Warthog.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Spotted Hyena",
+      "filename": "aerial/wildlife/Spotted hyena.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Zebra",
+      "filename": "aerial/wildlife/Zebra.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Puku",
+      "filename": "aerial/wildlife/Puku.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Recent Elephant Carcass",
+      "filename": "aerial/wildlife/Recent elephant carcass.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Eland",
+      "filename": "aerial/wildlife/Eland.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Lion",
+      "filename": "aerial/wildlife/Lion.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushpig",
+      "filename": "aerial/wildlife/Bushpig.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Jackal",
+      "filename": "aerial/wildlife/Jackal.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Elephant Bulls",
+      "filename": "aerial/wildlife/Elephant bulls.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Reedbuck - Bohor",
+      "filename": "aerial/wildlife/Reedbuck - Bohor.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dik Dik",
+      "filename": "aerial/wildlife/Dik dik.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Elephant Tracks",
+      "filename": "aerial/wildlife/Elephant tracks.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fresh Elephant Carcass",
+      "filename": "aerial/wildlife/Fresh elephant carcass.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Roan Antelope",
+      "filename": "aerial/wildlife/Roan antelope.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hartebeest",
+      "filename": "aerial/wildlife/Hartebeest.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Leopard",
+      "filename": "aerial/wildlife/Leopard.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Klipspringer",
+      "filename": "aerial/wildlife/Klipspringer.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Oribi",
+      "filename": "aerial/wildlife/Oribi.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Grants Gazelle",
+      "filename": "aerial/wildlife/Grants gazelle.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Olive Baboon",
+      "filename": "aerial/wildlife/Olive baboon.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Giraffe",
+      "filename": "aerial/wildlife/Giraffe.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Buffalo",
+      "filename": "aerial/wildlife/Buffalo.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Common Duiker",
+      "filename": "aerial/wildlife/Common Duiker.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wild Dog",
+      "filename": "aerial/wildlife/Wild Dog.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Lesser Kudu",
+      "filename": "aerial/wildlife/Lesser kudu.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Impala",
+      "filename": "aerial/wildlife/Impala.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Very Old Elephant Carcass 4",
+      "filename": "aerial/wildlife/Very Old elephant carcass 4.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Vervet Monkey",
+      "filename": "aerial/wildlife/Vervet monkey.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Waterbuck",
+      "filename": "aerial/wildlife/Waterbuck.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Reedbuck - Southern",
+      "filename": "aerial/wildlife/Reedbuck - Southern.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Old Elephant Carcass 3",
+      "filename": "aerial/wildlife/Old elephant carcass 3.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Greater Kudu",
+      "filename": "aerial/wildlife/Greater Kudu.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "wildlife"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Shoats",
+      "filename": "aerial/human_activity/Shoats.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Donkey",
+      "filename": "aerial/human_activity/Donkey.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Honey Camp Inactive",
+      "filename": "aerial/human_activity/Honey camp inactive.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Honey Camp Active",
+      "filename": "aerial/human_activity/Honey camp active.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Active Cultivation",
+      "filename": "aerial/human_activity/Active cultivation.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Charcoal Burning Active",
+      "filename": "aerial/human_activity/Charcoal burning active.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cattle Trail",
+      "filename": "aerial/human_activity/Cattle Trail.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp Unidentified Inactive",
+      "filename": "aerial/human_activity/Camp unidentified inactive.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Charcoal Burning Old",
+      "filename": "aerial/human_activity/Charcoal burning old.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Camp Unidentified Active",
+      "filename": "aerial/human_activity/Camp unidentified active.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logging Recent",
+      "filename": "aerial/human_activity/Logging recent.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logging Camp Inactive",
+      "filename": "aerial/human_activity/Logging camp inactive.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dog",
+      "filename": "aerial/human_activity/Dog.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mining Site (Inactive)",
+      "filename": "aerial/human_activity/Mining site (inactive).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushmeat Camp (Inactive)",
+      "filename": "aerial/human_activity/Bushmeat camp (inactive).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logging Camp Active",
+      "filename": "aerial/human_activity/Logging camp active.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cattle",
+      "filename": "aerial/human_activity/Cattle.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Mining Site (Active)",
+      "filename": "aerial/human_activity/Mining site (active).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Dwelling",
+      "filename": "aerial/human_activity/Dwelling.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cattle Boma (Inactive)",
+      "filename": "aerial/human_activity/Cattle boma (inactive).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Agriculture Fallow",
+      "filename": "aerial/human_activity/Agriculture fallow.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Cattle Boma (Active)",
+      "filename": "aerial/human_activity/Cattle boma (active).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fishing Camp (Inactive)",
+      "filename": "aerial/human_activity/Fishing camp (inactive).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Logging Active",
+      "filename": "aerial/human_activity/Logging active.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fishing Camp (Active)",
+      "filename": "aerial/human_activity/Fishing camp (active).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bushmeat Camp (Active)",
+      "filename": "aerial/human_activity/Bushmeat camp (active).svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "human_activity"
+      ],
+      "style": ""
+    },
+    {
+      "name": "White Backed Vulture",
+      "filename": "aerial/bird/White backed vulture.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Egret",
+      "filename": "aerial/bird/Egret.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Goliath Heron",
+      "filename": "aerial/bird/Goliath Heron.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Fish Eagle",
+      "filename": "aerial/bird/Fish Eagle.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ground Hornbill",
+      "filename": "aerial/bird/Ground hornbill.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Ostrich",
+      "filename": "aerial/bird/Ostrich.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "White Headed Vulture",
+      "filename": "aerial/bird/White headed vulture.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Egyptian Goose",
+      "filename": "aerial/bird/Egyptian Goose.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Wooly-Necked Stork",
+      "filename": "aerial/bird/Wooly-necked Stork.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Grey Heron",
+      "filename": "aerial/bird/Grey Heron.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Yellow-Billed Stork",
+      "filename": "aerial/bird/Yellow-billed Stork.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Bateleur",
+      "filename": "aerial/bird/Bateleur.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Abdim's Stork",
+      "filename": "aerial/bird/Abdim's Stork.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Hooded Vulture",
+      "filename": "aerial/bird/Hooded vulture.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Tawny Eagle",
+      "filename": "aerial/bird/Tawny Eagle.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Knob-Billed Goose",
+      "filename": "aerial/bird/Knob-billed Goose.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Black Eagle",
+      "filename": "aerial/bird/Black Eagle.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Great White Pelican",
+      "filename": "aerial/bird/Great white Pelican.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "White Faced Duck",
+      "filename": "aerial/bird/White faced Duck.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Saddle-Billed Stork",
+      "filename": "aerial/bird/Saddle-billed stork.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Openbill Stork",
+      "filename": "aerial/bird/Openbill stork.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Lappet Faced Vulture",
+      "filename": "aerial/bird/Lappet faced vulture.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Grey Crowned Crane",
+      "filename": "aerial/bird/Grey crowned crane.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    },
+    {
+      "name": "Greater Egret",
+      "filename": "aerial/bird/Greater Egret.svg",
+      "description": "",
+      "keywords": [
+        "aerial",
+        "bird"
+      ],
+      "style": ""
+    }
+  ]
+}
