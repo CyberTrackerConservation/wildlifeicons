@@ -6,6 +6,19 @@ ICONS_DIR = 'icons'
 OUTPUT_JSON = 'icons.json'
 SUPPORTED_EXTENSIONS = {'.svg', '.png', '.jpg', '.jpeg', '.webp'}
 
+def determine_style(keywords):
+    if not keywords:
+        return ""
+    if keywords[0].lower() == "aerial":
+        return "aerial"
+    if keywords[0] == "SMART":
+        if len(keywords) > 1:
+            if keywords[1].lower() == "mono":
+                return "monochrome"
+            return keywords[1]
+        return ""
+    return keywords[0]
+
 def scan_icons():
     icons = []
     for root, dirs, files in os.walk(ICONS_DIR):
@@ -24,7 +37,7 @@ def scan_icons():
                     "filename": os.path.relpath(icon_path, ICONS_DIR).replace("\\", "/"),
                     "description": "",
                     "keywords": keywords,
-                    "style": ""
+                    "style": determine_style(keywords)
                 })
     return icons
 

@@ -8,7 +8,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Sound",
@@ -18,7 +18,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Machete Cut",
@@ -28,7 +28,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Primates",
@@ -38,7 +38,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cercopithecidae",
@@ -48,7 +48,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Wildlife Indirect Sign",
@@ -58,7 +58,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Homonidae",
@@ -68,7 +68,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Carnivora",
@@ -78,7 +78,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Infrastructure & Roads",
@@ -88,7 +88,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Rod",
@@ -98,7 +98,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Mushroom",
@@ -108,7 +108,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Gravel",
@@ -118,7 +118,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Ammunition",
@@ -128,7 +128,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Dock",
@@ -138,7 +138,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Footprint 2",
@@ -148,7 +148,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Mine",
@@ -158,7 +158,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Unknown",
@@ -168,7 +168,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Gorilla",
@@ -178,7 +178,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cow",
@@ -188,7 +188,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Diamonds",
@@ -198,7 +198,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Abandoned",
@@ -208,7 +208,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Car",
@@ -218,7 +218,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Truck",
@@ -228,7 +228,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Other",
@@ -238,7 +238,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Jaw Trap",
@@ -248,7 +248,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Handsaw",
@@ -258,7 +258,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Knife",
@@ -268,7 +268,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Tent",
@@ -278,7 +278,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "People Armed",
@@ -288,7 +288,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Gall Bladder",
@@ -298,7 +298,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Age Of Carcass",
@@ -308,7 +308,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Unsuccessful Pursuit",
@@ -318,7 +318,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Camel",
@@ -328,7 +328,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Caterpillar",
@@ -338,7 +338,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Destroyed",
@@ -348,7 +348,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Unarmed",
@@ -358,7 +358,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Bamboo",
@@ -368,7 +368,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Traps Snares",
@@ -378,7 +378,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Type Of Sign",
@@ -388,7 +388,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Scent",
@@ -398,7 +398,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Gold",
@@ -408,7 +408,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Raft",
@@ -418,7 +418,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Pit Trap",
@@ -428,7 +428,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Camp",
@@ -438,7 +438,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Equipment",
@@ -448,7 +448,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Antlers",
@@ -458,7 +458,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Active",
@@ -468,7 +468,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Hippos",
@@ -478,7 +478,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Firearms & Ammunition",
@@ -488,7 +488,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Large",
@@ -498,7 +498,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Buffalo",
@@ -508,7 +508,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Horns",
@@ -518,7 +518,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Paws",
@@ -528,7 +528,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Pollution",
@@ -538,7 +538,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Spent Cartridges",
@@ -548,7 +548,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Fish Trap",
@@ -558,7 +558,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Wire Snare 2",
@@ -568,7 +568,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Status",
@@ -578,7 +578,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Machete",
@@ -588,7 +588,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Traditional Weapons",
@@ -598,7 +598,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Wildlife Direct Observationai",
@@ -608,7 +608,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Age Of Animal",
@@ -618,7 +618,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Smoked",
@@ -628,7 +628,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Armed",
@@ -638,7 +638,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Garbage",
@@ -648,7 +648,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Whole Animal",
@@ -658,7 +658,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Litter",
@@ -668,7 +668,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Elephant",
@@ -678,7 +678,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Honey",
@@ -688,7 +688,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Ground Hide",
@@ -698,7 +698,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Charcoal",
@@ -708,7 +708,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Rocks & Minerals",
@@ -718,7 +718,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Scrape",
@@ -728,7 +728,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Canines",
@@ -738,7 +738,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "People Direct Observation",
@@ -748,7 +748,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Horse",
@@ -758,7 +758,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Road",
@@ -768,7 +768,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Sex",
@@ -778,7 +778,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Proboscoidea",
@@ -788,7 +788,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Electric Rod",
@@ -798,7 +798,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Bovidae",
@@ -808,7 +808,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Logs",
@@ -818,7 +818,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Trophy Type",
@@ -828,7 +828,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Piece",
@@ -838,7 +838,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Arrested",
@@ -848,7 +848,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Human Activity",
@@ -858,7 +858,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Trail",
@@ -868,7 +868,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Natural",
@@ -878,7 +878,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Weapons & Gear Seized",
@@ -888,7 +888,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Timber",
@@ -898,7 +898,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Stump",
@@ -908,7 +908,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Heard",
@@ -918,7 +918,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Confiscated 1",
@@ -928,7 +928,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Written Warning",
@@ -938,7 +938,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Boulders",
@@ -948,7 +948,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Penis",
@@ -958,7 +958,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Poison",
@@ -968,7 +968,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Trophies Seized",
@@ -978,7 +978,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Juvenile",
@@ -988,7 +988,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Inactive",
@@ -998,7 +998,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Collected",
@@ -1008,7 +1008,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Club",
@@ -1018,7 +1018,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cooking Pot",
@@ -1028,7 +1028,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Firewood",
@@ -1038,7 +1038,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Carcass",
@@ -1048,7 +1048,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cat",
@@ -1058,7 +1058,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Giraffidae",
@@ -1068,7 +1068,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Fire",
@@ -1078,7 +1078,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Track",
@@ -1088,7 +1088,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Action",
@@ -1098,7 +1098,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Sand",
@@ -1108,7 +1108,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Felidae",
@@ -1118,7 +1118,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Rhino",
@@ -1128,7 +1128,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Camp Type",
@@ -1138,7 +1138,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Mammal",
@@ -1148,7 +1148,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cetartiodactyla",
@@ -1158,7 +1158,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Medicinal Plants",
@@ -1168,7 +1168,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Motorbike",
@@ -1178,7 +1178,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Small",
@@ -1188,7 +1188,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Action Taken People",
@@ -1198,7 +1198,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Axe",
@@ -1208,7 +1208,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Skin",
@@ -1218,7 +1218,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Orchid",
@@ -1228,7 +1228,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Type",
@@ -1238,7 +1238,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cart",
@@ -1248,7 +1248,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "People Indirect Sign",
@@ -1258,7 +1258,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Chemical",
@@ -1268,7 +1268,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Dog",
@@ -1278,7 +1278,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Firearms",
@@ -1288,7 +1288,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Observed Only",
@@ -1298,7 +1298,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Perissodactyla",
@@ -1308,7 +1308,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Tusks",
@@ -1318,7 +1318,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Sub Adult",
@@ -1328,7 +1328,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Domestic Animals",
@@ -1338,7 +1338,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Feeding",
@@ -1348,7 +1348,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Village",
@@ -1358,7 +1358,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Wild Fruit",
@@ -1368,7 +1368,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Left At Scene",
@@ -1378,7 +1378,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Muzzle Loader",
@@ -1388,7 +1388,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Spears",
@@ -1398,7 +1398,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Species",
@@ -1408,7 +1408,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Extractive Industry Basecamp",
@@ -1418,7 +1418,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Fishing Tools",
@@ -1428,7 +1428,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Giraffe",
@@ -1438,7 +1438,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Observed",
@@ -1448,7 +1448,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Wildlife",
@@ -1458,7 +1458,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Action Taken",
@@ -1468,7 +1468,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Semi Automatic",
@@ -1478,7 +1478,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Illegal",
@@ -1488,7 +1488,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Bow",
@@ -1498,7 +1498,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Dynamite",
@@ -1508,7 +1508,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Verbal Warning",
@@ -1518,7 +1518,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cephalphus Duikers",
@@ -1528,7 +1528,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Shotgun",
@@ -1538,7 +1538,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Hippopotamidae",
@@ -1548,7 +1548,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Male",
@@ -1558,7 +1558,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cause Of Death",
@@ -1568,7 +1568,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Sawmill",
@@ -1578,7 +1578,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Chainsaw",
@@ -1588,7 +1588,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Footprint 1",
@@ -1598,7 +1598,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Infrastructure Size",
@@ -1608,7 +1608,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Ntfps",
@@ -1618,7 +1618,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Planks",
@@ -1628,7 +1628,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Goat",
@@ -1638,7 +1638,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Eudorvas Gazelle",
@@ -1648,7 +1648,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Young",
@@ -1658,7 +1658,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Capacity",
@@ -1668,7 +1668,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Transportation",
@@ -1678,7 +1678,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Net",
@@ -1688,7 +1688,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Buffalo Syncerus",
@@ -1698,7 +1698,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Adult",
@@ -1708,7 +1708,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Tree Hide",
@@ -1718,7 +1718,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Age Of Sign",
@@ -1728,7 +1728,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cut Pieces",
@@ -1738,7 +1738,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Female",
@@ -1748,7 +1748,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Clay",
@@ -1758,7 +1758,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Bridge",
@@ -1768,7 +1768,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Bicycle",
@@ -1778,7 +1778,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Confiscated 2",
@@ -1788,7 +1788,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Adult Female",
@@ -1798,7 +1798,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Fresh",
@@ -1808,7 +1808,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Nest",
@@ -1818,7 +1818,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Chimp",
@@ -1828,7 +1828,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Med",
@@ -1838,7 +1838,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Latex",
@@ -1848,7 +1848,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Fossil",
@@ -1858,7 +1858,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Ratan",
@@ -1868,7 +1868,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Resin",
@@ -1878,7 +1878,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Tarp",
@@ -1888,7 +1888,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Suidae",
@@ -1898,7 +1898,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Registration Number",
@@ -1908,7 +1908,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Boat",
@@ -1918,7 +1918,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Bushmeat",
@@ -1928,7 +1928,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Dung",
@@ -1938,7 +1938,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Spear",
@@ -1948,7 +1948,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Legal",
@@ -1958,7 +1958,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Wire Snare 1",
@@ -1968,7 +1968,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Place Of Origin",
@@ -1978,7 +1978,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Adult Male",
@@ -1988,7 +1988,7 @@
         "SMART",
         "color"
       ],
-      "style": ""
+      "style": "color"
     },
     {
       "name": "Cutting Tools",
@@ -1998,7 +1998,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Sound",
@@ -2008,7 +2008,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Machete Cut",
@@ -2018,7 +2018,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Primates",
@@ -2028,7 +2028,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cercopithecidae",
@@ -2038,7 +2038,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Wildlife Indirect Sign",
@@ -2048,7 +2048,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Homonidae",
@@ -2058,7 +2058,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Carnivora",
@@ -2068,7 +2068,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Infrastructure & Roads",
@@ -2078,7 +2078,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Rod",
@@ -2088,7 +2088,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Mushroom",
@@ -2098,7 +2098,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Gravel",
@@ -2108,7 +2108,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Ammunition",
@@ -2118,7 +2118,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Dock",
@@ -2128,7 +2128,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Footprint 2",
@@ -2138,7 +2138,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Mine",
@@ -2148,7 +2148,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Unknown",
@@ -2158,7 +2158,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Gorilla",
@@ -2168,7 +2168,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cow",
@@ -2178,7 +2178,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Diamonds",
@@ -2188,7 +2188,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Abandoned",
@@ -2198,7 +2198,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Car",
@@ -2208,7 +2208,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Truck",
@@ -2218,7 +2218,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Other",
@@ -2228,7 +2228,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Jaw Trap",
@@ -2238,7 +2238,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Handsaw",
@@ -2248,7 +2248,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Knife",
@@ -2258,7 +2258,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Tent",
@@ -2268,7 +2268,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "People Armed",
@@ -2278,7 +2278,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Gall Bladder",
@@ -2288,7 +2288,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Age Of Carcass",
@@ -2298,7 +2298,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Unsuccessful Pursuit",
@@ -2308,7 +2308,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Camel",
@@ -2318,7 +2318,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Caterpillar",
@@ -2328,7 +2328,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Destroyed",
@@ -2338,7 +2338,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Unarmed",
@@ -2348,7 +2348,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Bamboo",
@@ -2358,7 +2358,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Traps Snares",
@@ -2368,7 +2368,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Type Of Sign",
@@ -2378,7 +2378,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Scent",
@@ -2388,7 +2388,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Gold",
@@ -2398,7 +2398,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Raft",
@@ -2408,7 +2408,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Pit Trap",
@@ -2418,7 +2418,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Camp",
@@ -2428,7 +2428,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Equipment",
@@ -2438,7 +2438,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Antlers",
@@ -2448,7 +2448,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Active",
@@ -2458,7 +2458,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Hippos",
@@ -2468,7 +2468,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Firearms & Ammunition",
@@ -2478,7 +2478,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Large",
@@ -2488,7 +2488,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Buffalo",
@@ -2498,7 +2498,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Horns",
@@ -2508,7 +2508,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Paws",
@@ -2518,7 +2518,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Pollution",
@@ -2528,7 +2528,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Spent Cartridges",
@@ -2538,7 +2538,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Fish Trap",
@@ -2548,7 +2548,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Wire Snare 2",
@@ -2558,7 +2558,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Status",
@@ -2568,7 +2568,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Machete",
@@ -2578,7 +2578,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Traditional Weapons",
@@ -2588,7 +2588,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Age Of Animal",
@@ -2598,7 +2598,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Smoked",
@@ -2608,7 +2608,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Armed",
@@ -2618,7 +2618,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Garbage",
@@ -2628,7 +2628,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Whole Animal",
@@ -2638,7 +2638,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Litter",
@@ -2648,7 +2648,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Elephant",
@@ -2658,7 +2658,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Honey",
@@ -2668,7 +2668,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Ground Hide",
@@ -2678,7 +2678,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Charcoal",
@@ -2688,7 +2688,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Rocks & Minerals",
@@ -2698,7 +2698,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Scrape",
@@ -2708,7 +2708,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Canines",
@@ -2718,7 +2718,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "People Direct Observation",
@@ -2728,7 +2728,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Horse",
@@ -2738,7 +2738,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Road",
@@ -2748,7 +2748,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Sex",
@@ -2758,7 +2758,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Proboscoidea",
@@ -2768,7 +2768,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Electric Rod",
@@ -2778,7 +2778,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Bovidae",
@@ -2788,7 +2788,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Logs",
@@ -2798,7 +2798,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Trophy Type",
@@ -2808,7 +2808,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Piece",
@@ -2818,7 +2818,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Arrested",
@@ -2828,7 +2828,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Trail",
@@ -2838,7 +2838,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Natural",
@@ -2848,7 +2848,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Weapons & Gear Seized",
@@ -2858,7 +2858,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Timber",
@@ -2868,7 +2868,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Stump",
@@ -2878,7 +2878,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Heard",
@@ -2888,7 +2888,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Confiscated 1",
@@ -2898,7 +2898,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Written Warning",
@@ -2908,7 +2908,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Boulders",
@@ -2918,7 +2918,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Penis",
@@ -2928,7 +2928,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Poison",
@@ -2938,7 +2938,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Trophies Seized",
@@ -2948,7 +2948,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Juvenile",
@@ -2958,7 +2958,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Inactive",
@@ -2968,7 +2968,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Collected",
@@ -2978,7 +2978,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Club",
@@ -2988,7 +2988,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cooking Pot",
@@ -2998,7 +2998,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Wildlife Direct Observation",
@@ -3008,7 +3008,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Firewood",
@@ -3018,7 +3018,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Carcass",
@@ -3028,7 +3028,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cat",
@@ -3038,7 +3038,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Giraffidae",
@@ -3048,7 +3048,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Fire",
@@ -3058,7 +3058,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Track",
@@ -3068,7 +3068,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Action",
@@ -3078,7 +3078,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Sand",
@@ -3088,7 +3088,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Felidae",
@@ -3098,7 +3098,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Rhino",
@@ -3108,7 +3108,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Camp Type",
@@ -3118,7 +3118,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Mammal",
@@ -3128,7 +3128,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cetartiodactyla",
@@ -3138,7 +3138,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Medicinal Plants",
@@ -3148,7 +3148,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Motorbike",
@@ -3158,7 +3158,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Small",
@@ -3168,7 +3168,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Action Taken People",
@@ -3178,7 +3178,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Axe",
@@ -3188,7 +3188,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Skin",
@@ -3198,7 +3198,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Orchid",
@@ -3208,7 +3208,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Type",
@@ -3218,7 +3218,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cart",
@@ -3228,7 +3228,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "People Indirect Sign",
@@ -3238,7 +3238,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Chemical",
@@ -3248,7 +3248,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Dog",
@@ -3258,7 +3258,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Firearms",
@@ -3268,7 +3268,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Observed Only",
@@ -3278,7 +3278,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Perissodactyla",
@@ -3288,7 +3288,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Tusks",
@@ -3298,7 +3298,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Sub Adult",
@@ -3308,7 +3308,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Domestic Animals",
@@ -3318,7 +3318,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Feeding",
@@ -3328,7 +3328,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Village",
@@ -3338,7 +3338,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Wild Fruit",
@@ -3348,7 +3348,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Left At Scene",
@@ -3358,7 +3358,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Muzzle Loader",
@@ -3368,7 +3368,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Spears",
@@ -3378,7 +3378,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Species",
@@ -3388,7 +3388,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Extractive Industry Basecamp",
@@ -3398,7 +3398,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Fishing Tools",
@@ -3408,7 +3408,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Giraffe",
@@ -3418,7 +3418,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Observed",
@@ -3428,7 +3428,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Wildlife",
@@ -3438,7 +3438,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Action Taken",
@@ -3448,7 +3448,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Semi Automatic",
@@ -3458,7 +3458,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Illegal",
@@ -3468,7 +3468,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Bow",
@@ -3478,7 +3478,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Dynamite",
@@ -3488,7 +3488,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Verbal Warning",
@@ -3498,7 +3498,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cephalphus Duikers",
@@ -3508,7 +3508,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Shotgun",
@@ -3518,7 +3518,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Hippopotamidae",
@@ -3528,7 +3528,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Male",
@@ -3538,7 +3538,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cause Of Death",
@@ -3548,7 +3548,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Sawmill",
@@ -3558,7 +3558,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Chainsaw",
@@ -3568,7 +3568,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Human  Activity",
@@ -3578,7 +3578,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Footprint 1",
@@ -3588,7 +3588,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Infrastructure Size",
@@ -3598,7 +3598,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Ntfps",
@@ -3608,7 +3608,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Planks",
@@ -3618,7 +3618,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Goat",
@@ -3628,7 +3628,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Eudorvas Gazelle",
@@ -3638,7 +3638,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Young",
@@ -3648,7 +3648,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Capacity",
@@ -3658,7 +3658,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Transportation",
@@ -3668,7 +3668,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Net",
@@ -3678,7 +3678,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Buffalo Syncerus",
@@ -3688,7 +3688,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Adult",
@@ -3698,7 +3698,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Tree Hide",
@@ -3708,7 +3708,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Age Of Sign",
@@ -3718,7 +3718,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cut Pieces",
@@ -3728,7 +3728,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Female",
@@ -3738,7 +3738,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Clay",
@@ -3748,7 +3748,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Bridge",
@@ -3758,7 +3758,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Bicycle",
@@ -3768,7 +3768,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Confiscated 2",
@@ -3778,7 +3778,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Adult Female",
@@ -3788,7 +3788,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Fresh",
@@ -3798,7 +3798,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Nest",
@@ -3808,7 +3808,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Chimp",
@@ -3818,7 +3818,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Med",
@@ -3828,7 +3828,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Latex",
@@ -3838,7 +3838,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Fossil",
@@ -3848,7 +3848,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Ratan",
@@ -3858,7 +3858,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Resin",
@@ -3868,7 +3868,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Tarp",
@@ -3878,7 +3878,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Suidae",
@@ -3888,7 +3888,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Registration Number",
@@ -3898,7 +3898,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Boat",
@@ -3908,7 +3908,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Bushmeat",
@@ -3918,7 +3918,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Dung",
@@ -3928,7 +3928,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Spear",
@@ -3938,7 +3938,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Legal",
@@ -3948,7 +3948,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Wire Snare 1",
@@ -3958,7 +3958,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Place Of Origin",
@@ -3968,7 +3968,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Adult Male",
@@ -3978,7 +3978,7 @@
         "SMART",
         "line"
       ],
-      "style": ""
+      "style": "line"
     },
     {
       "name": "Cutting Tools",
@@ -3988,7 +3988,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Sound",
@@ -3998,7 +3998,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Machete Cut",
@@ -4008,7 +4008,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Primates",
@@ -4018,7 +4018,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cercopithecidae",
@@ -4028,7 +4028,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Wildlife Indirect Sign",
@@ -4038,7 +4038,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Homonidae",
@@ -4048,7 +4048,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Carnivora",
@@ -4058,7 +4058,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Infrastructure & Roads",
@@ -4068,7 +4068,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Rod",
@@ -4078,7 +4078,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Mushroom",
@@ -4088,7 +4088,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Gravel",
@@ -4098,7 +4098,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Ammunition",
@@ -4108,7 +4108,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Dock",
@@ -4118,7 +4118,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Footprint 2",
@@ -4128,7 +4128,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Mine",
@@ -4138,7 +4138,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Unknown",
@@ -4148,7 +4148,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Gorilla",
@@ -4158,7 +4158,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cow",
@@ -4168,7 +4168,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Diamonds",
@@ -4178,7 +4178,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Abandoned",
@@ -4188,7 +4188,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Car",
@@ -4198,7 +4198,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Truck",
@@ -4208,7 +4208,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Other",
@@ -4218,7 +4218,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Jaw Trap",
@@ -4228,7 +4228,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Handsaw",
@@ -4238,7 +4238,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Knife",
@@ -4248,7 +4248,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Tent",
@@ -4258,7 +4258,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "People Armed",
@@ -4268,7 +4268,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Gall Bladder",
@@ -4278,7 +4278,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Age Of Carcass",
@@ -4288,7 +4288,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Unsuccessful Pursuit",
@@ -4298,7 +4298,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Camel",
@@ -4308,7 +4308,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Caterpillar",
@@ -4318,7 +4318,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Destroyed",
@@ -4328,7 +4328,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Unarmed",
@@ -4338,7 +4338,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Bamboo",
@@ -4348,7 +4348,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Traps Snares",
@@ -4358,7 +4358,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Type Of Sign",
@@ -4368,7 +4368,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Scent",
@@ -4378,7 +4378,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Gold",
@@ -4388,7 +4388,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Raft",
@@ -4398,7 +4398,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Pit Trap",
@@ -4408,7 +4408,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Camp",
@@ -4418,7 +4418,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Equipment",
@@ -4428,7 +4428,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Antlers",
@@ -4438,7 +4438,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Active",
@@ -4448,7 +4448,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Hippos",
@@ -4458,7 +4458,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Firearms & Ammunition",
@@ -4468,7 +4468,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Large",
@@ -4478,7 +4478,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Buffalo",
@@ -4488,7 +4488,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Horns",
@@ -4498,7 +4498,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Paws",
@@ -4508,7 +4508,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Pollution",
@@ -4518,7 +4518,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Fish Trap",
@@ -4528,7 +4528,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Wire Snare 2",
@@ -4538,7 +4538,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Status",
@@ -4548,7 +4548,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Machete",
@@ -4558,7 +4558,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Traditional Weapons",
@@ -4568,7 +4568,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Age Of Animal",
@@ -4578,7 +4578,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Smoked",
@@ -4588,7 +4588,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Armed",
@@ -4598,7 +4598,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Garbage",
@@ -4608,7 +4608,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Whole Animal",
@@ -4618,7 +4618,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Litter",
@@ -4628,7 +4628,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Elephant",
@@ -4638,7 +4638,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Honey",
@@ -4648,7 +4648,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Ground Hide",
@@ -4658,7 +4658,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Charcoal",
@@ -4668,7 +4668,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Rocks & Minerals",
@@ -4678,7 +4678,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Scrape",
@@ -4688,7 +4688,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Canines",
@@ -4698,7 +4698,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "People Direct Observation",
@@ -4708,7 +4708,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Horse",
@@ -4718,7 +4718,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Road",
@@ -4728,7 +4728,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Sex",
@@ -4738,7 +4738,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Proboscoidea",
@@ -4748,7 +4748,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Electric Rod",
@@ -4758,7 +4758,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Bovidae",
@@ -4768,7 +4768,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Logs",
@@ -4778,7 +4778,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Trophy Type",
@@ -4788,7 +4788,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Piece",
@@ -4798,7 +4798,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Arrested",
@@ -4808,7 +4808,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Trail",
@@ -4818,7 +4818,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Natural",
@@ -4828,7 +4828,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Weapons & Gear Seized",
@@ -4838,7 +4838,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Timber",
@@ -4848,7 +4848,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Stump",
@@ -4858,7 +4858,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Heard",
@@ -4868,7 +4868,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Confiscated 1",
@@ -4878,7 +4878,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Written Warning",
@@ -4888,7 +4888,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Boulders",
@@ -4898,7 +4898,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Penis",
@@ -4908,7 +4908,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Poison",
@@ -4918,7 +4918,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Trophies Seized",
@@ -4928,7 +4928,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Juvenile",
@@ -4938,7 +4938,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Inactive",
@@ -4948,7 +4948,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Collected",
@@ -4958,7 +4958,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Club",
@@ -4968,7 +4968,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cooking Pot",
@@ -4978,7 +4978,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Wildlife Direct Observation",
@@ -4988,7 +4988,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Firewood",
@@ -4998,7 +4998,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Carcass",
@@ -5008,7 +5008,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cat",
@@ -5018,7 +5018,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Giraffidae",
@@ -5028,7 +5028,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Fire",
@@ -5038,7 +5038,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Track",
@@ -5048,7 +5048,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Action",
@@ -5058,7 +5058,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Sand",
@@ -5068,7 +5068,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Felidae",
@@ -5078,7 +5078,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Rhino",
@@ -5088,7 +5088,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Camp Type",
@@ -5098,7 +5098,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Mammal",
@@ -5108,7 +5108,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cetartiodactyla",
@@ -5118,7 +5118,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Medicinal Plants",
@@ -5128,7 +5128,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Motorbike",
@@ -5138,7 +5138,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Small",
@@ -5148,7 +5148,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Action Taken People",
@@ -5158,7 +5158,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Axe",
@@ -5168,7 +5168,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Skin",
@@ -5178,7 +5178,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Orchid",
@@ -5188,7 +5188,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Type",
@@ -5198,7 +5198,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cart",
@@ -5208,7 +5208,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "People Indirect Sign",
@@ -5218,7 +5218,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Chemical",
@@ -5228,7 +5228,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Dog",
@@ -5238,7 +5238,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Firearms",
@@ -5248,7 +5248,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Observed Only",
@@ -5258,7 +5258,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Perissodactyla",
@@ -5268,7 +5268,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Tusks",
@@ -5278,7 +5278,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Sub Adult",
@@ -5288,7 +5288,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Domestic Animals",
@@ -5298,7 +5298,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Feeding",
@@ -5308,7 +5308,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Village",
@@ -5318,7 +5318,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Wild Fruit",
@@ -5328,7 +5328,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Left At Scene",
@@ -5338,7 +5338,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Muzzle Loader",
@@ -5348,7 +5348,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Spears",
@@ -5358,7 +5358,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Spent Сartridges",
@@ -5368,7 +5368,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Species",
@@ -5378,7 +5378,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Extractive Industry Basecamp",
@@ -5388,7 +5388,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Fishing Tools",
@@ -5398,7 +5398,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Giraffe",
@@ -5408,7 +5408,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Observed",
@@ -5418,7 +5418,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Wildlife",
@@ -5428,7 +5428,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Action Taken",
@@ -5438,7 +5438,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Semi Automatic",
@@ -5448,7 +5448,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Illegal",
@@ -5458,7 +5458,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Bow",
@@ -5468,7 +5468,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Dynamite",
@@ -5478,7 +5478,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Verbal Warning",
@@ -5488,7 +5488,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cephalphus Duikers",
@@ -5498,7 +5498,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Shotgun",
@@ -5508,7 +5508,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Hippopotamidae",
@@ -5518,7 +5518,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Male",
@@ -5528,7 +5528,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cause Of Death",
@@ -5538,7 +5538,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Sawmill",
@@ -5548,7 +5548,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Chainsaw",
@@ -5558,7 +5558,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Human  Activity",
@@ -5568,7 +5568,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Footprint 1",
@@ -5578,7 +5578,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Infrastructure Size",
@@ -5588,7 +5588,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Ntfps",
@@ -5598,7 +5598,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Planks",
@@ -5608,7 +5608,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Goat",
@@ -5618,7 +5618,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Eudorvas Gazelle",
@@ -5628,7 +5628,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Young",
@@ -5638,7 +5638,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Capacity",
@@ -5648,7 +5648,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Transportation",
@@ -5658,7 +5658,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Net",
@@ -5668,7 +5668,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Buffalo Syncerus",
@@ -5678,7 +5678,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Adult",
@@ -5688,7 +5688,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Tree Hide",
@@ -5698,7 +5698,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Age Of Sign",
@@ -5708,7 +5708,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Cut Pieces",
@@ -5718,7 +5718,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Female",
@@ -5728,7 +5728,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Clay",
@@ -5738,7 +5738,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Bridge",
@@ -5748,7 +5748,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Bicycle",
@@ -5758,7 +5758,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Confiscated 2",
@@ -5768,7 +5768,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Adult Female",
@@ -5778,7 +5778,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Fresh",
@@ -5788,7 +5788,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Nest",
@@ -5798,7 +5798,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Chimp",
@@ -5808,7 +5808,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Med",
@@ -5818,7 +5818,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Latex",
@@ -5828,7 +5828,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Fossil",
@@ -5838,7 +5838,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Ratan",
@@ -5848,7 +5848,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Resin",
@@ -5858,7 +5858,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Tarp",
@@ -5868,7 +5868,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Suidae",
@@ -5878,7 +5878,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Registration Number",
@@ -5888,7 +5888,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Boat",
@@ -5898,7 +5898,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Bushmeat",
@@ -5908,7 +5908,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Dung",
@@ -5918,7 +5918,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Spear",
@@ -5928,7 +5928,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Legal",
@@ -5938,7 +5938,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Wire Snare 1",
@@ -5948,7 +5948,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Place Of Origin",
@@ -5958,7 +5958,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Adult Male",
@@ -5968,7 +5968,7 @@
         "SMART",
         "mono"
       ],
-      "style": ""
+      "style": "monochrome"
     },
     {
       "name": "Sable",
@@ -5978,7 +5978,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Elephants Mixed",
@@ -5988,7 +5988,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Topi",
@@ -5998,7 +5998,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Croc",
@@ -6008,7 +6008,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Hippo",
@@ -6018,7 +6018,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Cheetah",
@@ -6028,7 +6028,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Bushbuck",
@@ -6038,7 +6038,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Yellow Baboon",
@@ -6048,7 +6048,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Warthog",
@@ -6058,7 +6058,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Spotted Hyena",
@@ -6068,7 +6068,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Zebra",
@@ -6078,7 +6078,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Puku",
@@ -6088,7 +6088,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Recent Elephant Carcass",
@@ -6098,7 +6098,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Eland",
@@ -6108,7 +6108,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Lion",
@@ -6118,7 +6118,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Bushpig",
@@ -6128,7 +6128,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Jackal",
@@ -6138,7 +6138,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Elephant Bulls",
@@ -6148,7 +6148,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Reedbuck - Bohor",
@@ -6158,7 +6158,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Dik Dik",
@@ -6168,7 +6168,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Elephant Tracks",
@@ -6178,7 +6178,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Fresh Elephant Carcass",
@@ -6188,7 +6188,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Roan Antelope",
@@ -6198,7 +6198,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Hartebeest",
@@ -6208,7 +6208,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Leopard",
@@ -6218,7 +6218,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Klipspringer",
@@ -6228,7 +6228,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Oribi",
@@ -6238,7 +6238,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Grants Gazelle",
@@ -6248,7 +6248,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Olive Baboon",
@@ -6258,7 +6258,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Giraffe",
@@ -6268,7 +6268,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Buffalo",
@@ -6278,7 +6278,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Common Duiker",
@@ -6288,7 +6288,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Wild Dog",
@@ -6298,7 +6298,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Lesser Kudu",
@@ -6308,7 +6308,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Impala",
@@ -6318,7 +6318,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Very Old Elephant Carcass 4",
@@ -6328,7 +6328,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Vervet Monkey",
@@ -6338,7 +6338,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Waterbuck",
@@ -6348,7 +6348,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Reedbuck - Southern",
@@ -6358,7 +6358,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Old Elephant Carcass 3",
@@ -6368,7 +6368,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Greater Kudu",
@@ -6378,7 +6378,7 @@
         "aerial",
         "wildlife"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Shoats",
@@ -6388,7 +6388,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Donkey",
@@ -6398,7 +6398,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Honey Camp Inactive",
@@ -6408,7 +6408,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Honey Camp Active",
@@ -6418,7 +6418,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Active Cultivation",
@@ -6428,7 +6428,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Charcoal Burning Active",
@@ -6438,7 +6438,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Cattle Trail",
@@ -6448,7 +6448,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Camp Unidentified Inactive",
@@ -6458,7 +6458,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Charcoal Burning Old",
@@ -6468,7 +6468,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Camp Unidentified Active",
@@ -6478,7 +6478,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Logging Recent",
@@ -6488,7 +6488,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Logging Camp Inactive",
@@ -6498,7 +6498,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Dog",
@@ -6508,7 +6508,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Mining Site (Inactive)",
@@ -6518,7 +6518,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Bushmeat Camp (Inactive)",
@@ -6528,7 +6528,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Logging Camp Active",
@@ -6538,7 +6538,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Cattle",
@@ -6548,7 +6548,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Mining Site (Active)",
@@ -6558,7 +6558,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Dwelling",
@@ -6568,7 +6568,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Cattle Boma (Inactive)",
@@ -6578,7 +6578,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Agriculture Fallow",
@@ -6588,7 +6588,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Cattle Boma (Active)",
@@ -6598,7 +6598,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Fishing Camp (Inactive)",
@@ -6608,7 +6608,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Logging Active",
@@ -6618,7 +6618,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Fishing Camp (Active)",
@@ -6628,7 +6628,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Bushmeat Camp (Active)",
@@ -6638,7 +6638,7 @@
         "aerial",
         "human_activity"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "White Backed Vulture",
@@ -6648,7 +6648,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Egret",
@@ -6658,7 +6658,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Goliath Heron",
@@ -6668,7 +6668,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Fish Eagle",
@@ -6678,7 +6678,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Ground Hornbill",
@@ -6688,7 +6688,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Ostrich",
@@ -6698,7 +6698,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "White Headed Vulture",
@@ -6708,7 +6708,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Egyptian Goose",
@@ -6718,7 +6718,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Wooly-Necked Stork",
@@ -6728,7 +6728,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Grey Heron",
@@ -6738,7 +6738,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Yellow-Billed Stork",
@@ -6748,7 +6748,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Bateleur",
@@ -6758,17 +6758,17 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
-      "name": "Abdim's Stork",
+      "name": "Abdim'S Stork",
       "filename": "aerial/bird/Abdim's Stork.svg",
       "description": "",
       "keywords": [
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Hooded Vulture",
@@ -6778,7 +6778,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Tawny Eagle",
@@ -6788,7 +6788,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Knob-Billed Goose",
@@ -6798,7 +6798,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Black Eagle",
@@ -6808,7 +6808,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Great White Pelican",
@@ -6818,7 +6818,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "White Faced Duck",
@@ -6828,7 +6828,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Saddle-Billed Stork",
@@ -6838,7 +6838,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Openbill Stork",
@@ -6848,7 +6848,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Lappet Faced Vulture",
@@ -6858,7 +6858,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Grey Crowned Crane",
@@ -6868,7 +6868,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     },
     {
       "name": "Greater Egret",
@@ -6878,7 +6878,7 @@
         "aerial",
         "bird"
       ],
-      "style": ""
+      "style": "aerial"
     }
   ]
 }
