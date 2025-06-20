@@ -17,6 +17,8 @@ def determine_style(keywords):
                 return "monochrome"
             return keywords[1]
         return ""
+    if keywords[0] == "EarthRanger":
+        return "compact"
     return keywords[0]
 
 def scan_icons():
@@ -31,7 +33,12 @@ def scan_icons():
                 icon_path = icon_path.replace("\\", "/")  # For Windows compatibility
                 icon_name = os.path.splitext(file)[0]
                 raw_name = icon_name.replace('_', ' ').title()
-                clean_name = re.sub(r'\s*Icon$', '', raw_name, flags=re.IGNORECASE).strip()
+                # Remove trailing "Icon"
+                clean_name = re.sub(r'\s*Icon$', '', raw_name, flags=re.IGNORECASE)
+                # Remove whole words "glyph" or "color" (case-insensitive)
+                clean_name = re.sub(r'\b(glyph|color)\b', '', clean_name, flags=re.IGNORECASE)
+                # Remove extra spaces
+                clean_name = clean_name.strip()
                 icons.append({
                     "name": clean_name,
                     "filename": os.path.relpath(icon_path, ICONS_DIR).replace("\\", "/"),
