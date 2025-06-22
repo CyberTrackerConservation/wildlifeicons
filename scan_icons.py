@@ -135,21 +135,22 @@ def main():
     icons = scan_icons_directory()
     
     if not icons:
-        print("No files found in the icons directory.")
+        print("No icons found.")
         return
     
-    # Create the JSON file
-    output_file = "scan_icons.json"
+    # Sort icons by source first, then by key
+    icons.sort(key=lambda x: (x['source'], x['key']))
     
+    # Write to JSON file
     try:
-        with open(output_file, 'w', encoding='utf-8') as f:
+        with open('scan_icons.json', 'w', encoding='utf-8') as f:
             json.dump(icons, f, indent=2, ensure_ascii=False)
         
-        print(f"Successfully created {output_file}")
+        print(f"Successfully created scan_icons.json")
         print(f"Found {len(icons)} files in the icons directory")
         
     except Exception as e:
-        print(f"Error writing to {output_file}: {e}")
+        print(f"Error writing JSON file: {e}")
 
 if __name__ == "__main__":
     main() 
