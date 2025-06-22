@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import json
 import re
@@ -526,7 +527,7 @@ SCIENTIFIC_NAME_LOOKUP = {
   "cerdocyon_thous": "Crab-eating Fox",
   "pavo_muticus": "Green Peafowl",
   "hybrid_bear": "Hybrid Bear",
-  "lantana_camara": "Lantana Camara",
+  "lantana_camara": "Lantana",
   "alouatta_palliata": "Mantled Howler",
   "hand_line": "Hand Line",
   "tyto_soumagnei": "Madagascar Red Owl",
@@ -1023,6 +1024,15 @@ SCIENTIFIC_NAME_LOOKUP = {
   "mustelus_henlei": "Brown Smooth-hound",
   "gorilla_gorilla_diehli": "Cross River Gorilla",
   "thunnus_obesus": "Bigeye Tuna",
+  "cercopithecidae": "Old World Monkeys",
+  "trachypithecus_germaini": "Germain's Langur",
+  "psittacus_erithacus": "African Grey Parrot",
+  "muntiacus_muntjak": "Indian Muntjac",
+  "tragelaphus_sylvaticus": "Cape Bushbuck",
+  "penelope_purpurascens": "Crested Guan",
+  "herpestes_urva": "Crab-eating Mongoose",
+  "trachypithecus_delacouri": "Delacour's Langur",
+  "gorilla_beringei_graueri": "Grauer's Gorilla",
 }
 
 def determine_style(keywords):
@@ -1045,9 +1055,9 @@ def process_icon_name(icon_name, keywords):
     Process icon name to convert scientific names to colloquial names
     and preserve scientific names as keywords.
     """
-    # Extract scientific name from filename (remove suffixes like _color_icon, _glyph_icon, etc.)
-    scientific_name = re.sub(r'_(color|glyph|line|rep|ns|black|mode|queries|attendant)_icon?$', '', icon_name, flags=re.IGNORECASE)
-    scientific_name = re.sub(r'_(color|glyph|line|rep|ns|black|mode|queries|attendant)$', '', scientific_name, flags=re.IGNORECASE)
+    # Extract scientific name from filename (remove suffixes like _color_icon, _glyph_icon, etc. and also plain _icon)
+    scientific_name = re.sub(r'_(color|glyph|line|rep|ns|black|mode|queries|attendant|icon)_icon?$', '', icon_name, flags=re.IGNORECASE)
+    scientific_name = re.sub(r'_(color|glyph|line|rep|ns|black|mode|queries|attendant|icon)$', '', scientific_name, flags=re.IGNORECASE)
     
     # Convert underscores to spaces and title case for display
     raw_name = scientific_name.replace('_', ' ').title()
