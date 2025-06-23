@@ -378,12 +378,44 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Downloading selected icons:', selectedIcons);
         const zip = new JSZip();
         
+        // Track used names to handle duplicates
+        const usedNames = new Map();
+        
         // Add each selected icon to the zip
         for (const path of selectedIcons) {
             try {
                 const response = await fetch(path);
                 const blob = await response.blob();
-                const filename = path.split('/').pop();
+                
+                // Find the icon data to get the name
+                const icon = icons.find(i => i.path === path);
+                if (!icon) {
+                    console.error(`Icon not found for path: ${path}`);
+                    continue;
+                }
+                
+                // Get the file extension from the original path
+                const originalFilename = path.split('/').pop();
+                const fileExtension = originalFilename.split('.').pop();
+                
+                // Create filename from icon name
+                let filename = icon.name;
+                
+                // Handle duplicates by appending incrementing numbers
+                if (usedNames.has(filename)) {
+                    const count = usedNames.get(filename) + 1;
+                    usedNames.set(filename, count);
+                    filename = `${icon.name} (${count})`;
+                } else {
+                    usedNames.set(filename, 1);
+                }
+                
+                // Add file extension
+                filename = `${filename}.${fileExtension}`;
+                
+                // Sanitize filename (remove invalid characters)
+                filename = filename.replace(/[<>:"/\\|?*]/g, '_');
+                
                 zip.file(filename, blob);
             } catch (error) {
                 console.error(`Error adding ${path} to zip:`, error);
