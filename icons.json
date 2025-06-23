@@ -999,15 +999,6 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/10_icon_color.svg",
-    "key": "10_icon",
-    "source": "EarthRanger",
-    "name": "10 Icon",
-    "tags": [
-      "color_16x32"
-    ]
-  },
-  {
     "filename": "EarthRanger/mono_16x32/10_icon_black.svg",
     "key": "10_icon",
     "source": "EarthRanger",
@@ -1017,10 +1008,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/11_icon_color.svg",
-    "key": "11_icon",
+    "filename": "EarthRanger/color_16x32/10_icon_color.svg",
+    "key": "10_icon",
     "source": "EarthRanger",
-    "name": "11 Icon",
+    "name": "10 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1035,10 +1026,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/12_icon_color.svg",
-    "key": "12_icon",
+    "filename": "EarthRanger/color_16x32/11_icon_color.svg",
+    "key": "11_icon",
     "source": "EarthRanger",
-    "name": "12 Icon",
+    "name": "11 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1053,10 +1044,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/13_icon_color.svg",
-    "key": "13_icon",
+    "filename": "EarthRanger/color_16x32/12_icon_color.svg",
+    "key": "12_icon",
     "source": "EarthRanger",
-    "name": "13 Icon",
+    "name": "12 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1071,10 +1062,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/14_icon_color.svg",
-    "key": "14_icon",
+    "filename": "EarthRanger/color_16x32/13_icon_color.svg",
+    "key": "13_icon",
     "source": "EarthRanger",
-    "name": "14 Icon",
+    "name": "13 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1089,10 +1080,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/15_icon_color.svg",
-    "key": "15_icon",
+    "filename": "EarthRanger/color_16x32/14_icon_color.svg",
+    "key": "14_icon",
     "source": "EarthRanger",
-    "name": "15 Icon",
+    "name": "14 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1107,10 +1098,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/16_icon_color.svg",
-    "key": "16_icon",
+    "filename": "EarthRanger/color_16x32/15_icon_color.svg",
+    "key": "15_icon",
     "source": "EarthRanger",
-    "name": "16 Icon",
+    "name": "15 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1125,10 +1116,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/17_icon_color.svg",
-    "key": "17_icon",
+    "filename": "EarthRanger/color_16x32/16_icon_color.svg",
+    "key": "16_icon",
     "source": "EarthRanger",
-    "name": "17 Icon",
+    "name": "16 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1143,10 +1134,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/18_icon_color.svg",
-    "key": "18_icon",
+    "filename": "EarthRanger/color_16x32/17_icon_color.svg",
+    "key": "17_icon",
     "source": "EarthRanger",
-    "name": "18 Icon",
+    "name": "17 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1161,10 +1152,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/19_icon_color.svg",
-    "key": "19_icon",
+    "filename": "EarthRanger/color_16x32/18_icon_color.svg",
+    "key": "18_icon",
     "source": "EarthRanger",
-    "name": "19 Icon",
+    "name": "18 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1179,12 +1170,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x16/1_icon_color.svg",
+    "filename": "EarthRanger/color_16x32/19_icon_color.svg",
+    "key": "19_icon",
+    "source": "EarthRanger",
+    "name": "19 Icon",
+    "tags": [
+      "color_16x32"
+    ]
+  },
+  {
+    "filename": "EarthRanger/mono_16x32/1_icon_black.svg",
     "key": "1_icon",
     "source": "EarthRanger",
     "name": "1 Icon",
     "tags": [
-      "color_16x16"
+      "mono_16x32"
     ]
   },
   {
@@ -1197,6 +1197,15 @@
     ]
   },
   {
+    "filename": "EarthRanger/color_16x16/1_icon_color.svg",
+    "key": "1_icon",
+    "source": "EarthRanger",
+    "name": "1 Icon",
+    "tags": [
+      "color_16x16"
+    ]
+  },
+  {
     "filename": "EarthRanger/mono_16x16/1_icon_black.svg",
     "key": "1_icon",
     "source": "EarthRanger",
@@ -1206,10 +1215,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/1_icon_black.svg",
-    "key": "1_icon",
+    "filename": "EarthRanger/mono_16x32/20_icon_black.svg",
+    "key": "20_icon",
     "source": "EarthRanger",
-    "name": "1 Icon",
+    "name": "20 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1224,10 +1233,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/20_icon_black.svg",
-    "key": "20_icon",
+    "filename": "EarthRanger/mono_16x32/21_icon_black.svg",
+    "key": "21_icon",
     "source": "EarthRanger",
-    "name": "20 Icon",
+    "name": "21 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1242,10 +1251,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/21_icon_black.svg",
-    "key": "21_icon",
+    "filename": "EarthRanger/mono_16x32/22_icon_black.svg",
+    "key": "22_icon",
     "source": "EarthRanger",
-    "name": "21 Icon",
+    "name": "22 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1260,10 +1269,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/22_icon_black.svg",
-    "key": "22_icon",
+    "filename": "EarthRanger/mono_16x32/23_icon_black.svg",
+    "key": "23_icon",
     "source": "EarthRanger",
-    "name": "22 Icon",
+    "name": "23 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1278,10 +1287,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/23_icon_black.svg",
-    "key": "23_icon",
+    "filename": "EarthRanger/mono_16x32/24_icon_black.svg",
+    "key": "24_icon",
     "source": "EarthRanger",
-    "name": "23 Icon",
+    "name": "24 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1296,10 +1305,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/24_icon_black.svg",
-    "key": "24_icon",
+    "filename": "EarthRanger/mono_16x32/25_icon_black.svg",
+    "key": "25_icon",
     "source": "EarthRanger",
-    "name": "24 Icon",
+    "name": "25 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1314,10 +1323,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/25_icon_black.svg",
-    "key": "25_icon",
+    "filename": "EarthRanger/mono_16x32/26_icon_black.svg",
+    "key": "26_icon",
     "source": "EarthRanger",
-    "name": "25 Icon",
+    "name": "26 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1332,10 +1341,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/26_icon_black.svg",
-    "key": "26_icon",
+    "filename": "EarthRanger/mono_16x32/27_icon_black.svg",
+    "key": "27_icon",
     "source": "EarthRanger",
-    "name": "26 Icon",
+    "name": "27 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1350,10 +1359,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/27_icon_black.svg",
-    "key": "27_icon",
+    "filename": "EarthRanger/mono_16x32/28_icon_black.svg",
+    "key": "28_icon",
     "source": "EarthRanger",
-    "name": "27 Icon",
+    "name": "28 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1368,10 +1377,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/28_icon_black.svg",
-    "key": "28_icon",
+    "filename": "EarthRanger/mono_16x32/29_icon_black.svg",
+    "key": "29_icon",
     "source": "EarthRanger",
-    "name": "28 Icon",
+    "name": "29 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1386,21 +1395,12 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/29_icon_black.svg",
-    "key": "29_icon",
-    "source": "EarthRanger",
-    "name": "29 Icon",
-    "tags": [
-      "mono_16x32"
-    ]
-  },
-  {
-    "filename": "EarthRanger/color_16x16/2_icon_color.svg",
+    "filename": "EarthRanger/mono_16x32/2_icon_black.svg",
     "key": "2_icon",
     "source": "EarthRanger",
     "name": "2 Icon",
     "tags": [
-      "color_16x16"
+      "mono_16x32"
     ]
   },
   {
@@ -1413,6 +1413,15 @@
     ]
   },
   {
+    "filename": "EarthRanger/color_16x16/2_icon_color.svg",
+    "key": "2_icon",
+    "source": "EarthRanger",
+    "name": "2 Icon",
+    "tags": [
+      "color_16x16"
+    ]
+  },
+  {
     "filename": "EarthRanger/mono_16x16/2_icon_black.svg",
     "key": "2_icon",
     "source": "EarthRanger",
@@ -1422,10 +1431,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/2_icon_black.svg",
-    "key": "2_icon",
+    "filename": "EarthRanger/mono_16x32/30_icon_black.svg",
+    "key": "30_icon",
     "source": "EarthRanger",
-    "name": "2 Icon",
+    "name": "30 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1440,10 +1449,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/30_icon_black.svg",
-    "key": "30_icon",
+    "filename": "EarthRanger/mono_16x32/31_icon_black.svg",
+    "key": "31_icon",
     "source": "EarthRanger",
-    "name": "30 Icon",
+    "name": "31 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1458,10 +1467,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/31_icon_black.svg",
-    "key": "31_icon",
+    "filename": "EarthRanger/mono_16x32/32_icon_black.svg",
+    "key": "32_icon",
     "source": "EarthRanger",
-    "name": "31 Icon",
+    "name": "32 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1476,10 +1485,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/32_icon_black.svg",
-    "key": "32_icon",
+    "filename": "EarthRanger/mono_16x32/33_icon_black.svg",
+    "key": "33_icon",
     "source": "EarthRanger",
-    "name": "32 Icon",
+    "name": "33 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1494,10 +1503,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/33_icon_black.svg",
-    "key": "33_icon",
+    "filename": "EarthRanger/mono_16x32/34_icon_black.svg",
+    "key": "34_icon",
     "source": "EarthRanger",
-    "name": "33 Icon",
+    "name": "34 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1512,10 +1521,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/34_icon_black.svg",
-    "key": "34_icon",
+    "filename": "EarthRanger/mono_16x32/35_icon_black.svg",
+    "key": "35_icon",
     "source": "EarthRanger",
-    "name": "34 Icon",
+    "name": "35 Icon",
     "tags": [
       "mono_16x32"
     ]
@@ -1530,21 +1539,12 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x32/35_icon_black.svg",
-    "key": "35_icon",
-    "source": "EarthRanger",
-    "name": "35 Icon",
-    "tags": [
-      "mono_16x32"
-    ]
-  },
-  {
-    "filename": "EarthRanger/color_16x16/3_icon_color.svg",
+    "filename": "EarthRanger/mono_16x32/3_icon_black.svg",
     "key": "3_icon",
     "source": "EarthRanger",
     "name": "3 Icon",
     "tags": [
-      "color_16x16"
+      "mono_16x32"
     ]
   },
   {
@@ -1557,46 +1557,19 @@
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x16/3_icon_black.svg",
+    "filename": "EarthRanger/color_16x16/3_icon_color.svg",
     "key": "3_icon",
     "source": "EarthRanger",
     "name": "3 Icon",
-    "tags": [
-      "mono_16x16"
-    ]
-  },
-  {
-    "filename": "EarthRanger/mono_16x32/3_icon_black.svg",
-    "key": "3_icon",
-    "source": "EarthRanger",
-    "name": "3 Icon",
-    "tags": [
-      "mono_16x32"
-    ]
-  },
-  {
-    "filename": "EarthRanger/color_16x16/4_icon_color.svg",
-    "key": "4_icon",
-    "source": "EarthRanger",
-    "name": "4 Icon",
     "tags": [
       "color_16x16"
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/4_icon_color.svg",
-    "key": "4_icon",
+    "filename": "EarthRanger/mono_16x16/3_icon_black.svg",
+    "key": "3_icon",
     "source": "EarthRanger",
-    "name": "4 Icon",
-    "tags": [
-      "color_16x32"
-    ]
-  },
-  {
-    "filename": "EarthRanger/mono_16x16/4_icon_black.svg",
-    "key": "4_icon",
-    "source": "EarthRanger",
-    "name": "4 Icon",
+    "name": "3 Icon",
     "tags": [
       "mono_16x16"
     ]
@@ -1611,28 +1584,28 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x16/5_icon_color.svg",
-    "key": "5_icon",
+    "filename": "EarthRanger/color_16x32/4_icon_color.svg",
+    "key": "4_icon",
     "source": "EarthRanger",
-    "name": "5 Icon",
-    "tags": [
-      "color_16x16"
-    ]
-  },
-  {
-    "filename": "EarthRanger/color_16x32/5_icon_color.svg",
-    "key": "5_icon",
-    "source": "EarthRanger",
-    "name": "5 Icon",
+    "name": "4 Icon",
     "tags": [
       "color_16x32"
     ]
   },
   {
-    "filename": "EarthRanger/mono_16x16/5_icon_black.svg",
-    "key": "5_icon",
+    "filename": "EarthRanger/color_16x16/4_icon_color.svg",
+    "key": "4_icon",
     "source": "EarthRanger",
-    "name": "5 Icon",
+    "name": "4 Icon",
+    "tags": [
+      "color_16x16"
+    ]
+  },
+  {
+    "filename": "EarthRanger/mono_16x16/4_icon_black.svg",
+    "key": "4_icon",
+    "source": "EarthRanger",
+    "name": "4 Icon",
     "tags": [
       "mono_16x16"
     ]
@@ -1647,12 +1620,30 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/6_icon_color.svg",
-    "key": "6_icon",
+    "filename": "EarthRanger/color_16x32/5_icon_color.svg",
+    "key": "5_icon",
     "source": "EarthRanger",
-    "name": "6 Icon",
+    "name": "5 Icon",
     "tags": [
       "color_16x32"
+    ]
+  },
+  {
+    "filename": "EarthRanger/color_16x16/5_icon_color.svg",
+    "key": "5_icon",
+    "source": "EarthRanger",
+    "name": "5 Icon",
+    "tags": [
+      "color_16x16"
+    ]
+  },
+  {
+    "filename": "EarthRanger/mono_16x16/5_icon_black.svg",
+    "key": "5_icon",
+    "source": "EarthRanger",
+    "name": "5 Icon",
+    "tags": [
+      "mono_16x16"
     ]
   },
   {
@@ -1665,10 +1656,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/7_icon_color.svg",
-    "key": "7_icon",
+    "filename": "EarthRanger/color_16x32/6_icon_color.svg",
+    "key": "6_icon",
     "source": "EarthRanger",
-    "name": "7 Icon",
+    "name": "6 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1683,10 +1674,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/8_icon_color.svg",
-    "key": "8_icon",
+    "filename": "EarthRanger/color_16x32/7_icon_color.svg",
+    "key": "7_icon",
     "source": "EarthRanger",
-    "name": "8 Icon",
+    "name": "7 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1701,10 +1692,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x32/9_icon_color.svg",
-    "key": "9_icon",
+    "filename": "EarthRanger/color_16x32/8_icon_color.svg",
+    "key": "8_icon",
     "source": "EarthRanger",
-    "name": "9 Icon",
+    "name": "8 Icon",
     "tags": [
       "color_16x32"
     ]
@@ -1716,6 +1707,15 @@
     "name": "9 Icon",
     "tags": [
       "mono_16x32"
+    ]
+  },
+  {
+    "filename": "EarthRanger/color_16x32/9_icon_color.svg",
+    "key": "9_icon",
+    "source": "EarthRanger",
+    "name": "9 Icon",
+    "tags": [
+      "color_16x32"
     ]
   },
   {
@@ -2376,21 +2376,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/activity/barrier_rep.svg",
-    "key": "barrier",
-    "source": "EarthRanger",
-    "name": "Barrier",
-    "tags": [
-      "activity"
-    ]
-  },
-  {
     "filename": "EarthRanger/mapping/Barrier.svg",
     "key": "barrier",
     "source": "EarthRanger",
     "name": "Barrier",
     "tags": [
       "mapping"
+    ]
+  },
+  {
+    "filename": "EarthRanger/activity/barrier_rep.svg",
+    "key": "barrier",
+    "source": "EarthRanger",
+    "name": "Barrier",
+    "tags": [
+      "activity"
     ]
   },
   {
@@ -3735,21 +3735,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/activity/den_rep.svg",
-    "key": "den",
-    "source": "EarthRanger",
-    "name": "Den",
-    "tags": [
-      "activity"
-    ]
-  },
-  {
     "filename": "EarthRanger/mapping/den.svg",
     "key": "den",
     "source": "EarthRanger",
     "name": "Den",
     "tags": [
       "mapping"
+    ]
+  },
+  {
+    "filename": "EarthRanger/activity/den_rep.svg",
+    "key": "den",
+    "source": "EarthRanger",
+    "name": "Den",
+    "tags": [
+      "activity"
     ]
   },
   {
@@ -4374,21 +4374,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x16/Entity_mode_color_icon.svg",
-    "key": "entity_mode",
-    "source": "EarthRanger",
-    "name": "Entity Mode",
-    "tags": [
-      "color_16x16"
-    ]
-  },
-  {
     "filename": "EarthRanger/mono/Entity_mode_black_icon.svg",
     "key": "entity_mode",
     "source": "EarthRanger",
     "name": "Entity Mode",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "EarthRanger/color_16x16/Entity_mode_color_icon.svg",
+    "key": "entity_mode",
+    "source": "EarthRanger",
+    "name": "Entity Mode",
+    "tags": [
+      "color_16x16"
     ]
   },
   {
@@ -4644,21 +4644,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/activity/feeding_rep.svg",
-    "key": "feeding",
-    "source": "EarthRanger",
-    "name": "Feeding",
-    "tags": [
-      "activity"
-    ]
-  },
-  {
     "filename": "EarthRanger/mapping/Feeding.svg",
     "key": "feeding",
     "source": "EarthRanger",
     "name": "Feeding",
     "tags": [
       "mapping"
+    ]
+  },
+  {
+    "filename": "EarthRanger/activity/feeding_rep.svg",
+    "key": "feeding",
+    "source": "EarthRanger",
+    "name": "Feeding",
+    "tags": [
+      "activity"
     ]
   },
   {
@@ -5571,15 +5571,6 @@
     ]
   },
   {
-    "filename": "EarthRanger/activity/hide_rep.svg",
-    "key": "hide",
-    "source": "EarthRanger",
-    "name": "Hide",
-    "tags": [
-      "activity"
-    ]
-  },
-  {
     "filename": "EarthRanger/mapping/Hide.svg",
     "key": "hide",
     "source": "EarthRanger",
@@ -5589,10 +5580,10 @@
     ]
   },
   {
-    "filename": "EarthRanger/activity/hide-feeding_rep.svg",
-    "key": "hide-feeding",
+    "filename": "EarthRanger/activity/hide_rep.svg",
+    "key": "hide",
     "source": "EarthRanger",
-    "name": "Hide-Feeding",
+    "name": "Hide",
     "tags": [
       "activity"
     ]
@@ -5604,6 +5595,15 @@
     "name": "Hide-Feeding",
     "tags": [
       "mapping"
+    ]
+  },
+  {
+    "filename": "EarthRanger/activity/hide-feeding_rep.svg",
+    "key": "hide-feeding",
+    "source": "EarthRanger",
+    "name": "Hide-Feeding",
+    "tags": [
+      "activity"
     ]
   },
   {
@@ -9126,21 +9126,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x16/Profile_mode_color_icon.svg",
-    "key": "profile_mode",
-    "source": "EarthRanger",
-    "name": "Profile Mode",
-    "tags": [
-      "color_16x16"
-    ]
-  },
-  {
     "filename": "EarthRanger/mono/Profile_mode_black_icon.svg",
     "key": "profile_mode",
     "source": "EarthRanger",
     "name": "Profile Mode",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "EarthRanger/color_16x16/Profile_mode_color_icon.svg",
+    "key": "profile_mode",
+    "source": "EarthRanger",
+    "name": "Profile Mode",
+    "tags": [
+      "color_16x16"
     ]
   },
   {
@@ -11727,21 +11727,21 @@
     ]
   },
   {
-    "filename": "EarthRanger/color_16x16/Survey_mode_color_icon.svg",
-    "key": "survey_mode",
-    "source": "EarthRanger",
-    "name": "Survey Mode",
-    "tags": [
-      "color_16x16"
-    ]
-  },
-  {
     "filename": "EarthRanger/mono/Survey_mode_black_icon.svg",
     "key": "survey_mode",
     "source": "EarthRanger",
     "name": "Survey Mode",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "EarthRanger/color_16x16/Survey_mode_color_icon.svg",
+    "key": "survey_mode",
+    "source": "EarthRanger",
+    "name": "Survey Mode",
+    "tags": [
+      "color_16x16"
     ]
   },
   {
@@ -12411,7 +12411,7 @@
     ]
   },
   {
-    "filename": "EarthRanger/observations/truck.svg",
+    "filename": "EarthRanger/observations/truck_2.svg",
     "key": "truck",
     "source": "EarthRanger",
     "name": "Truck",
@@ -12420,7 +12420,7 @@
     ]
   },
   {
-    "filename": "EarthRanger/observations/truck_2.svg",
+    "filename": "EarthRanger/observations/truck.svg",
     "key": "truck",
     "source": "EarthRanger",
     "name": "Truck",
@@ -13644,6 +13644,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Abandoned_icon.svg",
+    "key": "abandoned",
+    "source": "SMART",
+    "name": "Abandoned",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Abandoned_icon.svg",
     "key": "abandoned",
     "source": "SMART",
@@ -13668,15 +13677,6 @@
     "name": "Abandoned",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Abandoned_icon.svg",
-    "key": "abandoned",
-    "source": "SMART",
-    "name": "Abandoned",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -13716,6 +13716,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Action_icon.svg",
+    "key": "action",
+    "source": "SMART",
+    "name": "Action",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Action_icon.svg",
     "key": "action",
     "source": "SMART",
@@ -13743,10 +13752,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Action_icon.svg",
-    "key": "action",
+    "filename": "SMART/shield/Action_taken_icon.svg",
+    "key": "action_taken",
     "source": "SMART",
-    "name": "Action",
+    "name": "Action Taken",
     "tags": [
       "shield"
     ]
@@ -13779,10 +13788,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Action_taken_icon.svg",
-    "key": "action_taken",
+    "filename": "SMART/shield/Action_taken_people_icon.svg",
+    "key": "action_taken_people",
     "source": "SMART",
-    "name": "Action Taken",
+    "name": "Action Taken People",
     "tags": [
       "shield"
     ]
@@ -13824,10 +13833,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Action_taken_people_icon.svg",
-    "key": "action_taken_people",
+    "filename": "SMART/shield/Active_icon.svg",
+    "key": "active",
     "source": "SMART",
-    "name": "Action Taken People",
+    "name": "Active",
     "tags": [
       "shield"
     ]
@@ -13860,15 +13869,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Active_icon.svg",
-    "key": "active",
-    "source": "SMART",
-    "name": "Active",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Adequate_color_icon.svg",
     "key": "adequate",
     "source": "SMART",
@@ -13893,6 +13893,15 @@
     "name": "Adequate",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Adult_icon.svg",
+    "key": "adult",
+    "source": "SMART",
+    "name": "Adult",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -13923,16 +13932,16 @@
     ]
   },
   {
-    "filename": "SMART/shield/Adult_icon.svg",
-    "key": "adult",
+    "filename": "SMART/shield/Adult_female_icon.svg",
+    "key": "adult_female",
     "source": "SMART",
-    "name": "Adult",
+    "name": "Adult Female",
     "tags": [
       "shield"
     ]
   },
   {
-    "filename": "SMART/color/Adult_female_icon.svg",
+    "filename": "SMART/color/Adult_female_NS_color_icon.svg",
     "key": "adult_female",
     "source": "SMART",
     "name": "Adult Female",
@@ -13941,7 +13950,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Adult_female_NS_color_icon.svg",
+    "filename": "SMART/color/Adult_female_icon.svg",
     "key": "adult_female",
     "source": "SMART",
     "name": "Adult Female",
@@ -13968,16 +13977,16 @@
     ]
   },
   {
-    "filename": "SMART/shield/Adult_female_icon.svg",
-    "key": "adult_female",
+    "filename": "SMART/shield/Adult_male_icon.svg",
+    "key": "adult_male",
     "source": "SMART",
-    "name": "Adult Female",
+    "name": "Adult Male",
     "tags": [
       "shield"
     ]
   },
   {
-    "filename": "SMART/color/Adult_male_icon.svg",
+    "filename": "SMART/color/Adult_male_NS_color_icon.svg",
     "key": "adult_male",
     "source": "SMART",
     "name": "Adult Male",
@@ -13986,7 +13995,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Adult_male_NS_color_icon.svg",
+    "filename": "SMART/color/Adult_male_icon.svg",
     "key": "adult_male",
     "source": "SMART",
     "name": "Adult Male",
@@ -14010,15 +14019,6 @@
     "name": "Adult Male",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Adult_male_icon.svg",
-    "key": "adult_male",
-    "source": "SMART",
-    "name": "Adult Male",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -14139,6 +14139,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Age_of_animal_icon.svg",
+    "key": "age_of_animal",
+    "source": "SMART",
+    "name": "Age Of Animal",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Age_of_animal_icon.svg",
     "key": "age_of_animal",
     "source": "SMART",
@@ -14166,10 +14175,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Age_of_animal_icon.svg",
-    "key": "age_of_animal",
+    "filename": "SMART/shield/Age_of_carcass_icon.svg",
+    "key": "age_of_carcass",
     "source": "SMART",
-    "name": "Age Of Animal",
+    "name": "Age Of Carcass",
     "tags": [
       "shield"
     ]
@@ -14202,10 +14211,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Age_of_carcass_icon.svg",
-    "key": "age_of_carcass",
+    "filename": "SMART/shield/Age_of_sign_icon.svg",
+    "key": "age_of_sign",
     "source": "SMART",
-    "name": "Age Of Carcass",
+    "name": "Age Of Sign",
     "tags": [
       "shield"
     ]
@@ -14235,15 +14244,6 @@
     "name": "Age Of Sign",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Age_of_sign_icon.svg",
-    "key": "age_of_sign",
-    "source": "SMART",
-    "name": "Age Of Sign",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -14643,6 +14643,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Ammunition_icon.svg",
+    "key": "ammunition",
+    "source": "SMART",
+    "name": "Ammunition",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Ammunition_icon.svg",
     "key": "ammunition",
     "source": "SMART",
@@ -14667,15 +14676,6 @@
     "name": "Ammunition",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Ammunition_icon.svg",
-    "key": "ammunition",
-    "source": "SMART",
-    "name": "Ammunition",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -14841,6 +14841,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Antlers_icon.svg",
+    "key": "antlers",
+    "source": "SMART",
+    "name": "Antlers",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Antlers_icon.svg",
     "key": "antlers",
     "source": "SMART",
@@ -14865,15 +14874,6 @@
     "name": "Antlers",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Antlers_icon.svg",
-    "key": "antlers",
-    "source": "SMART",
-    "name": "Antlers",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -15147,6 +15147,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Armed_icon.svg",
+    "key": "armed",
+    "source": "SMART",
+    "name": "Armed",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Armed_icon.svg",
     "key": "armed",
     "source": "SMART",
@@ -15174,10 +15183,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Armed_icon.svg",
-    "key": "armed",
+    "filename": "SMART/shield/Arrested_icon.svg",
+    "key": "arrested",
     "source": "SMART",
-    "name": "Armed",
+    "name": "Arrested",
     "tags": [
       "shield"
     ]
@@ -15207,15 +15216,6 @@
     "name": "Arrested",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Arrested_icon.svg",
-    "key": "arrested",
-    "source": "SMART",
-    "name": "Arrested",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -15318,15 +15318,6 @@
     ]
   },
   {
-    "filename": "SMART/line/Ateles_paniscus_2_line_icon.svg",
-    "key": "ateles_paniscus",
-    "source": "SMART",
-    "name": "Red-faced Spider Monkey",
-    "tags": [
-      "line"
-    ]
-  },
-  {
     "filename": "SMART/line/Ateles_paniscus_line_icon.svg",
     "key": "ateles_paniscus",
     "source": "SMART",
@@ -15336,7 +15327,16 @@
     ]
   },
   {
-    "filename": "SMART/mono/Ateles_paniscus_2_black_icon.svg",
+    "filename": "SMART/line/Ateles_paniscus_2_line_icon.svg",
+    "key": "ateles_paniscus",
+    "source": "SMART",
+    "name": "Red-faced Spider Monkey",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/Ateles_paniscus_black_icon.svg",
     "key": "ateles_paniscus",
     "source": "SMART",
     "name": "Red-faced Spider Monkey",
@@ -15345,7 +15345,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Ateles_paniscus_black_icon.svg",
+    "filename": "SMART/mono/Ateles_paniscus_2_black_icon.svg",
     "key": "ateles_paniscus",
     "source": "SMART",
     "name": "Red-faced Spider Monkey",
@@ -15462,6 +15462,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Axe_icon.svg",
+    "key": "axe",
+    "source": "SMART",
+    "name": "Axe",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Axe_icon.svg",
     "key": "axe",
     "source": "SMART",
@@ -15486,15 +15495,6 @@
     "name": "Axe",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Axe_icon.svg",
-    "key": "axe",
-    "source": "SMART",
-    "name": "Axe",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -15633,6 +15633,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Bamboo_icon.svg",
+    "key": "bamboo",
+    "source": "SMART",
+    "name": "Bamboo",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Bamboo_icon.svg",
     "key": "bamboo",
     "source": "SMART",
@@ -15657,15 +15666,6 @@
     "name": "Bamboo",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Bamboo_icon.svg",
-    "key": "bamboo",
-    "source": "SMART",
-    "name": "Bamboo",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -15867,6 +15867,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Bicycle_icon.svg",
+    "key": "bicycle",
+    "source": "SMART",
+    "name": "Bicycle",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Bicycle_icon.svg",
     "key": "bicycle",
     "source": "SMART",
@@ -15891,15 +15900,6 @@
     "name": "Bicycle",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Bicycle_icon.svg",
-    "key": "bicycle",
-    "source": "SMART",
-    "name": "Bicycle",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -16227,6 +16227,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Boat_icon.svg",
+    "key": "boat",
+    "source": "SMART",
+    "name": "Boat",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Boat_icon.svg",
     "key": "boat",
     "source": "SMART",
@@ -16251,15 +16260,6 @@
     "name": "Boat",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Boat_icon.svg",
-    "key": "boat",
-    "source": "SMART",
-    "name": "Boat",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -16398,6 +16398,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Boulders_icon.svg",
+    "key": "boulders",
+    "source": "SMART",
+    "name": "Boulders",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Boulders_icon.svg",
     "key": "boulders",
     "source": "SMART",
@@ -16425,10 +16434,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Boulders_icon.svg",
-    "key": "boulders",
+    "filename": "SMART/shield/Bovidae_icon.svg",
+    "key": "bovidae",
     "source": "SMART",
-    "name": "Boulders",
+    "name": "Bovidae",
     "tags": [
       "shield"
     ]
@@ -16461,10 +16470,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Bovidae_icon.svg",
-    "key": "bovidae",
+    "filename": "SMART/shield/Bow_icon.svg",
+    "key": "bow",
     "source": "SMART",
-    "name": "Bovidae",
+    "name": "Bow",
     "tags": [
       "shield"
     ]
@@ -16494,15 +16503,6 @@
     "name": "Bow",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Bow_icon.svg",
-    "key": "bow",
-    "source": "SMART",
-    "name": "Bow",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -16740,6 +16740,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Bridge_icon.svg",
+    "key": "bridge",
+    "source": "SMART",
+    "name": "Bridge",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Bridge_icon.svg",
     "key": "bridge",
     "source": "SMART",
@@ -16764,15 +16773,6 @@
     "name": "Bridge",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Bridge_icon.svg",
-    "key": "bridge",
-    "source": "SMART",
-    "name": "Bridge",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -16830,6 +16830,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Buffalo_icon.svg",
+    "key": "buffalo",
+    "source": "SMART",
+    "name": "Buffalo",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Buffalo_icon.svg",
     "key": "buffalo",
     "source": "SMART",
@@ -16857,10 +16866,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Buffalo_icon.svg",
-    "key": "buffalo",
+    "filename": "SMART/shield/Buffalo_syncerus_icon.svg",
+    "key": "buffalo_syncerus",
     "source": "SMART",
-    "name": "Buffalo",
+    "name": "African Buffalo",
     "tags": [
       "shield"
     ]
@@ -16893,15 +16902,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Buffalo_syncerus_icon.svg",
-    "key": "buffalo_syncerus",
-    "source": "SMART",
-    "name": "African Buffalo",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Bundles_color_icon.svg",
     "key": "bundles",
     "source": "SMART",
@@ -16929,7 +16929,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Burkea_africana_color_icon.svg",
+    "filename": "SMART/color/Burkea_africana_NS_color_icon.svg",
     "key": "burkea_africana",
     "source": "SMART",
     "name": "Burkea Africana",
@@ -16938,7 +16938,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Burkea_africana_NS_color_icon.svg",
+    "filename": "SMART/color/Burkea_africana_color_icon.svg",
     "key": "burkea_africana",
     "source": "SMART",
     "name": "Burkea Africana",
@@ -17046,6 +17046,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Bushmeat_icon.svg",
+    "key": "bushmeat",
+    "source": "SMART",
+    "name": "Bushmeat",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Bushmeat_icon.svg",
     "key": "bushmeat",
     "source": "SMART",
@@ -17070,15 +17079,6 @@
     "name": "Bushmeat",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Bushmeat_icon.svg",
-    "key": "bushmeat",
-    "source": "SMART",
-    "name": "Bushmeat",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -17316,6 +17316,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Camel_icon.svg",
+    "key": "camel",
+    "source": "SMART",
+    "name": "Camel",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Camel_icon.svg",
     "key": "camel",
     "source": "SMART",
@@ -17340,15 +17349,6 @@
     "name": "Camel",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Camel_icon.svg",
-    "key": "camel",
-    "source": "SMART",
-    "name": "Camel",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -17379,6 +17379,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Camp_icon.svg",
+    "key": "camp",
+    "source": "SMART",
+    "name": "Camp",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Camp_icon.svg",
     "key": "camp",
     "source": "SMART",
@@ -17406,10 +17415,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Camp_icon.svg",
-    "key": "camp",
+    "filename": "SMART/shield/Camp_type_icon.svg",
+    "key": "camp_type",
     "source": "SMART",
-    "name": "Camp",
+    "name": "Camp Type",
     "tags": [
       "shield"
     ]
@@ -17439,15 +17448,6 @@
     "name": "Camp Type",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Camp_type_icon.svg",
-    "key": "camp_type",
-    "source": "SMART",
-    "name": "Camp Type",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -17532,6 +17532,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Canines_icon.svg",
+    "key": "canines",
+    "source": "SMART",
+    "name": "Canines",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Canines_icon.svg",
     "key": "canines",
     "source": "SMART",
@@ -17556,15 +17565,6 @@
     "name": "Canines",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Canines_icon.svg",
-    "key": "canines",
-    "source": "SMART",
-    "name": "Canines",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -17613,6 +17613,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Capacity_icon.svg",
+    "key": "capacity",
+    "source": "SMART",
+    "name": "Capacity",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Capacity_icon.svg",
     "key": "capacity",
     "source": "SMART",
@@ -17637,15 +17646,6 @@
     "name": "Capacity",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Capacity_icon.svg",
-    "key": "capacity",
-    "source": "SMART",
-    "name": "Capacity",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -17784,6 +17784,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Car_icon.svg",
+    "key": "car",
+    "source": "SMART",
+    "name": "Car",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Car_icon.svg",
     "key": "car",
     "source": "SMART",
@@ -17811,10 +17820,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Car_icon.svg",
-    "key": "car",
+    "filename": "SMART/shield/Carcass_icon.svg",
+    "key": "carcass",
     "source": "SMART",
-    "name": "Car",
+    "name": "Carcass",
     "tags": [
       "shield"
     ]
@@ -17844,15 +17853,6 @@
     "name": "Carcass",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Carcass_icon.svg",
-    "key": "carcass",
-    "source": "SMART",
-    "name": "Carcass",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -17964,6 +17964,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Carnivora_icon.svg",
+    "key": "carnivora",
+    "source": "SMART",
+    "name": "Carnivora",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Carnivora_icon.svg",
     "key": "carnivora",
     "source": "SMART",
@@ -17991,10 +18000,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Carnivora_icon.svg",
-    "key": "carnivora",
+    "filename": "SMART/shield/Cart_icon.svg",
+    "key": "cart",
     "source": "SMART",
-    "name": "Carnivora",
+    "name": "Cart",
     "tags": [
       "shield"
     ]
@@ -18027,15 +18036,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Cart_icon.svg",
-    "key": "cart",
-    "source": "SMART",
-    "name": "Cart",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Cassava_color_icon.svg",
     "key": "cassava",
     "source": "SMART",
@@ -18060,6 +18060,15 @@
     "name": "Cassava",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Cat_icon.svg",
+    "key": "cat",
+    "source": "SMART",
+    "name": "Cat",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -18090,15 +18099,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Cat_icon.svg",
-    "key": "cat",
-    "source": "SMART",
-    "name": "Cat",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Catapult_color_icon.svg",
     "key": "catapult",
     "source": "SMART",
@@ -18123,6 +18123,15 @@
     "name": "Catapult",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Caterpillar_icon.svg",
+    "key": "caterpillar",
+    "source": "SMART",
+    "name": "Caterpillar",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -18153,15 +18162,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Caterpillar_icon.svg",
-    "key": "caterpillar",
-    "source": "SMART",
-    "name": "Caterpillar",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Cattle_stick_color_icon.svg",
     "key": "cattle_stick",
     "source": "SMART",
@@ -18189,6 +18189,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cause_of_death_icon.svg",
+    "key": "cause_of_death",
+    "source": "SMART",
+    "name": "Cause Of Death",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cause_of_death_icon.svg",
     "key": "cause_of_death",
     "source": "SMART",
@@ -18213,15 +18222,6 @@
     "name": "Cause Of Death",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Cause_of_death_icon.svg",
-    "key": "cause_of_death",
-    "source": "SMART",
-    "name": "Cause Of Death",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -18459,6 +18459,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cephalphus_duikers_icon.svg",
+    "key": "cephalphus_duikers",
+    "source": "SMART",
+    "name": "Duikers",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cephalphus_duikers_icon.svg",
     "key": "cephalphus_duikers",
     "source": "SMART",
@@ -18483,15 +18492,6 @@
     "name": "Duikers",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Cephalphus_duikers_icon.svg",
-    "key": "cephalphus_duikers",
-    "source": "SMART",
-    "name": "Duikers",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -18531,6 +18531,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cercopithecidae_icon.svg",
+    "key": "cercopithecidae",
+    "source": "SMART",
+    "name": "Old World Monkeys",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cercopithecidae_icon.svg",
     "key": "cercopithecidae",
     "source": "SMART",
@@ -18555,15 +18564,6 @@
     "name": "Old World Monkeys",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Cercopithecidae_icon.svg",
-    "key": "cercopithecidae",
-    "source": "SMART",
-    "name": "Old World Monkeys",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -18720,6 +18720,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cetartiodactyla_icon.svg",
+    "key": "cetartiodactyla",
+    "source": "SMART",
+    "name": "Even-toed Ungulates",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cetartiodactyla_icon.svg",
     "key": "cetartiodactyla",
     "source": "SMART",
@@ -18747,10 +18756,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Cetartiodactyla_icon.svg",
-    "key": "cetartiodactyla",
+    "filename": "SMART/shield/Chainsaw_icon.svg",
+    "key": "chainsaw",
     "source": "SMART",
-    "name": "Even-toed Ungulates",
+    "name": "Chainsaw",
     "tags": [
       "shield"
     ]
@@ -18783,15 +18792,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Chainsaw_icon.svg",
-    "key": "chainsaw",
-    "source": "SMART",
-    "name": "Chainsaw",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Charadrius_thoracicus_color_icon.svg",
     "key": "charadrius_thoracicus",
     "source": "SMART",
@@ -18819,6 +18819,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Charcoal_icon.svg",
+    "key": "charcoal",
+    "source": "SMART",
+    "name": "Charcoal",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Charcoal_icon.svg",
     "key": "charcoal",
     "source": "SMART",
@@ -18843,15 +18852,6 @@
     "name": "Charcoal",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Charcoal_icon.svg",
-    "key": "charcoal",
-    "source": "SMART",
-    "name": "Charcoal",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -18990,6 +18990,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Chemical_icon.svg",
+    "key": "chemical",
+    "source": "SMART",
+    "name": "Chemical",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Chemical_icon.svg",
     "key": "chemical",
     "source": "SMART",
@@ -19014,15 +19023,6 @@
     "name": "Chemical",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Chemical_icon.svg",
-    "key": "chemical",
-    "source": "SMART",
-    "name": "Chemical",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -19080,6 +19080,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Chimp_icon.svg",
+    "key": "chimp",
+    "source": "SMART",
+    "name": "Chimp",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Chimp_icon.svg",
     "key": "chimp",
     "source": "SMART",
@@ -19104,15 +19113,6 @@
     "name": "Chimp",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Chimp_icon.svg",
-    "key": "chimp",
-    "source": "SMART",
-    "name": "Chimp",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -19368,6 +19368,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Clay_icon.svg",
+    "key": "clay",
+    "source": "SMART",
+    "name": "Clay",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Clay_icon.svg",
     "key": "clay",
     "source": "SMART",
@@ -19392,15 +19401,6 @@
     "name": "Clay",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Clay_icon.svg",
-    "key": "clay",
-    "source": "SMART",
-    "name": "Clay",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -19512,6 +19512,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Club_icon.svg",
+    "key": "club",
+    "source": "SMART",
+    "name": "Club",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Club_icon.svg",
     "key": "club",
     "source": "SMART",
@@ -19536,15 +19545,6 @@
     "name": "Club",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Club_icon.svg",
-    "key": "club",
-    "source": "SMART",
-    "name": "Club",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -19764,6 +19764,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Collected_icon.svg",
+    "key": "collected",
+    "source": "SMART",
+    "name": "Collected",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Collected_color_icon.svg",
     "key": "collected",
     "source": "SMART",
@@ -19773,7 +19782,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Collected_icon.svg",
+    "filename": "SMART/color/Collected_NS_color_icon.svg",
     "key": "collected",
     "source": "SMART",
     "name": "Collected",
@@ -19782,7 +19791,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Collected_NS_color_icon.svg",
+    "filename": "SMART/color/Collected_icon.svg",
     "key": "collected",
     "source": "SMART",
     "name": "Collected",
@@ -19809,15 +19818,6 @@
     ]
   },
   {
-    "filename": "SMART/mono/Collected_glyph_icon.svg",
-    "key": "collected",
-    "source": "SMART",
-    "name": "Collected",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/mono/Collected_icon.svg",
     "key": "collected",
     "source": "SMART",
@@ -19827,12 +19827,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Collected_icon.svg",
+    "filename": "SMART/mono/Collected_glyph_icon.svg",
     "key": "collected",
     "source": "SMART",
     "name": "Collected",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -20151,12 +20151,21 @@
     ]
   },
   {
-    "filename": "SMART/color/Confiscated_1_icon.svg",
+    "filename": "SMART/shield/Confiscated_1_icon.svg",
     "key": "confiscated",
     "source": "SMART",
     "name": "Confiscated",
     "tags": [
-      "color"
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Confiscated_2_icon.svg",
+    "key": "confiscated",
+    "source": "SMART",
+    "name": "Confiscated",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -20169,7 +20178,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Confiscated_2_icon.svg",
+    "filename": "SMART/color/Confiscated_1_icon.svg",
     "key": "confiscated",
     "source": "SMART",
     "name": "Confiscated",
@@ -20179,6 +20188,15 @@
   },
   {
     "filename": "SMART/color/Confiscated_2_NS_color_icon.svg",
+    "key": "confiscated",
+    "source": "SMART",
+    "name": "Confiscated",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "filename": "SMART/color/Confiscated_2_icon.svg",
     "key": "confiscated",
     "source": "SMART",
     "name": "Confiscated",
@@ -20223,24 +20241,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Confiscated_1_icon.svg",
-    "key": "confiscated",
-    "source": "SMART",
-    "name": "Confiscated",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Confiscated_2_icon.svg",
-    "key": "confiscated",
-    "source": "SMART",
-    "name": "Confiscated",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Connochaetes_taurinus_color_icon.svg",
     "key": "connochaetes_taurinus",
     "source": "SMART",
@@ -20277,6 +20277,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cooking_pot_icon.svg",
+    "key": "cooking_pot",
+    "source": "SMART",
+    "name": "Cooking Pot",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cooking_pot_icon.svg",
     "key": "cooking_pot",
     "source": "SMART",
@@ -20301,15 +20310,6 @@
     "name": "Cooking Pot",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Cooking_pot_icon.svg",
-    "key": "cooking_pot",
-    "source": "SMART",
-    "name": "Cooking Pot",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -20367,6 +20367,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cow_icon.svg",
+    "key": "cow",
+    "source": "SMART",
+    "name": "Cow",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cow_icon.svg",
     "key": "cow",
     "source": "SMART",
@@ -20391,15 +20400,6 @@
     "name": "Cow",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Cow_icon.svg",
-    "key": "cow",
-    "source": "SMART",
-    "name": "Cow",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -20853,6 +20853,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Cut_pieces_icon.svg",
+    "key": "cut_pieces",
+    "source": "SMART",
+    "name": "Cut Pieces",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Cut_pieces_icon.svg",
     "key": "cut_pieces",
     "source": "SMART",
@@ -20880,10 +20889,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Cut_pieces_icon.svg",
-    "key": "cut_pieces",
+    "filename": "SMART/shield/Cutting_tools_icon.svg",
+    "key": "cutting_tools",
     "source": "SMART",
-    "name": "Cut Pieces",
+    "name": "Cutting Tools",
     "tags": [
       "shield"
     ]
@@ -20913,15 +20922,6 @@
     "name": "Cutting Tools",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Cutting_tools_icon.svg",
-    "key": "cutting_tools",
-    "source": "SMART",
-    "name": "Cutting Tools",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -21168,7 +21168,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Destroyed_color_icon.svg",
+    "filename": "SMART/shield/Destroyed_icon.svg",
+    "key": "destroyed",
+    "source": "SMART",
+    "name": "Destroyed",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Destroyed_icon.svg",
     "key": "destroyed",
     "source": "SMART",
     "name": "Destroyed",
@@ -21177,7 +21186,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Destroyed_icon.svg",
+    "filename": "SMART/color/Destroyed_color_icon.svg",
     "key": "destroyed",
     "source": "SMART",
     "name": "Destroyed",
@@ -21204,15 +21213,6 @@
     ]
   },
   {
-    "filename": "SMART/mono/Destroyed_glyph_icon.svg",
-    "key": "destroyed",
-    "source": "SMART",
-    "name": "Destroyed",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/mono/Destroyed_icon.svg",
     "key": "destroyed",
     "source": "SMART",
@@ -21222,12 +21222,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Destroyed_icon.svg",
+    "filename": "SMART/mono/Destroyed_glyph_icon.svg",
     "key": "destroyed",
     "source": "SMART",
     "name": "Destroyed",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -21258,7 +21258,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Devil's_claw_color_icon.svg",
+    "filename": "SMART/color/Devils_claw_color_icon.svg",
     "key": "devils_claw",
     "source": "SMART",
     "name": "Devils Claw",
@@ -21267,7 +21267,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Devils_claw_color_icon.svg",
+    "filename": "SMART/color/Devil's_claw_color_icon.svg",
     "key": "devils_claw",
     "source": "SMART",
     "name": "Devils Claw",
@@ -21321,6 +21321,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Diamonds_icon.svg",
+    "key": "diamonds",
+    "source": "SMART",
+    "name": "Diamonds",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Diamonds_icon.svg",
     "key": "diamonds",
     "source": "SMART",
@@ -21345,15 +21354,6 @@
     "name": "Diamonds",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Diamonds_icon.svg",
-    "key": "diamonds",
-    "source": "SMART",
-    "name": "Diamonds",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -21438,7 +21438,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Distance_color_icon.svg",
+    "filename": "SMART/color/Distance_NS_color_icon.svg",
     "key": "distance",
     "source": "SMART",
     "name": "Distance",
@@ -21447,7 +21447,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Distance_NS_color_icon.svg",
+    "filename": "SMART/color/Distance_color_icon.svg",
     "key": "distance",
     "source": "SMART",
     "name": "Distance",
@@ -21546,7 +21546,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Distance_very_far_1_km_color_icon.svg",
+    "filename": "SMART/color/Distance_very_far_1_km_NS_color_icon.svg",
     "key": "distance_very_far_1_km",
     "source": "SMART",
     "name": "Distance Very Far 1 Km",
@@ -21555,7 +21555,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Distance_very_far_1_km_NS_color_icon.svg",
+    "filename": "SMART/color/Distance_very_far_1_km_color_icon.svg",
     "key": "distance_very_far_1_km",
     "source": "SMART",
     "name": "Distance Very Far 1 Km",
@@ -21609,6 +21609,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Dock_icon.svg",
+    "key": "dock",
+    "source": "SMART",
+    "name": "Dock",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Dock_icon.svg",
     "key": "dock",
     "source": "SMART",
@@ -21636,10 +21645,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Dock_icon.svg",
-    "key": "dock",
+    "filename": "SMART/shield/Dog_icon.svg",
+    "key": "dog",
     "source": "SMART",
-    "name": "Dock",
+    "name": "Dog",
     "tags": [
       "shield"
     ]
@@ -21669,15 +21678,6 @@
     "name": "Dog",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Dog_icon.svg",
-    "key": "dog",
-    "source": "SMART",
-    "name": "Dog",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -21735,6 +21735,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Domestic_animals_icon.svg",
+    "key": "domestic_animals",
+    "source": "SMART",
+    "name": "Domestic Animals",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Domestic_animals_icon.svg",
     "key": "domestic_animals",
     "source": "SMART",
@@ -21759,15 +21768,6 @@
     "name": "Domestic Animals",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Domestic_animals_icon.svg",
-    "key": "domestic_animals",
-    "source": "SMART",
-    "name": "Domestic Animals",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -22041,6 +22041,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Dung_icon.svg",
+    "key": "dung",
+    "source": "SMART",
+    "name": "Dung",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Dung_icon.svg",
     "key": "dung",
     "source": "SMART",
@@ -22068,10 +22077,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Dung_icon.svg",
-    "key": "dung",
+    "filename": "SMART/shield/Dynamite_icon.svg",
+    "key": "dynamite",
     "source": "SMART",
-    "name": "Dung",
+    "name": "Dynamite",
     "tags": [
       "shield"
     ]
@@ -22101,15 +22110,6 @@
     "name": "Dynamite",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Dynamite_icon.svg",
-    "key": "dynamite",
-    "source": "SMART",
-    "name": "Dynamite",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -22221,12 +22221,12 @@
     ]
   },
   {
-    "filename": "SMART/color/Electric_rod_color_icon.svg",
+    "filename": "SMART/shield/Electric_rod_icon.svg",
     "key": "electric_rod",
     "source": "SMART",
     "name": "Electric Rod",
     "tags": [
-      "color"
+      "shield"
     ]
   },
   {
@@ -22239,12 +22239,12 @@
     ]
   },
   {
-    "filename": "SMART/line/Electric_rod_icon.svg",
+    "filename": "SMART/color/Electric_rod_color_icon.svg",
     "key": "electric_rod",
     "source": "SMART",
     "name": "Electric Rod",
     "tags": [
-      "line"
+      "color"
     ]
   },
   {
@@ -22257,12 +22257,12 @@
     ]
   },
   {
-    "filename": "SMART/mono/Electric_rod_glyph_icon.svg",
+    "filename": "SMART/line/Electric_rod_icon.svg",
     "key": "electric_rod",
     "source": "SMART",
     "name": "Electric Rod",
     "tags": [
-      "mono"
+      "line"
     ]
   },
   {
@@ -22275,12 +22275,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Electric_rod_icon.svg",
+    "filename": "SMART/mono/Electric_rod_glyph_icon.svg",
     "key": "electric_rod",
     "source": "SMART",
     "name": "Electric Rod",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -22311,7 +22311,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Elephant_color_icon.svg",
+    "filename": "SMART/shield/Elephant_icon.svg",
+    "key": "elephant",
+    "source": "SMART",
+    "name": "Elephant",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Elephant_icon.svg",
     "key": "elephant",
     "source": "SMART",
     "name": "Elephant",
@@ -22320,7 +22329,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Elephant_icon.svg",
+    "filename": "SMART/color/Elephant_color_icon.svg",
     "key": "elephant",
     "source": "SMART",
     "name": "Elephant",
@@ -22362,15 +22371,6 @@
     "name": "Elephant",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Elephant_icon.svg",
-    "key": "elephant",
-    "source": "SMART",
-    "name": "Elephant",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -22464,6 +22464,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Equipment_icon.svg",
+    "key": "equipment",
+    "source": "SMART",
+    "name": "Equipment",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Equipment_icon.svg",
     "key": "equipment",
     "source": "SMART",
@@ -22488,15 +22497,6 @@
     "name": "Equipment",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Equipment_icon.svg",
-    "key": "equipment",
-    "source": "SMART",
-    "name": "Equipment",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -22716,7 +22716,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Espeletia_sp_black_icon.svg",
+    "filename": "SMART/mono/Espeletia_sp_glyph_icon.svg",
     "key": "espeletia_sp",
     "source": "SMART",
     "name": "Espeletia",
@@ -22725,7 +22725,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Espeletia_sp_glyph_icon.svg",
+    "filename": "SMART/mono/Espeletia_sp_black_icon.svg",
     "key": "espeletia_sp",
     "source": "SMART",
     "name": "Espeletia",
@@ -22761,6 +22761,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Eudorvas_gazelle_icon.svg",
+    "key": "eudorvas_gazelle",
+    "source": "SMART",
+    "name": "Eudorvas Gazelle",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Eudorvas_gazelle_icon.svg",
     "key": "eudorvas_gazelle",
     "source": "SMART",
@@ -22785,15 +22794,6 @@
     "name": "Eudorvas Gazelle",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Eudorvas_gazelle_icon.svg",
-    "key": "eudorvas_gazelle",
-    "source": "SMART",
-    "name": "Eudorvas Gazelle",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -22932,7 +22932,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Eunectes_murinus_2_color_icon.svg",
+    "filename": "SMART/color/Eunectes_murinus_color_icon.svg",
     "key": "eunectes_murinus",
     "source": "SMART",
     "name": "Green Anaconda",
@@ -22941,7 +22941,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Eunectes_murinus_color_icon.svg",
+    "filename": "SMART/color/Eunectes_murinus_2_color_icon.svg",
     "key": "eunectes_murinus",
     "source": "SMART",
     "name": "Green Anaconda",
@@ -23004,6 +23004,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Extractive_industry_basecamp_icon.svg",
+    "key": "extractive_industry_basecamp",
+    "source": "SMART",
+    "name": "Extractive Industry Basecamp",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Extractive_industry_basecamp_icon.svg",
     "key": "extractive_industry_basecamp",
     "source": "SMART",
@@ -23028,15 +23037,6 @@
     "name": "Extractive Industry Basecamp",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Extractive_industry_basecamp_icon.svg",
-    "key": "extractive_industry_basecamp",
-    "source": "SMART",
-    "name": "Extractive Industry Basecamp",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -23148,6 +23148,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Feeding_icon.svg",
+    "key": "feeding",
+    "source": "SMART",
+    "name": "Feeding",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Feeding_icon.svg",
     "key": "feeding",
     "source": "SMART",
@@ -23175,10 +23184,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Feeding_icon.svg",
-    "key": "feeding",
+    "filename": "SMART/shield/Felidae_icon.svg",
+    "key": "felidae",
     "source": "SMART",
-    "name": "Feeding",
+    "name": "Felidae",
     "tags": [
       "shield"
     ]
@@ -23211,15 +23220,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Felidae_icon.svg",
-    "key": "felidae",
-    "source": "SMART",
-    "name": "Felidae",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Felis_chaus_color_icon.svg",
     "key": "felis_chaus",
     "source": "SMART",
@@ -23247,7 +23247,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Female_icon.svg",
+    "filename": "SMART/shield/Female_icon.svg",
+    "key": "female",
+    "source": "SMART",
+    "name": "Female",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Female_NS_color_icon.svg",
     "key": "female",
     "source": "SMART",
     "name": "Female",
@@ -23256,7 +23265,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Female_NS_color_icon.svg",
+    "filename": "SMART/color/Female_icon.svg",
     "key": "female",
     "source": "SMART",
     "name": "Female",
@@ -23280,15 +23289,6 @@
     "name": "Female",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Female_icon.svg",
-    "key": "female",
-    "source": "SMART",
-    "name": "Female",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -23346,7 +23346,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Fence_break_generic_color_icon.svg",
+    "filename": "SMART/color/Fence_break_generic_NS_color_icon.svg",
     "key": "fence_break_generic",
     "source": "SMART",
     "name": "Fence Break Generic",
@@ -23355,7 +23355,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Fence_break_generic_NS_color_icon.svg",
+    "filename": "SMART/color/Fence_break_generic_color_icon.svg",
     "key": "fence_break_generic",
     "source": "SMART",
     "name": "Fence Break Generic",
@@ -23535,6 +23535,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Fire_icon.svg",
+    "key": "fire",
+    "source": "SMART",
+    "name": "Fire",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Fire_icon.svg",
     "key": "fire",
     "source": "SMART",
@@ -23559,15 +23568,6 @@
     "name": "Fire",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Fire_icon.svg",
-    "key": "fire",
-    "source": "SMART",
-    "name": "Fire",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -23598,6 +23598,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Firearms_icon.svg",
+    "key": "firearms",
+    "source": "SMART",
+    "name": "Firearms",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Firearms_icon.svg",
     "key": "firearms",
     "source": "SMART",
@@ -23625,10 +23634,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Firearms_icon.svg",
-    "key": "firearms",
+    "filename": "SMART/shield/Firearms & ammunition_icon.svg",
+    "key": "firearms_&_ammunition",
     "source": "SMART",
-    "name": "Firearms",
+    "name": "Firearms & Ammunition",
     "tags": [
       "shield"
     ]
@@ -23661,15 +23670,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Firearms & ammunition_icon.svg",
-    "key": "firearms_&_ammunition",
-    "source": "SMART",
-    "name": "Firearms & Ammunition",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Firearms_ammunition_icon.svg",
     "key": "firearms_ammunition",
     "source": "SMART",
@@ -23685,6 +23685,15 @@
     "name": "Firearms Ammunition",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Firewood_icon.svg",
+    "key": "firewood",
+    "source": "SMART",
+    "name": "Firewood",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -23712,15 +23721,6 @@
     "name": "Firewood",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Firewood_icon.svg",
-    "key": "firewood",
-    "source": "SMART",
-    "name": "Firewood",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -23778,6 +23778,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Fish_trap_icon.svg",
+    "key": "fish_trap",
+    "source": "SMART",
+    "name": "Fish Trap",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Fish_trap_icon.svg",
     "key": "fish_trap",
     "source": "SMART",
@@ -23802,15 +23811,6 @@
     "name": "Fish Trap",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Fish_trap_icon.svg",
-    "key": "fish_trap",
-    "source": "SMART",
-    "name": "Fish Trap",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -23841,7 +23841,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Fishing_camp_color_icon.svg",
+    "filename": "SMART/color/Fishing_camp_NS_color_icon.svg",
     "key": "fishing_camp",
     "source": "SMART",
     "name": "Fishing Camp",
@@ -23850,7 +23850,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Fishing_camp_NS_color_icon.svg",
+    "filename": "SMART/color/Fishing_camp_color_icon.svg",
     "key": "fishing_camp",
     "source": "SMART",
     "name": "Fishing Camp",
@@ -23874,6 +23874,15 @@
     "name": "Fishing Camp",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Fishing_tools_icon.svg",
+    "key": "fishing_tools",
+    "source": "SMART",
+    "name": "Fishing Tools",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -23904,16 +23913,7 @@
     ]
   },
   {
-    "filename": "SMART/shield/Fishing_tools_icon.svg",
-    "key": "fishing_tools",
-    "source": "SMART",
-    "name": "Fishing Tools",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
-    "filename": "SMART/color/Five_finger_color_icon.svg",
+    "filename": "SMART/color/Five_finger_NS_color_icon.svg",
     "key": "five_finger",
     "source": "SMART",
     "name": "Five Finger",
@@ -23922,7 +23922,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Five_finger_NS_color_icon.svg",
+    "filename": "SMART/color/Five_finger_color_icon.svg",
     "key": "five_finger",
     "source": "SMART",
     "name": "Five Finger",
@@ -24057,7 +24057,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Followed_color_icon.svg",
+    "filename": "SMART/color/Followed_NS_color_icon.svg",
     "key": "followed",
     "source": "SMART",
     "name": "Followed",
@@ -24066,7 +24066,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Followed_NS_color_icon.svg",
+    "filename": "SMART/color/Followed_color_icon.svg",
     "key": "followed",
     "source": "SMART",
     "name": "Followed",
@@ -24129,57 +24129,12 @@
     ]
   },
   {
-    "filename": "SMART/color/Footprint_1_icon.svg",
+    "filename": "SMART/shield/Footprint_2_icon.svg",
     "key": "footprint",
     "source": "SMART",
     "name": "Footprint",
     "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/color/Footprint_2_icon.svg",
-    "key": "footprint",
-    "source": "SMART",
-    "name": "Footprint",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/Footprint_1_icon.svg",
-    "key": "footprint",
-    "source": "SMART",
-    "name": "Footprint",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/line/Footprint_2_icon.svg",
-    "key": "footprint",
-    "source": "SMART",
-    "name": "Footprint",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/Footprint_1_icon.svg",
-    "key": "footprint",
-    "source": "SMART",
-    "name": "Footprint",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/mono/Footprint_2_icon.svg",
-    "key": "footprint",
-    "source": "SMART",
-    "name": "Footprint",
-    "tags": [
-      "mono"
+      "shield"
     ]
   },
   {
@@ -24192,16 +24147,61 @@
     ]
   },
   {
-    "filename": "SMART/shield/Footprint_2_icon.svg",
+    "filename": "SMART/color/Footprint_2_icon.svg",
     "key": "footprint",
     "source": "SMART",
     "name": "Footprint",
     "tags": [
-      "shield"
+      "color"
     ]
   },
   {
-    "filename": "SMART/color/Forestry_services_color_icon.svg",
+    "filename": "SMART/color/Footprint_1_icon.svg",
+    "key": "footprint",
+    "source": "SMART",
+    "name": "Footprint",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "filename": "SMART/line/Footprint_2_icon.svg",
+    "key": "footprint",
+    "source": "SMART",
+    "name": "Footprint",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/line/Footprint_1_icon.svg",
+    "key": "footprint",
+    "source": "SMART",
+    "name": "Footprint",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/Footprint_2_icon.svg",
+    "key": "footprint",
+    "source": "SMART",
+    "name": "Footprint",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
+    "filename": "SMART/mono/Footprint_1_icon.svg",
+    "key": "footprint",
+    "source": "SMART",
+    "name": "Footprint",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
+    "filename": "SMART/color/Forestry_services_NS_color_icon.svg",
     "key": "forestry_services",
     "source": "SMART",
     "name": "Forestry Services",
@@ -24210,7 +24210,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Forestry_services_NS_color_icon.svg",
+    "filename": "SMART/color/Forestry_services_color_icon.svg",
     "key": "forestry_services",
     "source": "SMART",
     "name": "Forestry Services",
@@ -24234,6 +24234,15 @@
     "name": "Forestry Services",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Fossil_icon.svg",
+    "key": "fossil",
+    "source": "SMART",
+    "name": "Fossil",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -24261,15 +24270,6 @@
     "name": "Fossil",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Fossil_icon.svg",
-    "key": "fossil",
-    "source": "SMART",
-    "name": "Fossil",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -24363,6 +24363,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Fresh_icon.svg",
+    "key": "fresh",
+    "source": "SMART",
+    "name": "Fresh",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Fresh_color_icon.svg",
     "key": "fresh",
     "source": "SMART",
@@ -24381,15 +24390,6 @@
     ]
   },
   {
-    "filename": "SMART/line/Fresh_icon.svg",
-    "key": "fresh",
-    "source": "SMART",
-    "name": "Fresh",
-    "tags": [
-      "line"
-    ]
-  },
-  {
     "filename": "SMART/line/Fresh_line_icon.svg",
     "key": "fresh",
     "source": "SMART",
@@ -24399,12 +24399,12 @@
     ]
   },
   {
-    "filename": "SMART/mono/Fresh_glyph_icon.svg",
+    "filename": "SMART/line/Fresh_icon.svg",
     "key": "fresh",
     "source": "SMART",
     "name": "Fresh",
     "tags": [
-      "mono"
+      "line"
     ]
   },
   {
@@ -24417,12 +24417,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Fresh_icon.svg",
+    "filename": "SMART/mono/Fresh_glyph_icon.svg",
     "key": "fresh",
     "source": "SMART",
     "name": "Fresh",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -24480,6 +24480,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Gall_bladder_icon.svg",
+    "key": "gall_bladder",
+    "source": "SMART",
+    "name": "Gall Bladder",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Gall_bladder_icon.svg",
     "key": "gall_bladder",
     "source": "SMART",
@@ -24507,10 +24516,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Gall_bladder_icon.svg",
-    "key": "gall_bladder",
+    "filename": "SMART/shield/Garbage_icon.svg",
+    "key": "garbage",
     "source": "SMART",
-    "name": "Gall Bladder",
+    "name": "Garbage",
     "tags": [
       "shield"
     ]
@@ -24540,15 +24549,6 @@
     "name": "Garbage",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Garbage_icon.svg",
-    "key": "garbage",
-    "source": "SMART",
-    "name": "Garbage",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -24660,6 +24660,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Giraffe_icon.svg",
+    "key": "giraffe",
+    "source": "SMART",
+    "name": "Giraffe",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Giraffe_color_icon.svg",
     "key": "giraffe",
     "source": "SMART",
@@ -24678,15 +24687,6 @@
     ]
   },
   {
-    "filename": "SMART/line/Giraffe_icon.svg",
-    "key": "giraffe",
-    "source": "SMART",
-    "name": "Giraffe",
-    "tags": [
-      "line"
-    ]
-  },
-  {
     "filename": "SMART/line/Giraffe_line_icon.svg",
     "key": "giraffe",
     "source": "SMART",
@@ -24696,12 +24696,12 @@
     ]
   },
   {
-    "filename": "SMART/mono/Giraffe_glyph_icon.svg",
+    "filename": "SMART/line/Giraffe_icon.svg",
     "key": "giraffe",
     "source": "SMART",
     "name": "Giraffe",
     "tags": [
-      "mono"
+      "line"
     ]
   },
   {
@@ -24714,10 +24714,19 @@
     ]
   },
   {
-    "filename": "SMART/shield/Giraffe_icon.svg",
+    "filename": "SMART/mono/Giraffe_glyph_icon.svg",
     "key": "giraffe",
     "source": "SMART",
     "name": "Giraffe",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Giraffidae_icon.svg",
+    "key": "giraffidae",
+    "source": "SMART",
+    "name": "Giraffidae",
     "tags": [
       "shield"
     ]
@@ -24750,10 +24759,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Giraffidae_icon.svg",
-    "key": "giraffidae",
+    "filename": "SMART/shield/Goat_icon.svg",
+    "key": "goat",
     "source": "SMART",
-    "name": "Giraffidae",
+    "name": "Goat",
     "tags": [
       "shield"
     ]
@@ -24786,10 +24795,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Goat_icon.svg",
-    "key": "goat",
+    "filename": "SMART/shield/Gold_icon.svg",
+    "key": "gold",
     "source": "SMART",
-    "name": "Goat",
+    "name": "Gold",
     "tags": [
       "shield"
     ]
@@ -24822,15 +24831,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Gold_icon.svg",
-    "key": "gold",
-    "source": "SMART",
-    "name": "Gold",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Golden_eagle_color_icon.svg",
     "key": "golden_eagle",
     "source": "SMART",
@@ -24858,15 +24858,6 @@
     ]
   },
   {
-    "filename": "SMART/color/Good_2_color_icon.svg",
-    "key": "good",
-    "source": "SMART",
-    "name": "Good",
-    "tags": [
-      "color"
-    ]
-  },
-  {
     "filename": "SMART/color/Good_color_icon.svg",
     "key": "good",
     "source": "SMART",
@@ -24876,7 +24867,16 @@
     ]
   },
   {
-    "filename": "SMART/line/Good_2_line_icon.svg",
+    "filename": "SMART/color/Good_2_color_icon.svg",
+    "key": "good",
+    "source": "SMART",
+    "name": "Good",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "filename": "SMART/line/Good_line_icon.svg",
     "key": "good",
     "source": "SMART",
     "name": "Good",
@@ -24885,7 +24885,7 @@
     ]
   },
   {
-    "filename": "SMART/line/Good_line_icon.svg",
+    "filename": "SMART/line/Good_2_line_icon.svg",
     "key": "good",
     "source": "SMART",
     "name": "Good",
@@ -24909,6 +24909,15 @@
     "name": "Good ",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Gorilla_icon.svg",
+    "key": "gorilla",
+    "source": "SMART",
+    "name": "Gorilla",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -24936,15 +24945,6 @@
     "name": "Gorilla",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Gorilla_icon.svg",
-    "key": "gorilla",
-    "source": "SMART",
-    "name": "Gorilla",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -25110,6 +25110,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Gravel_icon.svg",
+    "key": "gravel",
+    "source": "SMART",
+    "name": "Gravel",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Gravel_icon.svg",
     "key": "gravel",
     "source": "SMART",
@@ -25134,15 +25143,6 @@
     "name": "Gravel",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Gravel_icon.svg",
-    "key": "gravel",
-    "source": "SMART",
-    "name": "Gravel",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -25272,6 +25272,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Ground_hide_icon.svg",
+    "key": "ground_hide",
+    "source": "SMART",
+    "name": "Ground Hide",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Ground_hide_icon.svg",
     "key": "ground_hide",
     "source": "SMART",
@@ -25305,15 +25314,6 @@
     "name": "Ground Hide",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Ground_hide_icon.svg",
-    "key": "ground_hide",
-    "source": "SMART",
-    "name": "Ground Hide",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -25452,7 +25452,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Gun_hunting_color_icon.svg",
+    "filename": "SMART/color/Gun_hunting_NS_color_icon.svg",
     "key": "gun_hunting",
     "source": "SMART",
     "name": "Gun Hunting",
@@ -25461,7 +25461,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Gun_hunting_NS_color_icon.svg",
+    "filename": "SMART/color/Gun_hunting_color_icon.svg",
     "key": "gun_hunting",
     "source": "SMART",
     "name": "Gun Hunting",
@@ -25695,6 +25695,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Handsaw_icon.svg",
+    "key": "handsaw",
+    "source": "SMART",
+    "name": "Handsaw",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Handsaw_icon.svg",
     "key": "handsaw",
     "source": "SMART",
@@ -25719,15 +25728,6 @@
     "name": "Handsaw",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Handsaw_icon.svg",
-    "key": "handsaw",
-    "source": "SMART",
-    "name": "Handsaw",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -25893,7 +25893,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Heard_icon.svg",
+    "filename": "SMART/shield/Heard_icon.svg",
+    "key": "heard",
+    "source": "SMART",
+    "name": "Heard",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Heard_NS_color_icon.svg",
     "key": "heard",
     "source": "SMART",
     "name": "Heard",
@@ -25902,7 +25911,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Heard_NS_color_icon.svg",
+    "filename": "SMART/color/Heard_icon.svg",
     "key": "heard",
     "source": "SMART",
     "name": "Heard",
@@ -25926,15 +25935,6 @@
     "name": "Heard",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Heard_icon.svg",
-    "key": "heard",
-    "source": "SMART",
-    "name": "Heard",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -26073,6 +26073,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Hippopotamidae_icon.svg",
+    "key": "hippopotamidae",
+    "source": "SMART",
+    "name": "Hippopotamuses",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Hippopotamidae_icon.svg",
     "key": "hippopotamidae",
     "source": "SMART",
@@ -26097,15 +26106,6 @@
     "name": "Hippopotamuses",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Hippopotamidae_icon.svg",
-    "key": "hippopotamidae",
-    "source": "SMART",
-    "name": "Hippopotamuses",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -26136,6 +26136,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Hippos_icon.svg",
+    "key": "hippos",
+    "source": "SMART",
+    "name": "Hippos",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Hippos_icon.svg",
     "key": "hippos",
     "source": "SMART",
@@ -26160,15 +26169,6 @@
     "name": "Hippos",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Hippos_icon.svg",
-    "key": "hippos",
-    "source": "SMART",
-    "name": "Hippos",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -26226,6 +26226,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Homonidae_icon.svg",
+    "key": "homonidae",
+    "source": "SMART",
+    "name": "Homonidae",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Homonidae_icon.svg",
     "key": "homonidae",
     "source": "SMART",
@@ -26253,25 +26262,16 @@
     ]
   },
   {
-    "filename": "SMART/shield/Homonidae_icon.svg",
-    "key": "homonidae",
+    "filename": "SMART/shield/Honey_icon.svg",
+    "key": "honey",
     "source": "SMART",
-    "name": "Homonidae",
+    "name": "Honey",
     "tags": [
       "shield"
     ]
   },
   {
     "filename": "SMART/color/Honey_2_color_icon.svg",
-    "key": "honey",
-    "source": "SMART",
-    "name": "Honey",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/color/Honey_color_icon.svg",
     "key": "honey",
     "source": "SMART",
     "name": "Honey",
@@ -26289,12 +26289,12 @@
     ]
   },
   {
-    "filename": "SMART/line/Honey_icon.svg",
+    "filename": "SMART/color/Honey_color_icon.svg",
     "key": "honey",
     "source": "SMART",
     "name": "Honey",
     "tags": [
-      "line"
+      "color"
     ]
   },
   {
@@ -26307,12 +26307,12 @@
     ]
   },
   {
-    "filename": "SMART/mono/Honey_glyph_icon.svg",
+    "filename": "SMART/line/Honey_icon.svg",
     "key": "honey",
     "source": "SMART",
     "name": "Honey",
     "tags": [
-      "mono"
+      "line"
     ]
   },
   {
@@ -26325,12 +26325,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Honey_icon.svg",
+    "filename": "SMART/mono/Honey_glyph_icon.svg",
     "key": "honey",
     "source": "SMART",
     "name": "Honey",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -26397,6 +26397,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Horns_icon.svg",
+    "key": "horns",
+    "source": "SMART",
+    "name": "Horns",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Horns_icon.svg",
     "key": "horns",
     "source": "SMART",
@@ -26424,16 +26433,16 @@
     ]
   },
   {
-    "filename": "SMART/shield/Horns_icon.svg",
-    "key": "horns",
+    "filename": "SMART/shield/Horse_icon.svg",
+    "key": "horse",
     "source": "SMART",
-    "name": "Horns",
+    "name": "Horse",
     "tags": [
       "shield"
     ]
   },
   {
-    "filename": "SMART/color/Horse_color_icon.svg",
+    "filename": "SMART/color/Horse_icon.svg",
     "key": "horse",
     "source": "SMART",
     "name": "Horse",
@@ -26442,7 +26451,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Horse_icon.svg",
+    "filename": "SMART/color/Horse_color_icon.svg",
     "key": "horse",
     "source": "SMART",
     "name": "Horse",
@@ -26484,15 +26493,6 @@
     "name": "Horse",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Horse_icon.svg",
-    "key": "horse",
-    "source": "SMART",
-    "name": "Horse",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -26550,6 +26550,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Human_ activity_icon.svg",
+    "key": "human__activity",
+    "source": "SMART",
+    "name": "Human  Activity",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/line/Human_ activity_icon.svg",
     "key": "human__activity",
     "source": "SMART",
@@ -26565,15 +26574,6 @@
     "name": "Human  Activity",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Human_ activity_icon.svg",
-    "key": "human__activity",
-    "source": "SMART",
-    "name": "Human  Activity",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -26793,7 +26793,7 @@
     ]
   },
   {
-    "filename": "SMART/color/HWC_killed_by_authorities_color_icon.svg",
+    "filename": "SMART/color/HWC_killed_by_authorities_NS_color_icon.svg",
     "key": "hwc_killed_by_authorities",
     "source": "SMART",
     "name": "Hwc Killed By Authorities",
@@ -26802,7 +26802,7 @@
     ]
   },
   {
-    "filename": "SMART/color/HWC_killed_by_authorities_NS_color_icon.svg",
+    "filename": "SMART/color/HWC_killed_by_authorities_color_icon.svg",
     "key": "hwc_killed_by_authorities",
     "source": "SMART",
     "name": "Hwc Killed By Authorities",
@@ -27045,7 +27045,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Illegal_icon.svg",
+    "filename": "SMART/shield/Illegal_icon.svg",
+    "key": "illegal",
+    "source": "SMART",
+    "name": "Illegal",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Illegal_NS_color_icon.svg",
     "key": "illegal",
     "source": "SMART",
     "name": "Illegal",
@@ -27054,7 +27063,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Illegal_NS_color_icon.svg",
+    "filename": "SMART/color/Illegal_icon.svg",
     "key": "illegal",
     "source": "SMART",
     "name": "Illegal",
@@ -27081,16 +27090,7 @@
     ]
   },
   {
-    "filename": "SMART/shield/Illegal_icon.svg",
-    "key": "illegal",
-    "source": "SMART",
-    "name": "Illegal",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
-    "filename": "SMART/color/Illegal_entry_color_icon.svg",
+    "filename": "SMART/color/Illegal_entry_NS_color_icon.svg",
     "key": "illegal_entry",
     "source": "SMART",
     "name": "Illegal Entry",
@@ -27099,7 +27099,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Illegal_entry_NS_color_icon.svg",
+    "filename": "SMART/color/Illegal_entry_color_icon.svg",
     "key": "illegal_entry",
     "source": "SMART",
     "name": "Illegal Entry",
@@ -27153,6 +27153,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Inactive_icon.svg",
+    "key": "inactive",
+    "source": "SMART",
+    "name": "Inactive",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Inactive_icon.svg",
     "key": "inactive",
     "source": "SMART",
@@ -27177,15 +27186,6 @@
     "name": "Inactive",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Inactive_icon.svg",
-    "key": "inactive",
-    "source": "SMART",
-    "name": "Inactive",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -27261,6 +27261,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Infrastructure & roads_icon.svg",
+    "key": "infrastructure_&_roads",
+    "source": "SMART",
+    "name": "Infrastructure & Roads",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Infrastructure & roads_icon.svg",
     "key": "infrastructure_&_roads",
     "source": "SMART",
@@ -27288,10 +27297,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Infrastructure & roads_icon.svg",
-    "key": "infrastructure_&_roads",
+    "filename": "SMART/shield/Infrastructure_size_icon.svg",
+    "key": "infrastructure_size",
     "source": "SMART",
-    "name": "Infrastructure & Roads",
+    "name": "Infrastructure Size",
     "tags": [
       "shield"
     ]
@@ -27324,16 +27333,7 @@
     ]
   },
   {
-    "filename": "SMART/shield/Infrastructure_size_icon.svg",
-    "key": "infrastructure_size",
-    "source": "SMART",
-    "name": "Infrastructure Size",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
-    "filename": "SMART/color/Inia_geoffrensis_2_color_icon.svg",
+    "filename": "SMART/color/Inia_geoffrensis_color_icon.svg",
     "key": "inia_geoffrensis",
     "source": "SMART",
     "name": "Amazon River Dolphin",
@@ -27342,7 +27342,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Inia_geoffrensis_color_icon.svg",
+    "filename": "SMART/color/Inia_geoffrensis_2_color_icon.svg",
     "key": "inia_geoffrensis",
     "source": "SMART",
     "name": "Amazon River Dolphin",
@@ -27360,7 +27360,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Inia_geoffrensis_black_icon.svg",
+    "filename": "SMART/mono/Inia_geoffrensis_glyph_icon.svg",
     "key": "inia_geoffrensis",
     "source": "SMART",
     "name": "Amazon River Dolphin",
@@ -27369,7 +27369,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Inia_geoffrensis_glyph_icon.svg",
+    "filename": "SMART/mono/Inia_geoffrensis_black_icon.svg",
     "key": "inia_geoffrensis",
     "source": "SMART",
     "name": "Amazon River Dolphin",
@@ -27468,7 +27468,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Ironwood_color_icon.svg",
+    "filename": "SMART/color/Ironwood_NS_color_icon.svg",
     "key": "ironwood",
     "source": "SMART",
     "name": "Ironwood",
@@ -27477,7 +27477,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Ironwood_NS_color_icon.svg",
+    "filename": "SMART/color/Ironwood_color_icon.svg",
     "key": "ironwood",
     "source": "SMART",
     "name": "Ironwood",
@@ -27567,6 +27567,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Jaw_trap_icon.svg",
+    "key": "jaw_trap",
+    "source": "SMART",
+    "name": "Jaw Trap",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Jaw_trap_icon.svg",
     "key": "jaw_trap",
     "source": "SMART",
@@ -27594,10 +27603,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Jaw_trap_icon.svg",
-    "key": "jaw_trap",
+    "filename": "SMART/shield/Juvenile_icon.svg",
+    "key": "juvenile",
     "source": "SMART",
-    "name": "Jaw Trap",
+    "name": "Juvenile",
     "tags": [
       "shield"
     ]
@@ -27627,15 +27636,6 @@
     "name": "Juvenile",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Juvenile_icon.svg",
-    "key": "juvenile",
-    "source": "SMART",
-    "name": "Juvenile",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -27693,6 +27693,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Knife_icon.svg",
+    "key": "knife",
+    "source": "SMART",
+    "name": "Knife",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Knife_icon.svg",
     "key": "knife",
     "source": "SMART",
@@ -27717,15 +27726,6 @@
     "name": "Knife",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Knife_icon.svg",
-    "key": "knife",
-    "source": "SMART",
-    "name": "Knife",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -27972,6 +27972,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Large_icon.svg",
+    "key": "large",
+    "source": "SMART",
+    "name": "Large",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Large_icon.svg",
     "key": "large",
     "source": "SMART",
@@ -27996,15 +28005,6 @@
     "name": "Large",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Large_icon.svg",
-    "key": "large",
-    "source": "SMART",
-    "name": "Large",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -28062,6 +28062,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Latex_icon.svg",
+    "key": "latex",
+    "source": "SMART",
+    "name": "Latex",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Latex_icon.svg",
     "key": "latex",
     "source": "SMART",
@@ -28086,15 +28095,6 @@
     "name": "Latex",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Latex_icon.svg",
-    "key": "latex",
-    "source": "SMART",
-    "name": "Latex",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -28161,7 +28161,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Left_at_scene_icon.svg",
+    "filename": "SMART/shield/Left_at_scene_icon.svg",
+    "key": "left_at_scene",
+    "source": "SMART",
+    "name": "Left At Scene",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Left_at_scene_NS_color_icon.svg",
     "key": "left_at_scene",
     "source": "SMART",
     "name": "Left At Scene",
@@ -28170,7 +28179,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Left_at_scene_NS_color_icon.svg",
+    "filename": "SMART/color/Left_at_scene_icon.svg",
     "key": "left_at_scene",
     "source": "SMART",
     "name": "Left At Scene",
@@ -28197,10 +28206,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Left_at_scene_icon.svg",
-    "key": "left_at_scene",
+    "filename": "SMART/shield/Legal_icon.svg",
+    "key": "legal",
     "source": "SMART",
-    "name": "Left At Scene",
+    "name": "Legal",
     "tags": [
       "shield"
     ]
@@ -28230,15 +28239,6 @@
     "name": "Legal",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Legal_icon.svg",
-    "key": "legal",
-    "source": "SMART",
-    "name": "Legal",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -28458,7 +28458,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Life_stage_adult_color_icon.svg",
+    "filename": "SMART/color/Life_stage_adult_NS_color_icon.svg",
     "key": "life_stage_adult",
     "source": "SMART",
     "name": "Life Stage Adult",
@@ -28467,7 +28467,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Life_stage_adult_NS_color_icon.svg",
+    "filename": "SMART/color/Life_stage_adult_color_icon.svg",
     "key": "life_stage_adult",
     "source": "SMART",
     "name": "Life Stage Adult",
@@ -28521,7 +28521,7 @@
     ]
   },
   {
-    "filename": "SMART/color/LIfe_stage_calf_pup_cub_baby_color_icon.svg",
+    "filename": "SMART/color/LIfe_stage_calf_pup_cub_baby_NS_color_icon.svg",
     "key": "life_stage_calf_pup_cub_baby",
     "source": "SMART",
     "name": "Life Stage Calf Pup Cub Baby",
@@ -28530,7 +28530,7 @@
     ]
   },
   {
-    "filename": "SMART/color/LIfe_stage_calf_pup_cub_baby_NS_color_icon.svg",
+    "filename": "SMART/color/LIfe_stage_calf_pup_cub_baby_color_icon.svg",
     "key": "life_stage_calf_pup_cub_baby",
     "source": "SMART",
     "name": "Life Stage Calf Pup Cub Baby",
@@ -28764,6 +28764,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Litter_icon.svg",
+    "key": "litter",
+    "source": "SMART",
+    "name": "Litter",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Litter_color_icon.svg",
     "key": "litter",
     "source": "SMART",
@@ -28800,15 +28809,6 @@
     ]
   },
   {
-    "filename": "SMART/mono/Litter_glyph_icon.svg",
-    "key": "litter",
-    "source": "SMART",
-    "name": "Litter",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/mono/Litter_icon.svg",
     "key": "litter",
     "source": "SMART",
@@ -28818,12 +28818,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Litter_icon.svg",
+    "filename": "SMART/mono/Litter_glyph_icon.svg",
     "key": "litter",
     "source": "SMART",
     "name": "Litter",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -28854,6 +28854,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Logs_icon.svg",
+    "key": "logs",
+    "source": "SMART",
+    "name": "Logs",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Logs_icon.svg",
     "key": "logs",
     "source": "SMART",
@@ -28878,15 +28887,6 @@
     "name": "Logs",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Logs_icon.svg",
-    "key": "logs",
-    "source": "SMART",
-    "name": "Logs",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -28971,7 +28971,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Loss_of_human_life_color_icon.svg",
+    "filename": "SMART/color/Loss_of_human_life_NS_color_icon.svg",
     "key": "loss_of_human_life",
     "source": "SMART",
     "name": "Loss Of Human Life",
@@ -28980,7 +28980,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Loss_of_human_life_NS_color_icon.svg",
+    "filename": "SMART/color/Loss_of_human_life_color_icon.svg",
     "key": "loss_of_human_life",
     "source": "SMART",
     "name": "Loss Of Human Life",
@@ -29259,6 +29259,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Machete_icon.svg",
+    "key": "machete",
+    "source": "SMART",
+    "name": "Machete",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Machete_icon.svg",
     "key": "machete",
     "source": "SMART",
@@ -29286,10 +29295,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Machete_icon.svg",
-    "key": "machete",
+    "filename": "SMART/shield/Machete_cut_icon.svg",
+    "key": "machete_cut",
     "source": "SMART",
-    "name": "Machete",
+    "name": "Machete Cut",
     "tags": [
       "shield"
     ]
@@ -29319,15 +29328,6 @@
     "name": "Machete Cut",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Machete_cut_icon.svg",
-    "key": "machete_cut",
-    "source": "SMART",
-    "name": "Machete Cut",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -29394,7 +29394,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Mahogany_color_icon.svg",
+    "filename": "SMART/color/Mahogany_NS_color_icon.svg",
     "key": "mahogany",
     "source": "SMART",
     "name": "Mahogany",
@@ -29403,7 +29403,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Mahogany_NS_color_icon.svg",
+    "filename": "SMART/color/Mahogany_color_icon.svg",
     "key": "mahogany",
     "source": "SMART",
     "name": "Mahogany",
@@ -29457,7 +29457,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Make_observation_color_icon.svg",
+    "filename": "SMART/color/Make_observation_NS_color_icon.svg",
     "key": "make_observation",
     "source": "SMART",
     "name": "Make Observation",
@@ -29466,7 +29466,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Make_observation_NS_color_icon.svg",
+    "filename": "SMART/color/Make_observation_color_icon.svg",
     "key": "make_observation",
     "source": "SMART",
     "name": "Make Observation",
@@ -29493,7 +29493,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Male_icon.svg",
+    "filename": "SMART/shield/Male_icon.svg",
+    "key": "male",
+    "source": "SMART",
+    "name": "Male",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Male_NS_color_icon.svg",
     "key": "male",
     "source": "SMART",
     "name": "Male",
@@ -29502,7 +29511,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Male_NS_color_icon.svg",
+    "filename": "SMART/color/Male_icon.svg",
     "key": "male",
     "source": "SMART",
     "name": "Male",
@@ -29526,15 +29535,6 @@
     "name": "Male",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Male_icon.svg",
-    "key": "male",
-    "source": "SMART",
-    "name": "Male",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -29565,6 +29565,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Mammal_icon.svg",
+    "key": "mammal",
+    "source": "SMART",
+    "name": "Mammal",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Mammal_icon.svg",
     "key": "mammal",
     "source": "SMART",
@@ -29589,15 +29598,6 @@
     "name": "Mammal",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Mammal_icon.svg",
-    "key": "mammal",
-    "source": "SMART",
-    "name": "Mammal",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -29718,7 +29718,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Manketti_color_icon.svg",
+    "filename": "SMART/color/Manketti_NS_color_icon.svg",
     "key": "manketti",
     "source": "SMART",
     "name": "Manketti",
@@ -29727,7 +29727,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Manketti_NS_color_icon.svg",
+    "filename": "SMART/color/Manketti_color_icon.svg",
     "key": "manketti",
     "source": "SMART",
     "name": "Manketti",
@@ -29997,6 +29997,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Med_icon.svg",
+    "key": "med",
+    "source": "SMART",
+    "name": "Med",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Med_icon.svg",
     "key": "med",
     "source": "SMART",
@@ -30024,10 +30033,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Med_icon.svg",
-    "key": "med",
+    "filename": "SMART/shield/Medicinal_plants_icon.svg",
+    "key": "medicinal_plants",
     "source": "SMART",
-    "name": "Med",
+    "name": "Medicinal Plants",
     "tags": [
       "shield"
     ]
@@ -30057,15 +30066,6 @@
     "name": "Medicinal Plants",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Medicinal_plants_icon.svg",
-    "key": "medicinal_plants",
-    "source": "SMART",
-    "name": "Medicinal Plants",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -30285,6 +30285,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Mine_icon.svg",
+    "key": "mine",
+    "source": "SMART",
+    "name": "Mine",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Mine_icon.svg",
     "key": "mine",
     "source": "SMART",
@@ -30309,15 +30318,6 @@
     "name": "Mine",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Mine_icon.svg",
-    "key": "mine",
-    "source": "SMART",
-    "name": "Mine",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -30348,7 +30348,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Mobula_birostris_2_color_icon.svg",
+    "filename": "SMART/color/Mobula_birostris_color_icon.svg",
     "key": "mobula_birostris",
     "source": "SMART",
     "name": "Mobula Birostris",
@@ -30357,7 +30357,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Mobula_birostris_color_icon.svg",
+    "filename": "SMART/color/Mobula_birostris_2_color_icon.svg",
     "key": "mobula_birostris",
     "source": "SMART",
     "name": "Mobula Birostris",
@@ -30672,6 +30672,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Motorbike_icon.svg",
+    "key": "motorbike",
+    "source": "SMART",
+    "name": "Motorbike",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Motorbike_icon.svg",
     "key": "motorbike",
     "source": "SMART",
@@ -30696,15 +30705,6 @@
     "name": "Motorbike",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Motorbike_icon.svg",
-    "key": "motorbike",
-    "source": "SMART",
-    "name": "Motorbike",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -30843,6 +30843,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Mushroom_icon.svg",
+    "key": "mushroom",
+    "source": "SMART",
+    "name": "Mushroom",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Mushroom_icon.svg",
     "key": "mushroom",
     "source": "SMART",
@@ -30867,15 +30876,6 @@
     "name": "Mushroom",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Mushroom_icon.svg",
-    "key": "mushroom",
-    "source": "SMART",
-    "name": "Mushroom",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -31014,6 +31014,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Muzzle_loader_icon.svg",
+    "key": "muzzle_loader",
+    "source": "SMART",
+    "name": "Muzzle Loader",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Muzzle_loader_icon.svg",
     "key": "muzzle_loader",
     "source": "SMART",
@@ -31038,15 +31047,6 @@
     "name": "Muzzle Loader",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Muzzle_loader_icon.svg",
-    "key": "muzzle_loader",
-    "source": "SMART",
-    "name": "Muzzle Loader",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -31095,7 +31095,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Name_color_icon.svg",
+    "filename": "SMART/color/Name_NS_color_icon.svg",
     "key": "name",
     "source": "SMART",
     "name": "Name",
@@ -31104,7 +31104,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Name_NS_color_icon.svg",
+    "filename": "SMART/color/Name_color_icon.svg",
     "key": "name",
     "source": "SMART",
     "name": "Name",
@@ -31194,6 +31194,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Natural_icon.svg",
+    "key": "natural",
+    "source": "SMART",
+    "name": "Natural",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Natural_icon.svg",
     "key": "natural",
     "source": "SMART",
@@ -31221,10 +31230,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Natural_icon.svg",
-    "key": "natural",
+    "filename": "SMART/shield/Nest_icon.svg",
+    "key": "nest",
     "source": "SMART",
-    "name": "Natural",
+    "name": "Nest",
     "tags": [
       "shield"
     ]
@@ -31257,10 +31266,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Nest_icon.svg",
-    "key": "nest",
+    "filename": "SMART/shield/Net_icon.svg",
+    "key": "net",
     "source": "SMART",
-    "name": "Nest",
+    "name": "Net",
     "tags": [
       "shield"
     ]
@@ -31290,15 +31299,6 @@
     "name": "Net",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Net_icon.svg",
-    "key": "net",
-    "source": "SMART",
-    "name": "Net",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -31491,6 +31491,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/NTFPs_icon.svg",
+    "key": "ntfps",
+    "source": "SMART",
+    "name": "Ntfps",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/NTFPs_icon.svg",
     "key": "ntfps",
     "source": "SMART",
@@ -31515,15 +31524,6 @@
     "name": "Ntfps",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/NTFPs_icon.svg",
-    "key": "ntfps",
-    "source": "SMART",
-    "name": "Ntfps",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -31554,7 +31554,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Number_of_adult_females_color_icon.svg",
+    "filename": "SMART/color/Number_of_adult_females_NS_color_icon.svg",
     "key": "number_of_adult_females",
     "source": "SMART",
     "name": "Number Of Adult Females",
@@ -31563,7 +31563,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Number_of_adult_females_NS_color_icon.svg",
+    "filename": "SMART/color/Number_of_adult_females_color_icon.svg",
     "key": "number_of_adult_females",
     "source": "SMART",
     "name": "Number Of Adult Females",
@@ -31590,7 +31590,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Number_of_adult_males_color_icon.svg",
+    "filename": "SMART/color/Number_of_adult_males_NS_color_icon.svg",
     "key": "number_of_adult_males",
     "source": "SMART",
     "name": "Number Of Adult Males",
@@ -31599,7 +31599,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Number_of_adult_males_NS_color_icon.svg",
+    "filename": "SMART/color/Number_of_adult_males_color_icon.svg",
     "key": "number_of_adult_males",
     "source": "SMART",
     "name": "Number Of Adult Males",
@@ -31851,7 +31851,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Number_of_Injuries_color_icon.svg",
+    "filename": "SMART/color/Number_of_Injuries_NS_color_icon.svg",
     "key": "number_of_injuries",
     "source": "SMART",
     "name": "Number Of Injuries",
@@ -31860,7 +31860,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Number_of_Injuries_NS_color_icon.svg",
+    "filename": "SMART/color/Number_of_Injuries_color_icon.svg",
     "key": "number_of_injuries",
     "source": "SMART",
     "name": "Number Of Injuries",
@@ -32157,6 +32157,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Observed_icon.svg",
+    "key": "observed",
+    "source": "SMART",
+    "name": "Observed",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Observed_icon.svg",
     "key": "observed",
     "source": "SMART",
@@ -32181,15 +32190,6 @@
     "name": "Observed",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Observed_icon.svg",
-    "key": "observed",
-    "source": "SMART",
-    "name": "Observed",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -32220,6 +32220,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Observed_only_icon.svg",
+    "key": "observed_only",
+    "source": "SMART",
+    "name": "Observed Only",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Observed_only_icon.svg",
     "key": "observed_only",
     "source": "SMART",
@@ -32244,15 +32253,6 @@
     "name": "Observed Only",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Observed_only_icon.svg",
-    "key": "observed_only",
-    "source": "SMART",
-    "name": "Observed Only",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -32589,6 +32589,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Orchid_icon.svg",
+    "key": "orchid",
+    "source": "SMART",
+    "name": "Orchid",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Orchid_icon.svg",
     "key": "orchid",
     "source": "SMART",
@@ -32613,15 +32622,6 @@
     "name": "Orchid",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Orchid_icon.svg",
-    "key": "orchid",
-    "source": "SMART",
-    "name": "Orchid",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -32751,6 +32751,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Other_icon.svg",
+    "key": "other",
+    "source": "SMART",
+    "name": "Other",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Other_color_icon.svg",
     "key": "other",
     "source": "SMART",
@@ -32787,15 +32796,6 @@
     ]
   },
   {
-    "filename": "SMART/mono/Other_glyph_icon.svg",
-    "key": "other",
-    "source": "SMART",
-    "name": "Other",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/mono/Other_icon.svg",
     "key": "other",
     "source": "SMART",
@@ -32805,12 +32805,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Other_icon.svg",
+    "filename": "SMART/mono/Other_glyph_icon.svg",
     "key": "other",
     "source": "SMART",
     "name": "Other",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -33516,7 +33516,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_comment_color_icon.svg",
+    "filename": "SMART/color/Patrol_comment_NS_color_icon.svg",
     "key": "patrol_comment",
     "source": "SMART",
     "name": "Patrol Comment",
@@ -33525,7 +33525,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_comment_NS_color_icon.svg",
+    "filename": "SMART/color/Patrol_comment_color_icon.svg",
     "key": "patrol_comment",
     "source": "SMART",
     "name": "Patrol Comment",
@@ -33588,7 +33588,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_is_armed_color_icon.svg",
+    "filename": "SMART/color/Patrol_is_armed_NS_color_icon.svg",
     "key": "patrol_is_armed",
     "source": "SMART",
     "name": "Patrol Is Armed",
@@ -33597,7 +33597,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_is_armed_NS_color_icon.svg",
+    "filename": "SMART/color/Patrol_is_armed_color_icon.svg",
     "key": "patrol_is_armed",
     "source": "SMART",
     "name": "Patrol Is Armed",
@@ -33624,7 +33624,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_leader_color_icon.svg",
+    "filename": "SMART/color/Patrol_leader_NS_color_icon.svg",
     "key": "patrol_leader",
     "source": "SMART",
     "name": "Patrol Leader",
@@ -33633,7 +33633,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_leader_NS_color_icon.svg",
+    "filename": "SMART/color/Patrol_leader_color_icon.svg",
     "key": "patrol_leader",
     "source": "SMART",
     "name": "Patrol Leader",
@@ -33813,7 +33813,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_pilot_airplane_color_icon.svg",
+    "filename": "SMART/color/Patrol_pilot_airplane_NS_color_icon.svg",
     "key": "patrol_pilot_airplane",
     "source": "SMART",
     "name": "Patrol Pilot Airplane",
@@ -33822,7 +33822,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Patrol_pilot_airplane_NS_color_icon.svg",
+    "filename": "SMART/color/Patrol_pilot_airplane_color_icon.svg",
     "key": "patrol_pilot_airplane",
     "source": "SMART",
     "name": "Patrol Pilot Airplane",
@@ -34029,6 +34029,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Paws_icon.svg",
+    "key": "paws",
+    "source": "SMART",
+    "name": "Paws",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Paws_icon.svg",
     "key": "paws",
     "source": "SMART",
@@ -34056,16 +34065,7 @@
     ]
   },
   {
-    "filename": "SMART/shield/Paws_icon.svg",
-    "key": "paws",
-    "source": "SMART",
-    "name": "Paws",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
-    "filename": "SMART/color/Pecari_tajacu_2_color_icon.svg",
+    "filename": "SMART/color/Pecari_tajacu_color_icon.svg",
     "key": "pecari_tajacu",
     "source": "SMART",
     "name": "Collared Peccary",
@@ -34074,7 +34074,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Pecari_tajacu_color_icon.svg",
+    "filename": "SMART/color/Pecari_tajacu_2_color_icon.svg",
     "key": "pecari_tajacu",
     "source": "SMART",
     "name": "Collared Peccary",
@@ -34110,7 +34110,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Pel's_fishing_owl_color_icon.svg",
+    "filename": "SMART/color/Pels_fishing_owl_color_icon.svg",
     "key": "pels_fishing_owl",
     "source": "SMART",
     "name": "Pels Fishing Owl",
@@ -34119,7 +34119,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Pels_fishing_owl_color_icon.svg",
+    "filename": "SMART/color/Pel's_fishing_owl_color_icon.svg",
     "key": "pels_fishing_owl",
     "source": "SMART",
     "name": "Pels Fishing Owl",
@@ -34308,6 +34308,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Penis_icon.svg",
+    "key": "penis",
+    "source": "SMART",
+    "name": "Penis",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Penis_icon.svg",
     "key": "penis",
     "source": "SMART",
@@ -34335,10 +34344,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Penis_icon.svg",
-    "key": "penis",
+    "filename": "SMART/shield/People_armed_icon.svg",
+    "key": "people_armed",
     "source": "SMART",
-    "name": "Penis",
+    "name": "People Armed",
     "tags": [
       "shield"
     ]
@@ -34380,10 +34389,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/People_armed_icon.svg",
-    "key": "people_armed",
+    "filename": "SMART/shield/People_direct_observation_icon.svg",
+    "key": "people_direct_observation",
     "source": "SMART",
-    "name": "People Armed",
+    "name": "People Direct Observation",
     "tags": [
       "shield"
     ]
@@ -34425,16 +34434,16 @@
     ]
   },
   {
-    "filename": "SMART/shield/People_direct_observation_icon.svg",
-    "key": "people_direct_observation",
+    "filename": "SMART/shield/People_indirect_sign_icon.svg",
+    "key": "people_indirect_sign",
     "source": "SMART",
-    "name": "People Direct Observation",
+    "name": "People Indirect Sign",
     "tags": [
       "shield"
     ]
   },
   {
-    "filename": "SMART/color/People_indirect_sign_icon.svg",
+    "filename": "SMART/color/People_indirect_sign_NS_color_icon.svg",
     "key": "people_indirect_sign",
     "source": "SMART",
     "name": "People Indirect Sign",
@@ -34443,7 +34452,7 @@
     ]
   },
   {
-    "filename": "SMART/color/People_indirect_sign_NS_color_icon.svg",
+    "filename": "SMART/color/People_indirect_sign_icon.svg",
     "key": "people_indirect_sign",
     "source": "SMART",
     "name": "People Indirect Sign",
@@ -34467,15 +34476,6 @@
     "name": "People Indirect Sign",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/People_indirect_sign_icon.svg",
-    "key": "people_indirect_sign",
-    "source": "SMART",
-    "name": "People Indirect Sign",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -34506,6 +34506,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Perissodactyla_icon.svg",
+    "key": "perissodactyla",
+    "source": "SMART",
+    "name": "Odd-toed Ungulates",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Perissodactyla_icon.svg",
     "key": "perissodactyla",
     "source": "SMART",
@@ -34530,15 +34539,6 @@
     "name": "Odd-toed Ungulates",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Perissodactyla_icon.svg",
-    "key": "perissodactyla",
-    "source": "SMART",
-    "name": "Odd-toed Ungulates",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -34794,6 +34794,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Piece_icon.svg",
+    "key": "piece",
+    "source": "SMART",
+    "name": "Piece",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Piece_icon.svg",
     "key": "piece",
     "source": "SMART",
@@ -34818,15 +34827,6 @@
     "name": "Piece",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Piece_icon.svg",
-    "key": "piece",
-    "source": "SMART",
-    "name": "Piece",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -34974,6 +34974,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Pit_trap_icon.svg",
+    "key": "pit_trap",
+    "source": "SMART",
+    "name": "Pit Trap",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Pit_trap_icon.svg",
     "key": "pit_trap",
     "source": "SMART",
@@ -35001,10 +35010,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Pit_trap_icon.svg",
-    "key": "pit_trap",
+    "filename": "SMART/shield/Place_of_origin_icon.svg",
+    "key": "place_of_origin",
     "source": "SMART",
-    "name": "Pit Trap",
+    "name": "Place Of Origin",
     "tags": [
       "shield"
     ]
@@ -35037,15 +35046,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Place_of_origin_icon.svg",
-    "key": "place_of_origin",
-    "source": "SMART",
-    "name": "Place Of Origin",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Place_of_residence_color_icon.svg",
     "key": "place_of_residence",
     "source": "SMART",
@@ -35073,6 +35073,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Planks_icon.svg",
+    "key": "planks",
+    "source": "SMART",
+    "name": "Planks",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Planks_icon.svg",
     "key": "planks",
     "source": "SMART",
@@ -35097,15 +35106,6 @@
     "name": "Planks",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Planks_icon.svg",
-    "key": "planks",
-    "source": "SMART",
-    "name": "Planks",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -35226,7 +35226,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Poacher_fire_color_icon.svg",
+    "filename": "SMART/color/Poacher_fire_NS_color_icon.svg",
     "key": "poacher_fire",
     "source": "SMART",
     "name": "Poacher Fire",
@@ -35235,7 +35235,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Poacher_fire_NS_color_icon.svg",
+    "filename": "SMART/color/Poacher_fire_color_icon.svg",
     "key": "poacher_fire",
     "source": "SMART",
     "name": "Poacher Fire",
@@ -35361,7 +35361,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Poaching_indirect_evidence_color_icon.svg",
+    "filename": "SMART/color/Poaching_indirect_evidence_NS_color_icon.svg",
     "key": "poaching_indirect_evidence",
     "source": "SMART",
     "name": "Poaching Indirect Evidence",
@@ -35370,7 +35370,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Poaching_indirect_evidence_NS_color_icon.svg",
+    "filename": "SMART/color/Poaching_indirect_evidence_color_icon.svg",
     "key": "poaching_indirect_evidence",
     "source": "SMART",
     "name": "Poaching Indirect Evidence",
@@ -35532,6 +35532,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Poison_icon.svg",
+    "key": "poison",
+    "source": "SMART",
+    "name": "Poison",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Poison_icon.svg",
     "key": "poison",
     "source": "SMART",
@@ -35556,15 +35565,6 @@
     "name": "Poison",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Poison_icon.svg",
-    "key": "poison",
-    "source": "SMART",
-    "name": "Poison",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -35622,6 +35622,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Pollution_icon.svg",
+    "key": "pollution",
+    "source": "SMART",
+    "name": "Pollution",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Pollution_icon.svg",
     "key": "pollution",
     "source": "SMART",
@@ -35646,15 +35655,6 @@
     "name": "Pollution",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Pollution_icon.svg",
-    "key": "pollution",
-    "source": "SMART",
-    "name": "Pollution",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -35784,6 +35784,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Primates_icon.svg",
+    "key": "primates",
+    "source": "SMART",
+    "name": "Primates",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Primates_icon.svg",
     "key": "primates",
     "source": "SMART",
@@ -35808,15 +35817,6 @@
     "name": "Primates",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Primates_icon.svg",
-    "key": "primates",
-    "source": "SMART",
-    "name": "Primates",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -35874,6 +35874,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Proboscoidea_icon.svg",
+    "key": "proboscoidea",
+    "source": "SMART",
+    "name": "Elephants",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Proboscoidea_icon.svg",
     "key": "proboscoidea",
     "source": "SMART",
@@ -35898,15 +35907,6 @@
     "name": "Elephants",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Proboscoidea_icon.svg",
-    "key": "proboscoidea",
-    "source": "SMART",
-    "name": "Elephants",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -36225,7 +36225,7 @@
     ]
   },
   {
-    "filename": "SMART/line/Pseudoplatystoma_fasciatum_2_line_icon.svg",
+    "filename": "SMART/line/Pseudoplatystoma_fasciatum_line_icon.svg",
     "key": "pseudoplatystoma_fasciatum",
     "source": "SMART",
     "name": "Barred Sorubim",
@@ -36234,7 +36234,7 @@
     ]
   },
   {
-    "filename": "SMART/line/Pseudoplatystoma_fasciatum_line_icon.svg",
+    "filename": "SMART/line/Pseudoplatystoma_fasciatum_2_line_icon.svg",
     "key": "pseudoplatystoma_fasciatum",
     "source": "SMART",
     "name": "Barred Sorubim",
@@ -36693,6 +36693,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Raft_icon.svg",
+    "key": "raft",
+    "source": "SMART",
+    "name": "Raft",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Raft_color_icon.svg",
     "key": "raft",
     "source": "SMART",
@@ -36729,15 +36738,6 @@
     ]
   },
   {
-    "filename": "SMART/mono/Raft_glyph_icon.svg",
-    "key": "raft",
-    "source": "SMART",
-    "name": "Raft",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/mono/Raft_icon.svg",
     "key": "raft",
     "source": "SMART",
@@ -36747,12 +36747,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Raft_icon.svg",
+    "filename": "SMART/mono/Raft_glyph_icon.svg",
     "key": "raft",
     "source": "SMART",
     "name": "Raft",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -36810,6 +36810,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Ratan_icon.svg",
+    "key": "ratan",
+    "source": "SMART",
+    "name": "Ratan",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Ratan_icon.svg",
     "key": "ratan",
     "source": "SMART",
@@ -36834,15 +36843,6 @@
     "name": "Ratan",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Ratan_icon.svg",
-    "key": "ratan",
-    "source": "SMART",
-    "name": "Ratan",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -36900,7 +36900,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Reason_for_harvest_community_use_color_icon.svg",
+    "filename": "SMART/color/Reason_for_harvest_community_use_NS_color_icon.svg",
     "key": "reason_for_harvest_community_use",
     "source": "SMART",
     "name": "Reason For Harvest Community Use",
@@ -36909,7 +36909,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Reason_for_harvest_community_use_NS_color_icon.svg",
+    "filename": "SMART/color/Reason_for_harvest_community_use_color_icon.svg",
     "key": "reason_for_harvest_community_use",
     "source": "SMART",
     "name": "Reason For Harvest Community Use",
@@ -37053,7 +37053,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Record_a_harvest_Inuk_fishing_color_icon.svg",
+    "filename": "SMART/color/Record_a_harvest_Inuk_fishing_NS_color_icon.svg",
     "key": "record_a_harvest_inuk_fishing",
     "source": "SMART",
     "name": "Record A Harvest Inuk Fishing",
@@ -37062,7 +37062,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Record_a_harvest_Inuk_fishing_NS_color_icon.svg",
+    "filename": "SMART/color/Record_a_harvest_Inuk_fishing_color_icon.svg",
     "key": "record_a_harvest_inuk_fishing",
     "source": "SMART",
     "name": "Record A Harvest Inuk Fishing",
@@ -37179,7 +37179,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Recovered_color_icon.svg",
+    "filename": "SMART/color/Recovered_NS_color_icon.svg",
     "key": "recovered",
     "source": "SMART",
     "name": "Recovered",
@@ -37188,7 +37188,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Recovered_NS_color_icon.svg",
+    "filename": "SMART/color/Recovered_color_icon.svg",
     "key": "recovered",
     "source": "SMART",
     "name": "Recovered",
@@ -37449,6 +37449,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Registration_number_icon.svg",
+    "key": "registration_number",
+    "source": "SMART",
+    "name": "Registration Number",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Registration_number_icon.svg",
     "key": "registration_number",
     "source": "SMART",
@@ -37473,15 +37482,6 @@
     "name": "Registration Number",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Registration_number_icon.svg",
-    "key": "registration_number",
-    "source": "SMART",
-    "name": "Registration Number",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -37557,6 +37557,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Resin_icon.svg",
+    "key": "resin",
+    "source": "SMART",
+    "name": "Resin",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Resin_icon.svg",
     "key": "resin",
     "source": "SMART",
@@ -37581,15 +37590,6 @@
     "name": "Resin",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Resin_icon.svg",
-    "key": "resin",
-    "source": "SMART",
-    "name": "Resin",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -37620,6 +37620,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Rhino_icon.svg",
+    "key": "rhino",
+    "source": "SMART",
+    "name": "Rhino",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Rhino_icon.svg",
     "key": "rhino",
     "source": "SMART",
@@ -37644,15 +37653,6 @@
     "name": "Rhino",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Rhino_icon.svg",
-    "key": "rhino",
-    "source": "SMART",
-    "name": "Rhino",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -37818,6 +37818,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Road_icon.svg",
+    "key": "road",
+    "source": "SMART",
+    "name": "Road",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Road_icon.svg",
     "key": "road",
     "source": "SMART",
@@ -37842,15 +37851,6 @@
     "name": "Road",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Road_icon.svg",
-    "key": "road",
-    "source": "SMART",
-    "name": "Road",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -37989,6 +37989,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Rocks & minerals_icon.svg",
+    "key": "rocks_&_minerals",
+    "source": "SMART",
+    "name": "Rocks & Minerals",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Rocks & minerals_icon.svg",
     "key": "rocks_&_minerals",
     "source": "SMART",
@@ -38016,10 +38025,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Rocks & minerals_icon.svg",
-    "key": "rocks_&_minerals",
+    "filename": "SMART/shield/Rod_icon.svg",
+    "key": "rod",
     "source": "SMART",
-    "name": "Rocks & Minerals",
+    "name": "Rod",
     "tags": [
       "shield"
     ]
@@ -38049,15 +38058,6 @@
     "name": "Rod",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Rod_icon.svg",
-    "key": "rod",
-    "source": "SMART",
-    "name": "Rod",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -38628,6 +38628,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Sand_icon.svg",
+    "key": "sand",
+    "source": "SMART",
+    "name": "Sand",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Sand_icon.svg",
     "key": "sand",
     "source": "SMART",
@@ -38652,15 +38661,6 @@
     "name": "Sand",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Sand_icon.svg",
-    "key": "sand",
-    "source": "SMART",
-    "name": "Sand",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -38745,6 +38745,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Sawmill_icon.svg",
+    "key": "sawmill",
+    "source": "SMART",
+    "name": "Sawmill",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Sawmill_icon.svg",
     "key": "sawmill",
     "source": "SMART",
@@ -38772,15 +38781,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Sawmill_icon.svg",
-    "key": "sawmill",
-    "source": "SMART",
-    "name": "Sawmill",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Scales_color_icon.svg",
     "key": "scales",
     "source": "SMART",
@@ -38805,6 +38805,15 @@
     "name": "Scales",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Scent_icon.svg",
+    "key": "scent",
+    "source": "SMART",
+    "name": "Scent",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -38844,15 +38853,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Scent_icon.svg",
-    "key": "scent",
-    "source": "SMART",
-    "name": "Scent",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Schetba_rufa_color_icon.svg",
     "key": "schetba_rufa",
     "source": "SMART",
@@ -38880,7 +38880,7 @@
     ]
   },
   {
-    "filename": "SMART/color/School_color_icon.svg",
+    "filename": "SMART/color/School_NS_color_icon.svg",
     "key": "school",
     "source": "SMART",
     "name": "School",
@@ -38889,7 +38889,7 @@
     ]
   },
   {
-    "filename": "SMART/color/School_NS_color_icon.svg",
+    "filename": "SMART/color/School_color_icon.svg",
     "key": "school",
     "source": "SMART",
     "name": "School",
@@ -38943,6 +38943,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Scrape_icon.svg",
+    "key": "scrape",
+    "source": "SMART",
+    "name": "Scrape",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Scrape_icon.svg",
     "key": "scrape",
     "source": "SMART",
@@ -38967,15 +38976,6 @@
     "name": "Scrape",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Scrape_icon.svg",
-    "key": "scrape",
-    "source": "SMART",
-    "name": "Scrape",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39087,6 +39087,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Semi_automatic_icon.svg",
+    "key": "semi_automatic",
+    "source": "SMART",
+    "name": "Semi Automatic",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Semi_automatic_icon.svg",
     "key": "semi_automatic",
     "source": "SMART",
@@ -39111,15 +39120,6 @@
     "name": "Semi Automatic",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Semi_automatic_icon.svg",
-    "key": "semi_automatic",
-    "source": "SMART",
-    "name": "Semi Automatic",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39204,7 +39204,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Sex_icon.svg",
+    "filename": "SMART/shield/Sex_icon.svg",
+    "key": "sex",
+    "source": "SMART",
+    "name": "Sex",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Sex_NS_color_icon.svg",
     "key": "sex",
     "source": "SMART",
     "name": "Sex",
@@ -39213,7 +39222,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Sex_NS_color_icon.svg",
+    "filename": "SMART/color/Sex_icon.svg",
     "key": "sex",
     "source": "SMART",
     "name": "Sex",
@@ -39237,15 +39246,6 @@
     "name": "Sex",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Sex_icon.svg",
-    "key": "sex",
-    "source": "SMART",
-    "name": "Sex",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39339,6 +39339,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Shotgun_icon.svg",
+    "key": "shotgun",
+    "source": "SMART",
+    "name": "Shotgun",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Shotgun_icon.svg",
     "key": "shotgun",
     "source": "SMART",
@@ -39363,15 +39372,6 @@
     "name": "Shotgun",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Shotgun_icon.svg",
-    "key": "shotgun",
-    "source": "SMART",
-    "name": "Shotgun",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39564,6 +39564,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Skin_icon.svg",
+    "key": "skin",
+    "source": "SMART",
+    "name": "Skin",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Skin_icon.svg",
     "key": "skin",
     "source": "SMART",
@@ -39588,15 +39597,6 @@
     "name": "Skin",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Skin_icon.svg",
-    "key": "skin",
-    "source": "SMART",
-    "name": "Skin",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39654,6 +39654,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Small_icon.svg",
+    "key": "small",
+    "source": "SMART",
+    "name": "Small",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Small_icon.svg",
     "key": "small",
     "source": "SMART",
@@ -39678,15 +39687,6 @@
     "name": "Small",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Small_icon.svg",
-    "key": "small",
-    "source": "SMART",
-    "name": "Small",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39717,6 +39717,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Smoked_icon.svg",
+    "key": "smoked",
+    "source": "SMART",
+    "name": "Smoked",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Smoked_icon.svg",
     "key": "smoked",
     "source": "SMART",
@@ -39741,15 +39750,6 @@
     "name": "Smoked",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Smoked_icon.svg",
-    "key": "smoked",
-    "source": "SMART",
-    "name": "Smoked",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -39942,6 +39942,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Sound_icon.svg",
+    "key": "sound",
+    "source": "SMART",
+    "name": "Sound",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Sound_icon.svg",
     "key": "sound",
     "source": "SMART",
@@ -39978,10 +39987,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Sound_icon.svg",
-    "key": "sound",
+    "filename": "SMART/shield/Spear_icon.svg",
+    "key": "spear",
     "source": "SMART",
-    "name": "Sound",
+    "name": "Spear",
     "tags": [
       "shield"
     ]
@@ -40014,10 +40023,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Spear_icon.svg",
-    "key": "spear",
+    "filename": "SMART/shield/Spears_icon.svg",
+    "key": "spears",
     "source": "SMART",
-    "name": "Spear",
+    "name": "Spears",
     "tags": [
       "shield"
     ]
@@ -40050,10 +40059,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Spears_icon.svg",
-    "key": "spears",
+    "filename": "SMART/shield/Species_icon.svg",
+    "key": "species",
     "source": "SMART",
-    "name": "Spears",
+    "name": "Species",
     "tags": [
       "shield"
     ]
@@ -40083,15 +40092,6 @@
     "name": "Species",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Species_icon.svg",
-    "key": "species",
-    "source": "SMART",
-    "name": "Species",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -40176,21 +40176,21 @@
     ]
   },
   {
-    "filename": "SMART/mono/Spent_сartridges_icon.svg",
-    "key": "spent_сartridges",
-    "source": "SMART",
-    "name": "Spent Сartridges",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/shield/Spent_сartridges_icon.svg",
     "key": "spent_сartridges",
     "source": "SMART",
     "name": "Spent Сartridges",
     "tags": [
       "shield"
+    ]
+  },
+  {
+    "filename": "SMART/mono/Spent_сartridges_icon.svg",
+    "key": "spent_сartridges",
+    "source": "SMART",
+    "name": "Spent Сartridges",
+    "tags": [
+      "mono"
     ]
   },
   {
@@ -40419,6 +40419,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Status_icon.svg",
+    "key": "status",
+    "source": "SMART",
+    "name": "Status",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Status_icon.svg",
     "key": "status",
     "source": "SMART",
@@ -40443,15 +40452,6 @@
     "name": "Status",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Status_icon.svg",
-    "key": "status",
-    "source": "SMART",
-    "name": "Status",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -40626,6 +40626,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Stump_icon.svg",
+    "key": "stump",
+    "source": "SMART",
+    "name": "Stump",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Stump_icon.svg",
     "key": "stump",
     "source": "SMART",
@@ -40650,15 +40659,6 @@
     "name": "Stump",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Stump_icon.svg",
-    "key": "stump",
-    "source": "SMART",
-    "name": "Stump",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -40689,6 +40689,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Sub_adult_icon.svg",
+    "key": "sub_adult",
+    "source": "SMART",
+    "name": "Sub Adult",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Sub_adult_icon.svg",
     "key": "sub_adult",
     "source": "SMART",
@@ -40713,15 +40722,6 @@
     "name": "Sub Adult",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Sub_adult_icon.svg",
-    "key": "sub_adult",
-    "source": "SMART",
-    "name": "Sub Adult",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -40752,6 +40752,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Suidae_icon.svg",
+    "key": "suidae",
+    "source": "SMART",
+    "name": "Suidae",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Suidae_icon.svg",
     "key": "suidae",
     "source": "SMART",
@@ -40776,15 +40785,6 @@
     "name": "Suidae",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Suidae_icon.svg",
-    "key": "suidae",
-    "source": "SMART",
-    "name": "Suidae",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -41130,7 +41130,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Tapirus_pinchaque_black_icon.svg",
+    "filename": "SMART/mono/Tapirus_pinchaque_glyph_icon.svg",
     "key": "tapirus_pinchaque",
     "source": "SMART",
     "name": "Mountain Tapir",
@@ -41139,7 +41139,7 @@
     ]
   },
   {
-    "filename": "SMART/mono/Tapirus_pinchaque_glyph_icon.svg",
+    "filename": "SMART/mono/Tapirus_pinchaque_black_icon.svg",
     "key": "tapirus_pinchaque",
     "source": "SMART",
     "name": "Mountain Tapir",
@@ -41175,6 +41175,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Tarp_icon.svg",
+    "key": "tarp",
+    "source": "SMART",
+    "name": "Tarp",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Tarp_icon.svg",
     "key": "tarp",
     "source": "SMART",
@@ -41199,15 +41208,6 @@
     "name": "Tarp",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Tarp_icon.svg",
-    "key": "tarp",
-    "source": "SMART",
-    "name": "Tarp",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -41247,7 +41247,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Team_color_icon.svg",
+    "filename": "SMART/color/Team_NS_color_icon.svg",
     "key": "team",
     "source": "SMART",
     "name": "Team",
@@ -41256,7 +41256,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Team_NS_color_icon.svg",
+    "filename": "SMART/color/Team_color_icon.svg",
     "key": "team",
     "source": "SMART",
     "name": "Team",
@@ -41364,6 +41364,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Tent_icon.svg",
+    "key": "tent",
+    "source": "SMART",
+    "name": "Tent",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Tent_icon.svg",
     "key": "tent",
     "source": "SMART",
@@ -41388,15 +41397,6 @@
     "name": "Tent",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Tent_icon.svg",
-    "key": "tent",
-    "source": "SMART",
-    "name": "Tent",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -41661,6 +41661,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Timber_icon.svg",
+    "key": "timber",
+    "source": "SMART",
+    "name": "Timber",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Timber_icon.svg",
     "key": "timber",
     "source": "SMART",
@@ -41685,15 +41694,6 @@
     "name": "Timber",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Timber_icon.svg",
-    "key": "timber",
-    "source": "SMART",
-    "name": "Timber",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -41913,7 +41913,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Tourism_color_icon.svg",
+    "filename": "SMART/color/Tourism_NS_color_icon.svg",
     "key": "tourism",
     "source": "SMART",
     "name": "Tourism",
@@ -41922,7 +41922,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Tourism_NS_color_icon.svg",
+    "filename": "SMART/color/Tourism_color_icon.svg",
     "key": "tourism",
     "source": "SMART",
     "name": "Tourism",
@@ -42057,6 +42057,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Track_icon.svg",
+    "key": "track",
+    "source": "SMART",
+    "name": "Track",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Track_icon.svg",
     "key": "track",
     "source": "SMART",
@@ -42081,15 +42090,6 @@
     "name": "Track",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Track_icon.svg",
-    "key": "track",
-    "source": "SMART",
-    "name": "Track",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -42120,6 +42120,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Traditional_weapons_icon.svg",
+    "key": "traditional_weapons",
+    "source": "SMART",
+    "name": "Traditional Weapons",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Traditional_weapons_icon.svg",
     "key": "traditional_weapons",
     "source": "SMART",
@@ -42147,19 +42156,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Traditional_weapons_icon.svg",
-    "key": "traditional_weapons",
-    "source": "SMART",
-    "name": "Traditional Weapons",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Tragelaphus_angasii_color_icon.svg",
     "key": "tragelaphus_angasii",
     "source": "SMART",
-    "name": "Tragelaphus Angasii",
+    "name": "Nyala",
     "tags": [
       "color"
     ]
@@ -42168,7 +42168,7 @@
     "filename": "SMART/color/Tragelaphus_eurycerus_color_icon.svg",
     "key": "tragelaphus_eurycerus",
     "source": "SMART",
-    "name": "Tragelaphus Eurycerus",
+    "name": "Bongo",
     "tags": [
       "color"
     ]
@@ -42237,6 +42237,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Trail_icon.svg",
+    "key": "trail",
+    "source": "SMART",
+    "name": "Trail",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Trail_icon.svg",
     "key": "trail",
     "source": "SMART",
@@ -42261,15 +42270,6 @@
     "name": "Trail",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Trail_icon.svg",
-    "key": "trail",
-    "source": "SMART",
-    "name": "Trail",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -42381,6 +42381,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Transportation_icon.svg",
+    "key": "transportation",
+    "source": "SMART",
+    "name": "Transportation",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Transportation_icon.svg",
     "key": "transportation",
     "source": "SMART",
@@ -42408,16 +42417,7 @@
     ]
   },
   {
-    "filename": "SMART/shield/Transportation_icon.svg",
-    "key": "transportation",
-    "source": "SMART",
-    "name": "Transportation",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
-    "filename": "SMART/color/Trapping_color_icon.svg",
+    "filename": "SMART/color/Trapping_NS_color_icon.svg",
     "key": "trapping",
     "source": "SMART",
     "name": "Trapping",
@@ -42426,7 +42426,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Trapping_NS_color_icon.svg",
+    "filename": "SMART/color/Trapping_color_icon.svg",
     "key": "trapping",
     "source": "SMART",
     "name": "Trapping",
@@ -42450,6 +42450,15 @@
     "name": "Trapping",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Traps_snares_icon.svg",
+    "key": "traps_snares",
+    "source": "SMART",
+    "name": "Traps Snares",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -42480,15 +42489,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Traps_snares_icon.svg",
-    "key": "traps_snares",
-    "source": "SMART",
-    "name": "Traps Snares",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Tree_bark_color_icon.svg",
     "key": "tree_bark",
     "source": "SMART",
@@ -42516,6 +42516,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Tree_hide_icon.svg",
+    "key": "tree_hide",
+    "source": "SMART",
+    "name": "Tree Hide",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Tree_hide_icon.svg",
     "key": "tree_hide",
     "source": "SMART",
@@ -42540,15 +42549,6 @@
     "name": "Tree Hide",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Tree_hide_icon.svg",
-    "key": "tree_hide",
-    "source": "SMART",
-    "name": "Tree Hide",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -42606,6 +42606,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Trophies_seized_icon.svg",
+    "key": "trophies_seized",
+    "source": "SMART",
+    "name": "Trophies Seized",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Trophies_seized_icon.svg",
     "key": "trophies_seized",
     "source": "SMART",
@@ -42639,15 +42648,6 @@
     "name": "Trophies Seized",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Trophies_seized_icon.svg",
-    "key": "trophies_seized",
-    "source": "SMART",
-    "name": "Trophies Seized",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -42714,6 +42714,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Trophy_type_icon.svg",
+    "key": "trophy_type",
+    "source": "SMART",
+    "name": "Trophy Type",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Trophy_type_icon.svg",
     "key": "trophy_type",
     "source": "SMART",
@@ -42741,10 +42750,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Trophy_type_icon.svg",
-    "key": "trophy_type",
+    "filename": "SMART/shield/Truck_icon.svg",
+    "key": "truck",
     "source": "SMART",
-    "name": "Trophy Type",
+    "name": "Truck",
     "tags": [
       "shield"
     ]
@@ -42774,15 +42783,6 @@
     "name": "Truck",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Truck_icon.svg",
-    "key": "truck",
-    "source": "SMART",
-    "name": "Truck",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -42948,6 +42948,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Tusks_icon.svg",
+    "key": "tusks",
+    "source": "SMART",
+    "name": "Tusks",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Tusks_icon.svg",
     "key": "tusks",
     "source": "SMART",
@@ -42972,15 +42981,6 @@
     "name": "Tusks",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Tusks_icon.svg",
-    "key": "tusks",
-    "source": "SMART",
-    "name": "Tusks",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -43065,7 +43065,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Two_finger_color_icon.svg",
+    "filename": "SMART/color/Two_finger_NS_color_icon.svg",
     "key": "two_finger",
     "source": "SMART",
     "name": "Two Finger",
@@ -43074,7 +43074,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Two_finger_NS_color_icon.svg",
+    "filename": "SMART/color/Two_finger_color_icon.svg",
     "key": "two_finger",
     "source": "SMART",
     "name": "Two Finger",
@@ -43098,6 +43098,15 @@
     "name": "Two Finger",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Type_icon.svg",
+    "key": "type",
+    "source": "SMART",
+    "name": "Type",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -43125,15 +43134,6 @@
     "name": "Type",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Type_icon.svg",
-    "key": "type",
-    "source": "SMART",
-    "name": "Type",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -43245,7 +43245,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Type_of_human_incident_color_icon.svg",
+    "filename": "SMART/color/Type_of_human_incident_NS_color_icon.svg",
     "key": "type_of_human_incident",
     "source": "SMART",
     "name": "Type Of Human Incident",
@@ -43254,7 +43254,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Type_of_human_incident_NS_color_icon.svg",
+    "filename": "SMART/color/Type_of_human_incident_color_icon.svg",
     "key": "type_of_human_incident",
     "source": "SMART",
     "name": "Type Of Human Incident",
@@ -43308,6 +43308,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Type_of_sign_icon.svg",
+    "key": "type_of_sign",
+    "source": "SMART",
+    "name": "Type Of Sign",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Type_of_sign_icon.svg",
     "key": "type_of_sign",
     "source": "SMART",
@@ -43341,15 +43350,6 @@
     "name": "Type Of Sign",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Type_of_sign_icon.svg",
-    "key": "type_of_sign",
-    "source": "SMART",
-    "name": "Type Of Sign",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -43461,6 +43461,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Unarmed_icon.svg",
+    "key": "unarmed",
+    "source": "SMART",
+    "name": "Unarmed",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Unarmed_icon.svg",
     "key": "unarmed",
     "source": "SMART",
@@ -43485,15 +43494,6 @@
     "name": "Unarmed",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Unarmed_icon.svg",
-    "key": "unarmed",
-    "source": "SMART",
-    "name": "Unarmed",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -43605,6 +43605,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Unknown_icon.svg",
+    "key": "unknown",
+    "source": "SMART",
+    "name": "Unknown",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Unknown_icon.svg",
     "key": "unknown",
     "source": "SMART",
@@ -43632,15 +43641,6 @@
     ]
   },
   {
-    "filename": "SMART/shield/Unknown_icon.svg",
-    "key": "unknown",
-    "source": "SMART",
-    "name": "Unknown",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Unknown_bear_color_icon.svg",
     "key": "unknown_bear",
     "source": "SMART",
@@ -43665,6 +43665,15 @@
     "name": "Unknown Bear",
     "tags": [
       "mono"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Unsuccessful_pursuit_icon.svg",
+    "key": "unsuccessful_pursuit",
+    "source": "SMART",
+    "name": "Unsuccessful Pursuit",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -43701,15 +43710,6 @@
     "name": "Unsuccessful Pursuit",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Unsuccessful_pursuit_icon.svg",
-    "key": "unsuccessful_pursuit",
-    "source": "SMART",
-    "name": "Unsuccessful Pursuit",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -43956,7 +43956,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Verbal_warning_icon.svg",
+    "filename": "SMART/shield/Verbal_warning_icon.svg",
+    "key": "verbal_warning",
+    "source": "SMART",
+    "name": "Verbal Warning",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Verbal_warning_NS_color_icon.svg",
     "key": "verbal_warning",
     "source": "SMART",
     "name": "Verbal Warning",
@@ -43965,7 +43974,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Verbal_warning_NS_color_icon.svg",
+    "filename": "SMART/color/Verbal_warning_icon.svg",
     "key": "verbal_warning",
     "source": "SMART",
     "name": "Verbal Warning",
@@ -43989,15 +43998,6 @@
     "name": "Verbal Warning",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Verbal_warning_icon.svg",
-    "key": "verbal_warning",
-    "source": "SMART",
-    "name": "Verbal Warning",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -44082,6 +44082,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Village_icon.svg",
+    "key": "village",
+    "source": "SMART",
+    "name": "Village",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Village_icon.svg",
     "key": "village",
     "source": "SMART",
@@ -44106,15 +44115,6 @@
     "name": "Village",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Village_icon.svg",
-    "key": "village",
-    "source": "SMART",
-    "name": "Village",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -44712,6 +44712,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Weapons & Gear_seized_icon.svg",
+    "key": "weapons_&_gear_seized",
+    "source": "SMART",
+    "name": "Weapons & Gear Seized",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Weapons & Gear_seized_icon.svg",
     "key": "weapons_&_gear_seized",
     "source": "SMART",
@@ -44736,15 +44745,6 @@
     "name": "Weapons & Gear Seized",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Weapons & Gear_seized_icon.svg",
-    "key": "weapons_&_gear_seized",
-    "source": "SMART",
-    "name": "Weapons & Gear Seized",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -44892,6 +44892,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Whole_animal_icon.svg",
+    "key": "whole_animal",
+    "source": "SMART",
+    "name": "Whole Animal",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Whole_animal_icon.svg",
     "key": "whole_animal",
     "source": "SMART",
@@ -44919,10 +44928,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Whole_animal_icon.svg",
-    "key": "whole_animal",
+    "filename": "SMART/shield/Wild_fruit_icon.svg",
+    "key": "wild_fruit",
     "source": "SMART",
-    "name": "Whole Animal",
+    "name": "Wild Fruit",
     "tags": [
       "shield"
     ]
@@ -44955,10 +44964,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Wild_fruit_icon.svg",
-    "key": "wild_fruit",
+    "filename": "SMART/shield/Wildlife_icon.svg",
+    "key": "wildlife",
     "source": "SMART",
-    "name": "Wild Fruit",
+    "name": "Wildlife",
     "tags": [
       "shield"
     ]
@@ -44991,10 +45000,10 @@
     ]
   },
   {
-    "filename": "SMART/shield/Wildlife_icon.svg",
-    "key": "wildlife",
+    "filename": "SMART/shield/Wildlife_direct_observation_icon.svg",
+    "key": "wildlife_direct_observation",
     "source": "SMART",
-    "name": "Wildlife",
+    "name": "Wildlife Direct Observation",
     "tags": [
       "shield"
     ]
@@ -45027,21 +45036,21 @@
     ]
   },
   {
-    "filename": "SMART/shield/Wildlife_direct_observation_icon.svg",
-    "key": "wildlife_direct_observation",
-    "source": "SMART",
-    "name": "Wildlife Direct Observation",
-    "tags": [
-      "shield"
-    ]
-  },
-  {
     "filename": "SMART/color/Wildlife_direct_observationai_icon.svg",
     "key": "wildlife_direct_observationai",
     "source": "SMART",
     "name": "Wildlife Direct Observationai",
     "tags": [
       "color"
+    ]
+  },
+  {
+    "filename": "SMART/shield/Wildlife_indirect_sign_icon.svg",
+    "key": "wildlife_indirect_sign",
+    "source": "SMART",
+    "name": "Wildlife Indirect Sign",
+    "tags": [
+      "shield"
     ]
   },
   {
@@ -45069,15 +45078,6 @@
     "name": "Wildlife Indirect Sign",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Wildlife_indirect_sign_icon.svg",
-    "key": "wildlife_indirect_sign",
-    "source": "SMART",
-    "name": "Wildlife Indirect Sign",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -45135,12 +45135,12 @@
     ]
   },
   {
-    "filename": "SMART/color/Wire_snare_1_icon.svg",
+    "filename": "SMART/shield/Wire_snare_icon.svg",
     "key": "wire_snare",
     "source": "SMART",
     "name": "Wire Snare",
     "tags": [
-      "color"
+      "shield"
     ]
   },
   {
@@ -45153,12 +45153,12 @@
     ]
   },
   {
-    "filename": "SMART/line/Wire_snare_1_icon.svg",
+    "filename": "SMART/color/Wire_snare_1_icon.svg",
     "key": "wire_snare",
     "source": "SMART",
     "name": "Wire Snare",
     "tags": [
-      "line"
+      "color"
     ]
   },
   {
@@ -45171,12 +45171,12 @@
     ]
   },
   {
-    "filename": "SMART/mono/Wire_snare_1_icon.svg",
+    "filename": "SMART/line/Wire_snare_1_icon.svg",
     "key": "wire_snare",
     "source": "SMART",
     "name": "Wire Snare",
     "tags": [
-      "mono"
+      "line"
     ]
   },
   {
@@ -45189,12 +45189,12 @@
     ]
   },
   {
-    "filename": "SMART/shield/Wire_snare_icon.svg",
+    "filename": "SMART/mono/Wire_snare_1_icon.svg",
     "key": "wire_snare",
     "source": "SMART",
     "name": "Wire Snare",
     "tags": [
-      "shield"
+      "mono"
     ]
   },
   {
@@ -45279,6 +45279,15 @@
     ]
   },
   {
+    "filename": "SMART/shield/Written_warning_icon.svg",
+    "key": "written_warning",
+    "source": "SMART",
+    "name": "Written Warning",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
     "filename": "SMART/color/Written_warning_icon.svg",
     "key": "written_warning",
     "source": "SMART",
@@ -45303,15 +45312,6 @@
     "name": "Written Warning",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Written_warning_icon.svg",
-    "key": "written_warning",
-    "source": "SMART",
-    "name": "Written Warning",
-    "tags": [
-      "shield"
     ]
   },
   {
@@ -45423,7 +45423,16 @@
     ]
   },
   {
-    "filename": "SMART/color/Young_icon.svg",
+    "filename": "SMART/shield/Young_icon.svg",
+    "key": "young",
+    "source": "SMART",
+    "name": "Young",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "filename": "SMART/color/Young_NS_color_icon.svg",
     "key": "young",
     "source": "SMART",
     "name": "Young",
@@ -45432,7 +45441,7 @@
     ]
   },
   {
-    "filename": "SMART/color/Young_NS_color_icon.svg",
+    "filename": "SMART/color/Young_icon.svg",
     "key": "young",
     "source": "SMART",
     "name": "Young",
@@ -45456,15 +45465,6 @@
     "name": "Young",
     "tags": [
       "mono"
-    ]
-  },
-  {
-    "filename": "SMART/shield/Young_icon.svg",
-    "key": "young",
-    "source": "SMART",
-    "name": "Young",
-    "tags": [
-      "shield"
     ]
   }
 ]

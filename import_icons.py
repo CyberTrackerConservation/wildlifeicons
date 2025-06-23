@@ -176,6 +176,10 @@ def rename_dot_files(icons_dir='icons'):
     # Walk through the icons directory recursively
     for root, dirs, files in os.walk(icons_dir):
         for file in files:
+            # Only process SVG files
+            if not file.lower().endswith('.svg'):
+                continue
+                
             # Check if the file starts with a dot
             if file.startswith('.'):
                 # Get the full path to the original file
@@ -230,6 +234,10 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
     # Walk through the icons directory recursively
     for root, dirs, files in os.walk(icons_dir):
         for file in files:
+            # Only process SVG files
+            if not file.lower().endswith('.svg'):
+                continue
+                
             # Get the full path of the file
             full_path = os.path.join(root, file)
             
