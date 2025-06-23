@@ -1,1116 +1,194 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+"""
+Scan Icons Script
+
+This script scans the icons directory recursively and creates a JSON file
+containing an array of objects with filename information.
+"""
+
 import os
 import json
 import re
+import yaml
+from pathlib import Path
 
-ICONS_DIR = 'icons'
-OUTPUT_JSON = 'icons.json'
-SUPPORTED_EXTENSIONS = {'.svg', '.png', '.jpg', '.jpeg', '.webp'}
+SCIENTIFIC_NAMES = 'scientific_names.txt'
 
-# Scientific name to colloquial name lookup table (auto-generated from icons.json)
-SCIENTIFIC_NAME_LOOKUP = {
-  "cabassous_tatouay": "Greater Naked-tailed Armadillo",
-  "avahi_laniger": "Eastern Woolly Lemur",
-  "mustelus_lunulatus": "Sicklefin Smooth-hound",
-  "mazama_americana": "Red Brocket",
-  "chrysocyon_brachyurus": "Maned Wolf",
-  "lemur_catta": "Ring-tailed Lemur",
-  "cuon_alpinus": "Dhole",
-  "puma_concolor": "Cougar",
-  "equus_hemionus": "Onager",
-  "pan_paniscus": "Bonobo",
-  "felis_chaus": "Jungle Cat",
-  "semnopithecus_entellus": "Northern Plains Gray Langur",
-  "bradypus_variegatus": "Brown-throated Sloth",
-  "myrmecophaga_tridactyla": "Giant Anteater",
-  "leptoptilos_javanicus": "Lesser Adjutant",
-  "propithecus_coquereli": "Coquerel's Sifaka",
-  "brachyteles_arachnoides": "Southern Muriqui",
-  "cercopithecus_aethiops": "Vervet Monkey",
-  "bycanistes_cylindricus": "Brown-cheeked Hornbill",
-  "varanus_bengalensis": "Bengal Monitor",
-  "priodontes_maximus": "Giant Armadillo",
-  "struthio_camelus": "Common Ostrich",
-  "ciconia_episcopus": "Woolly-necked Stork",
-  "spheniscus_magellanicus": "Magellanic Penguin",
-  "panthera_pardus": "Leopard",
-  "pan_troglodytes": "Chimpanzee",
-  "chelonia_mydas": "Green Sea Turtle",
-  "panthera_uncia": "Snow Leopard",
-  "pavo_cristatus": "Indian Peafowl",
-  "alcelaphus_buselaphus": "Hartebeest",
-  "papio_anubis": "Olive Baboon",
-  "potamochoerus_larvatus": "Bushpig",
-  "giraffa_camelopardalis": "Giraffe",
-  "eretmochelys_imbricata": "Hawksbill Sea Turtle",
-  "acinonyx_jubatus": "Cheetah",
-  "oreotragus_oreotragus": "Klipspringer",
-  "hippotragus_niger": "Sable Antelope",
-  "civettictis_civetta": "African Civet",
-  "alouatta_seniculus": "Red Howler Monkey",
-  "vultur_gryphus": "Andean Condor",
-  "colobus_guereza": "Eastern Black-and-white Colobus",
-  "hydrochaeris_hydrochaeris": "Capybara",
-  "oryx_beisa": "Beisa Oryx",
-  "cercocebus_agilis": "Agile Mangabey",
-  "potamochoerus_porcus": "Red River Hog",
-  "inia_geoffrensis": "Amazon River Dolphin",
-  "manis_gigantea": "Giant Pangolin",
-  "harpia_harpyja": "Harpy Eagle",
-  "panthera_onca": "Jaguar",
-  "odocoileus_virginianus": "White-tailed Deer",
-  "tapirus_terrestris": "South American Tapir",
-  "tapirus_bairdii": "Baird's Tapir",
-  "phacochoerus_africanus": "Common Warthog",
-  "orycteropus_afer": "Aardvark",
-  "tragelaphus_scriptus": "Bushbuck",
-  "kobus_ellipsiprymnus": "Waterbuck",
-  "tragelaphus_strepsiceros": "Greater Kudu",
-  "tragelaphus_imberbis": "Lesser Kudu",
-  "connochaetes_taurinus": "Blue Wildebeest",
-  "panthera_leo": "Lion",
-  "leopardus_pardalis": "Ocelot",
-  "leopardus_wiedii": "Margay",
-  "canis_lupus": "Gray Wolf",
-  "canis_mesomelas": "Black-backed Jackal",
-  "canis_adustus": "Side-striped Jackal",
-  "lycaon_pictus": "African Wild Dog",
-  "syncerus_caffer": "African Buffalo",
-  "loxodonta_africana": "African Elephant",
-  "loxodonta_cyclotis": "Forest Elephant",
-  "equus_grevyi": "Grevy's Zebra",
-  "equus_quagga": "Plains Zebra",
-  "equus_zebra": "Mountain Zebra",
-  "ceratotherium_simum": "White Rhinoceros",
-  "diceros_bicornis": "Black Rhinoceros",
-  "gorilla_gorila": "Western Gorilla",
-  "propithecus_diadema": "Diademed Sifaka",
-  "propithecus_verreauxi": "Verreaux's Sifaka",
-  "propithecus_candidus": "Silky Sifaka",
-  "eulemur_fulvus": "Brown Lemur",
-  "eulemur_albifrons": "White-fronted Lemur",
-  "eulemur_mongoz": "Mongoose Lemur",
-  "eulemur_rufus": "Red Lemur",
-  "eulemur_rubriventer": "Red-bellied Lemur",
-  "indri_indri": "Indri",
-  "varecia_variegata": "Black-and-white Ruffed Lemur",
-  "varecia_rubra": "Red Ruffed Lemur",
-  "lemur_catta": "Ring-tailed Lemur",
-  "macaca_fascicularis": "Crab-eating Macaque",
-  "macaca_mulatta": "Rhesus Macaque",
-  "alouatta_guariba": "Brown Howler Monkey",
-  "alouatta_caraya": "Black Howler Monkey",
-  "alouatta_macconelli": "Guyanan Red Howler",
-  "alouatta_palliata": "Mantled Howler",
-  "saguinus_oedipus": "Cotton-top Tamarin",
-  "saguinus_midas": "Golden-handed Tamarin",
-  "saguinus_bicolor": "Pied Tamarin",
-  "ateles_paniscus": "Red-faced Spider Monkey",
-  "espeletia": "Espeletia",
-  "ateles_geoffroyi": "Geoffroy's Spider Monkey",
-  "lagothrix_lagotricha": "Brown Woolly Monkey",
-  "chiropotes_sagulatus": "Bearded Saki",
-  "cercopithecus_mona": "Mona Monkey",
-  "cercopithecus_neglectus": "De Brazza's Monkey",
-  "cercopithecus_mitis": "Blue Monkey",
-  "cercopithecus_erythrotis": "Red-eared Monkey",
-  "cercopithecus_preussi": "Preuss's Monkey",
-  "cercopithecus_aethiops": "Vervet Monkey",
-  "papio_anubis": "Olive Baboon",
-  "papio_cynocephalus": "Yellow Baboon",
-  "papio_ursinus": "Chacma Baboon",
-  "theropithecus_gelada": "Gelada",
-  "mandrillus_leucophaeus": "Drill",
-  "mandrillus_sphinx": "Mandrill",
-  "colobus_badius": "Western Red Colobus",
-  "colobus_guereza": "Eastern Black-and-white Colobus",
-  "cercopithecus_lhoesti": "L'Hoest's Monkey",
-  "cercopithecus_pogonias": "Crested Mona Monkey",
-  "cercopithecus_diana": "Diana Monkey",
-  "cercopithecus_wolfi": "Wolf's Mona Monkey",
-  "cercopithecus_cephus": "Mustached Monkey",
-  "cercopithecus_nictitans": "Greater Spot-nosed Monkey",
-  "cercopithecus_campbelli": "Campbell's Monkey",
-  "cercopithecus_sclateri": "Sclater's Monkey",
-  "cercopithecus_solatus": "Sun-tailed Monkey",
-  "cephalphus_duikers": "Duikers",
-  "eudorcas_thomsonii": "Thomson's Gazelle",
-  "buffalo_syncerus": "African Buffalo",
-  "taurotragus_oryx": "Common Eland",
-  "tupinambis_teguixin": "Gold Tegu",
-  "sotalia_guianensis": "Guiana Dolphin",
-  "cryptoprocta_ferox": "Fossa",
-  "caretta_caretta": "Loggerhead Sea Turtle",
-  "hylochoerus_meinertzhageni": "Giant Forest Hog",
-  "styracura_pacifica": "Pacific Chupare",
-  "rhacophorus_annamensis": "Annam Flying Frog",
-  "hyemoschus_aquaticus": "Water Chevrotain",
-  "eunectes_murinus": "Green Anaconda",
-  "semaprochilodus_insignis": "Flag-tailed Prochilodus",
-  "hypanus_longus": "Longtail Stingray",
-  "hippopotamus_amphibius": "Hippopotamus",
-  "osteolaemus_tetraspis": "Dwarf Crocodile",
-  "ardea_humbloti": "Humblot's Heron",
-  "dermochelys_coriacea": "Leatherback Sea Turtle",
-  "brachypteracias_leptosomus": "Short-legged Ground Roller",
-  "pyxis_arachnoides": "Spider Tortoise",
-  "cercopithecus_mona": "Mona Monkey",
-  "chiropotes_sagulatus": "Bearded Saki",
-  "atelopus_mittermeieri": "Mittermeier's Stubfoot Toad",
-  "pygathrix_nemaeus": "Red-shanked Douc",
-  "equus_grevyi": "Grevy's Zebra",
-  "trachypithecus_geei": "Gee's Golden Langur",
-  "bolborhynchus_ferrugineifrons": "Rusty-fronted Parakeet",
-  "atelocynus_microtis": "Short-eared Dog",
-  "pseudoplatystoma_fasciatum": "Barred Sorubim",
-  "sapajus_apella": "Tufted Capuchin",
-  "chauna_chavaria": "Northern Screamer",
-  "nasua_nasua": "South American Coati",
-  "pecari_tajacu": "Collared Peccary",
-  "lutjanus_guttatus": "Spotted Rose Snapper",
-  "sus_scrofa": "Wild Boar",
-  "metachirus_nudicaudatus": "Brown Four-eyed Opossum",
-  "penelope_perspicax": "Cauca Guan",
-  "tremarctos_ornatus": "Andean Bear",
-  "bycanistes_albotibialis": "White-thighed Hornbill",
-  "amazona_autumnalis": "Red-lored Amazon",
-  "early_burning": "Early Burning",
-  "human_injury": "Human Injury",
-  "common_eider": "Common Eider",
-  "tinamus_guttatus": "White-throated Tinamou",
-  "vegetable_garden": "Vegetable Garden",
-  "condition_sick": "Condition Sick",
-  "crowned_crane": "Crowned Crane",
-  "fregata_magnificens": "Magnificent Frigatebird",
-  "cape_fox": "Cape Fox",
-  "patrol_objective": "Patrol Objective",
-  "trophy_hunting": "Trophy Hunting",
-  "snow_goose": "Snow Goose",
-  "animal_hole": "Animal Hole",
-  "old_age": "Old Age",
-  "name_ns": "Name Ns",
-  "eulemur_fulvus": "Brown Lemur",
-  "pristis_pristis": "Largetooth Sawfish",
-  "turtle_grouping": "Turtle Grouping",
-  "vulpes_vulpes": "Red Fox",
-  "sandhill_crane": "Sandhill Crane",
-  "sperm_whale": "Sperm Whale",
-  "hapalemur_griseus": "Eastern Lesser Bamboo Lemur",
-  "odocoileus_goudotii": "Gray Brocket",
-  "haliaeetus_vociferoides": "Madagascar Fish Eagle",
-  "kobus_vardonii": "Puku",
-  "aepyceros_melampus": "Impala",
-  "cichla_monoculus": "Peacock Bass",
-  "grain_store": "Grain Store",
-  "cercopithecus_neglectus": "De Brazza's Monkey",
-  "cephalophus_dorsalis": "Bay Duiker",
-  "aotus_azarae": "Azara's Night Monkey",
-  "observation_point": "Observation Point",
-  "stinging_insect": "Stinging Insect",
-  "thunnus_albacares": "Yellowfin Tuna",
-  "donkey_cart": "Donkey Cart",
-  "bos_javanicus": "Banteng",
-  "agouti_paca": "Lowland Paca",
-  "burkea_africana": "Burkea Africana",
-  "sotalia_fluviatilis": "Tucuxi",
-  "illegal_settlement": "Illegal Settlement",
-  "manis_javanica": "Sunda Pangolin",
-  "rupicola_rupicola": "Guianan Cock-of-the-rock",
-  "crocodylus_acutus": "American Crocodile",
-  "mahogany_ns": "Mahogany Ns",
-  "photo_taken": "Photo Taken",
-  "lycaon_pictus": "African Wild Dog",
-  "lepus_nigricollis": "Indian Hare",
-  "cichla_ocellaris": "Peacock Bass",
-  "pauxi_pauxi": "Helmeted Curassow",
-  "saguinus_oedipus": "Cotton-top Tamarin",
-  "macaca_fascicularis": "Crab-eating Macaque",
-  "morpho_helenor": "Blue Morpho",
-  "gunshot_heard": "Gunshot Heard",
-  "bos_gaurus": "Gaur",
-  "xanthopsar_flavus": "Saffron-cowled Blackbird",
-  "leopardus_pardalis": "Ocelot",
-  "male_ns": "Male Ns",
-  "manketti_ns": "Manketti Ns",
-  "bycanistes_fistulator": "Black-and-white-casqued Hornbill",
-  "alouatta_guariba": "Brown Howler Monkey",
-  "erethizon_dorsatum": "North American Porcupine",
-  "eulemur_albifrons": "White-fronted Lemur",
-  "veterinary_procedure": "Veterinary Procedure",
-  "pygathrix_cinerea": "Gray-shanked Douc",
-  "blackberry_crowberry": "Blackberry Crowberry",
-  "chemical_removal": "Chemical Removal",
-  "bdeogale_crassicauda": "Bushy-tailed Mongoose",
-  "viverricula_indica": "Small Indian Civet",
-  "blastocerus_dichotomus": "Marsh Deer",
-  "ivory_chips": "Ivory Chips",
-  "colobus_badius": "Western Red Colobus",
-  "madoqua_kirkii": "Kirk's Dik-dik",
-  "followed_ns": "Followed Ns",
-  "collected_ns": "Collected Ns",
-  "anadara_tuberculosa": "Mangrove Cockle",
-  "tayassu_pecari": "White-lipped Peccary",
-  "sphyrna_lewini": "Scalloped Hammerhead",
-  "cattle_stick": "Cattle Stick",
-  "tamandua_mexicana": "Northern Tamandua",
-  "eubalaena_australis": "Southern Right Whale",
-  "sex_ns": "Sex Ns",
-  "chironectes_minimus": "Water Opossum",
-  "mixed_crops": "Mixed Crops",
-  "lowland_forest": "Lowland Forest",
-  "rucervus_eldii": "Eld's Deer",
-  "philander_oposum": "Gray Four-eyed Opossum",
-  "procellaria_cinerea": "Grey Petrel",
-  "macaca_mulatta": "Rhesus Macaque",
-  "steno_bredanensis": "Rough-toothed Dolphin",
-  "sound_ns": "Sound Ns",
-  "aratinga_solstitialis": "Sun Parakeet",
-  "patrol_pilot": "Patrol Pilot",
-  "african_civet": "African Civet",
-  "dendrohyrax_dorsalis": "Western Tree Hyrax",
-  "podocnemis_unifilis": "Yellow-spotted River Turtle",
-  "trichechus_inunguis": "Amazonian Manatee",
-  "chelonias_mydas": "Green Sea Turtle",
-  "capra_sibirica": "Siberian Ibex",
-  "tamboti_ns": "Tamboti Ns",
-  "rope_snare": "Rope Snare",
-  "okapia_johnstoni": "Okapi",
-  "transport_type": "Transport Type",
-  "cercopithecus_mitis": "Blue Monkey",
-  "spent_cartridges": "Spent Cartridges",
-  "school_ns": "School Ns",
-  "maize_field": "Maize Field",
-  "devils_claw": "Devils Claw",
-  "cercopithecus_erythrotis": "Red-eared Monkey",
-  "smutsia_gigantea": "Giant Pangolin",
-  "ricinus_communus": "Castor Oil Plant",
-  "priodontes_maximus": "Giant Armadillo",
-  "scent_ns": "Scent Ns",
-  "hooded_vulture": "Hooded Vulture",
-  "temporarily_repaired": "Temporarily Repaired",
-  "struthio_camelus": "Common Ostrich",
-  "crax_alberti": "Blue-billed Curassow",
-  "white_fish": "White Fish",
-  "recovered_ns": "Recovered Ns",
-  "ciconia_episcopus": "Woolly-necked Stork",
-  "mechanical_removal": "Mechanical Removal",
-  "pontoporia_blainvillei": "La Plata Dolphin",
-  "coua_caerulea": "Blue Coua",
-  "aetobatus_laticeps": "Pacific Eagle Ray",
-  "herpailurus_yagouaroundi": "Jaguarundi",
-  "trapping_ns": "Trapping Ns",
-  "tragelaphus_imberbis": "Lesser Kudu",
-  "ara_ararauna": "Blue-and-yellow Macaw",
-  "panthera_pardus": "Leopard",
-  "thatch_grass": "Thatch Grass",
-  "grey_parrot": "Grey Parrot",
-  "translocation_start": "Translocation Start",
-  "pan_troglodytes": "Chimpanzee",
-  "cephalophus_silvicultor": "Yellow-backed Duiker",
-  "lagothrix_lagotricha": "Brown Woolly Monkey",
-  "chelonia_mydas": "Green Sea Turtle",
-  "palm_civet": "Palm Civet",
-  "panthera_uncia": "Snow Leopard",
-  "pavo_cristatus": "Indian Peafowl",
-  "prosopis_species": "Prosopis Species",
-  "cichla_temensis": "Cichla Temensis",
-  "podocnemis_sextuberculata": "Podocnemis Sextuberculata",
-  "connochaetes_taurinus": "Blue Wildebeest",
-  "tapirus_pinchaque": "Tapirus Pinchaque",
-  "alcelaphus_buselaphus": "Hartebeest",
-  "buteo_swainsoni": "Swainson's Hawk",
-  "papio_anubis": "Olive Baboon",
-  "blue_crane": "Blue Crane",
-  "merganetta_armata": "Torrent Duck",
-  "indri_indri": "Indri",
-  "mazama_gouazoubira": "Gray Brocket",
-  "invasive_species": "Invasive Species",
-  "dolichonyx_oryzivorus": "Dolichonyx Oryzivorus",
-  "potamochoerus_larvatus": "Bushpig",
-  "colibri_serrirostris": "Serrated Hermit",
-  "hevea_brasiliensis": "Rubber Tree",
-  "pteronura_brasiliensis": "Giant Otter",
-  "saguinus_midas": "Golden-handed Tamarin",
-  "forestry_services": "Forestry Services",
-  "anolis_agassizi": "Agassiz's Anole",
-  "giraffa_camelopardalis": "Giraffe",
-  "radio_communications": "Radio Communications",
-  "fixed_wing": "Fixed Wing",
-  "eretmochelys_imbricata": "Hawksbill Sea Turtle",
-  "saimiri_sciureus": "Common Squirrel Monkey",
-  "quercus_humboldtii": "Quercus Humboldtii",
-  "brant_goose": "Brant Goose",
-  "pyrrhura_calliptera": "Flame-winged Parakeet",
-  "steatornis_caripensis": "Oilbird",
-  "aotus_vociferans": "Night Monkey",
-  "harbour_seal": "Harbor Seal",
-  "bougainvillea_species": "Bougainvillea Species",
-  "amazona_amazonica": "Orange-winged Amazon",
-  "polar_bear": "Polar Bear",
-  "topaza_pella": "Crimson Topaz",
-  "falco_cherrug": "Saker Falcon",
-  "dried_meat": "Dried Meat",
-  "iguana_iguana": "Green Iguana",
-  "patrol_mandate": "Patrol Mandate",
-  "cephalopterus_penduliger": "Long-wattled Umbrellabird",
-  "afropavo_congensis": "Congo Peafowl",
-  "ursus_thibetanus": "Asian Black Bear",
-  "hyaena_rown": "Spotted Hyena",
-  "cebus_apella": "Tufted Capuchin",
-  "commiphora_ns": "Commiphora Ns",
-  "pseudibis_davisoni": "White-shouldered Ibis",
-  "athelestes_geoffroyi": "Geoffroy's Spider Monkey",
-  "sylvilagus_brasiliensis": "Tapeti",
-  "parachoerus_wagneri": "Chacoan Peccary",
-  "weasel_ermine": "Weasel Ermine",
-  "procavia_capensis": "Rock Hyrax",
-  "tapirus_terrestris": "South American Tapir",
-  "traditional_axe": "Traditional Axe",
-  "five_finger": "Five Finger",
-  "cardisoma_crassum": "Blue Land Crab",
-  "foot_ns": "Foot Ns",
-  "tusks_missing": "Tusks Missing",
-  "unexploded_ordnance": "Unexploded Ordnance",
-  "salvator_rufescens": "Red Monitor",
-  "fence_cut": "Fence Cut",
-  "two_finger": "Two Finger",
-  "sable_antelope": "Sable Antelope",
-  "thalassarche_chlororhynchos": "Yellow-nosed Albatross",
-  "very_old": "Very Old",
-  "ovis_ammon": "Argali",
-  "capricornis_sumatraensis": "Sumatran Serow",
-  "cephalophus_callipygus": "Peter's Duiker",
-  "chewing_stick": "Chewing Stick",
-  "harlequin_duck": "Harlequin Duck",
-  "anthracoceros_albirostris": "Oriental Pied Hornbill",
-  "rubbish_dump": "Rubbish Dump",
-  "terminalia_ns": "Terminalia Ns",
-  "canis_lupus": "Gray Wolf",
-  "three_finger": "Three Finger",
-  "firearms_ammunition": "Firearms Ammunition",
-  "mahangu_field": "Mahangu Field",
-  "buceros_bicornis": "Great Hornbill",
-  "oxyura_jamaicensis": "Ruddy Duck",
-  "python_molurus": "Indian Python",
-  "caiman_latirostris": "Broad-snouted Caiman",
-  "medium_duiker": "Medium Duiker",
-  "pipile_cumanensis": "Blue-throated Piping Guan",
-  "capricornis_thar": "Himalayan Serow",
-  "cercopithecus_preussi": "Preuss's Monkey",
-  "megaptera_novaeangliae": "Humpback Whale",
-  "cedar_ns": "Cedar Ns",
-  "alectrurus_tricolor": "Strange-tailed Tyrant",
-  "elephant_carcass": "Elephant Carcass",
-  "mandrillus_leucophaeus": "Drill",
-  "position_type": "Position Type",
-  "penelope_superciliaris": "Rusty-margined Guan",
-  "harp_seal": "Harp Seal",
-  "rupicola_peruviana": "Andean Cock-of-the-rock",
-  "alouatta_macconelli": "Guyanan Red Howler",
-  "information_gathering": "Information Gathering",
-  "tursiops_truncatus": "Common Bottlenose Dolphin",
-  "pandion_haliaetus": "Osprey",
-  "red_fox": "Red Fox",
-  "crowned_monkey": "Crowned Monkey",
-  "eira_barbara": "Tayra",
-  "anadara_similis": "Similar Ark Clam",
-  "acinonyx_jubatus": "Cheetah",
-  "one_finger": "One Finger",
-  "oreotragus_oreotragus": "Klipspringer",
-  "star_fish": "Star Fish",
-  "coendou_prehensilis": "Brazilian Porcupine",
-  "phataginus_tricuspis": "White-bellied Pangolin",
-  "eulemur_rufus": "Red Lemur",
-  "campephilus_melanoleucos": "Crimson-crested Woodpecker",
-  "viverra_zibetha": "Large Indian Civet",
-  "euryceros_prevostii": "Helmet Vanga",
-  "philantomba_monticola": "Blue Duiker",
-  "hyaena_brown": "Brown Hyena",
-  "cyclopes_didactylus": "Silky Anteater",
-  "hippotragus_niger": "Sable Antelope",
-  "homemade_gun": "Homemade Gun",
-  "vehicle_track": "Vehicle Track",
-  "fine_amount": "Fine Amount",
-  "tusks_recovered": "Tusks Recovered",
-  "crop_field": "Crop Field",
-  "honey_badger": "Honey Badger",
-  "lontra_longicaudis": "Neotropical Otter",
-  "bertholletia_excelsa": "Brazil Nut Tree",
-  "ceroxylon_quindiuense": "Quindío Wax Palm",
-  "bangsia_aureocincta": "Gold-ringed Tanager",
-  "salad_eru": "Gnetum africanum",
-  "openbilled_stork": "Openbilled Stork",
-  "permanently_repaired": "Permanently Repaired",
-  "crocodylus_cataphractus": "African Slender-snouted Crocodile",
-  "melanosuchus_niger": "Black Caiman",
-  "civettictis_civetta": "African Civet",
-  "flat_fish": "Flat Fish",
-  "alouatta_seniculus": "Red Howler Monkey",
-  "rusa_unicolor": "Sambar",
-  "eulemur_rubriventer": "Red-bellied Lemur",
-  "gorilla_gorila": "Western Gorilla",
-  "stashing_area": "Stashing Area",
-  "speothos_venaticus": "Bush Dog",
-  "run_go": "Run Go",
-  "vultur_gryphus": "Andean Condor",
-  "patrol_comment": "Patrol Comment",
-  "espeletia_sp": "Espeletia",
-  "macaca_assamensis": "Assam Macaque",
-  "condition_dead": "Condition Dead",
-  "diomedea_spp": "Albatross",
-  "golden_eagle": "Golden Eagle",
-  "schetba_rufa": "Rufous Vanga",
-  "turtle_shell": "Turtle Shell",
-  "chelonoidis_carbonaria": "Red-footed Tortoise",
-  "diceros_bicornis": "Black Rhinoceros",
-  "penelope_montagnii": "Andean Guan",
-  "hydrochaeris_hydrochaeris": "Capybara",
-  "drying_racks": "Drying Racks",
-  "african_skimmer": "African Skimmer",
-  "oryx_beisa": "Beisa Oryx",
-  "snow_bunting": "Snow Bunting",
-  "cercocebus_agilis": "Agile Mangabey",
-  "propithecus_verreauxi": "Verreaux's Sifaka",
-  "area_ha": "Area Ha",
-  "elephas_maximus": "Asian Elephant",
-  "salvinia_molesta": "Giant Salvinia",
-  "arctic_hare": "Arctic Hare",
-  "sylvicapra_grimmia": "Common Duiker",
-  "bike_track": "Bike Track",
-  "canada_goose": "Canada Goose",
-  "ramphastos_tucanus": "White-throated Toucan",
-  "sledge_track": "Sledge Track",
-  "livestock_loss": "Livestock Loss",
-  "rhizophora_mangle": "Rhizophora Mangle",
-  "monitor_lizard": "Monitor Lizard",
-  "nandinia_binotata": "African Palm Civet",
-  "muntiacus_vuquangensis": "Large-antlered Muntjac",
-  "gazella_subgutturosa": "Goitered Gazelle",
-  "black_agouti": "Black Agouti",
-  "piliocolobus_preussi": "Preuss's Red Colobus",
-  "litocranius_walleri": "Gerenuk",
-  "common_loon": "Common Loon",
-  "area_search": "Area Search",
-  "half_full": "Half Full",
-  "vulpes_corsac": "Corsac Fox",
-  "trachypithecus_hatinhensis": "Hatinh Langur",
-  "carcharhinus_falciformis": "Silky Shark",
-  "illegal_entry": "Illegal Entry",
-  "ambush_ns": "Ambush Ns",
-  "hippotragus_equinus": "Roan Antelope",
-  "panthera_leo": "Lion",
-  "saguinus_bicolor": "Pied Tamarin",
-  "pseudobatos_leucorhynchus": "Smoothnose Guitarfish",
-  "patrol_leader": "Patrol Leader",
-  "tamandua_tetradactyla": "Southern Tamandua",
-  "ironwood_ns": "Ironwood Ns",
-  "leopardus_wiedii": "Margay",
-  "mopani_ns": "Mopani Ns",
-  "peltocephalus_dumerilianus": "Big-headed Amazon River Turtle",
-  "dasyprocta_azarae": "Azara's Agouti",
-  "ceratotherium_simum": "White Rhinoceros",
-  "ophiophagus_hannah": "King Cobra",
-  "make_observation": "Make Observation",
-  "physignathus_cocincinus": "Chinese Water Dragon",
-  "equus_zebra": "Mountain Zebra",
-  "kobus_kob": "Kob",
-  "tragelaphus_scriptus": "Bushbuck",
-  "podocnemis_expansa": "Arrau Turtle",
-  "rock_bare": "Rock Bare",
-  "general_maintenance": "General Maintenance",
-  "poaching_ns": "Poaching Ns",
-  "half_broken": "Half Broken",
-  "stenella_frontalis": "Atlantic Spotted Dolphin",
-  "tragelaphus_strepsiceros": "Greater Kudu",
-  "arapaima_gigas": "Arapaima",
-  "cuniculus_paca": "Lowland Paca",
-  "cerdocyon_thous": "Crab-eating Fox",
-  "pavo_muticus": "Green Peafowl",
-  "hybrid_bear": "Hybrid Bear",
-  "lantana_camara": "Lantana",
-  "alouatta_palliata": "Mantled Howler",
-  "hand_line": "Hand Line",
-  "tyto_soumagnei": "Madagascar Red Owl",
-  "propithecus_candidus": "Silky Sifaka",
-  "ledipochelys_olivacea": "Olive Ridley Sea Turtle",
-  "procapra_gutturosa": "Mongolian Gazelle",
-  "phacochoerus_africanus": "Common Warthog",
-  "orycteropus_afer": "Aardvark",
-  "mobula_hypostoma": "Lesser Devil Ray",
-  "anti_poaching": "Anti Poaching",
-  "cephalophus_ogilbyi": "Ogilby's Duiker",
-  "condition_healthy": "Condition Healthy",
-  "red_lechwe": "Red Lechwe",
-  "prolemur_simus": "Greater Bamboo Lemur",
-  "penelope_jacquacu": "Spix's Guan",
-  "poacher_fire": "Poacher Fire",
-  "bird_snare": "Bird Snare",
-  "machine_cart": "Machine Cart",
-  "herb_patch": "Herb Patch",
-  "oil_palm": "Oil Palm",
-  "gun_hunting": "Gun Hunting",
-  "large_duiker": "Large Duiker",
-  "tapirus_bairdii": "Baird's Tapir",
-  "celeus_galeatus": "Helmeted Woodpecker",
-  "clams_line": "Clams Line",
-  "cloudberry_line": "Cloudberry Line",
-  "burned_line": "Burned Line",
-  "oribi_line": "Oribi Line",
-  "pumpkins_line": "Pumpkins Line",
-  "drowned_line": "Drowned Line",
-  "honey_line": "Honey Line",
-  "quantity_line": "Quantity Line",
-  "snail_line": "Snail Line",
-  "station_line": "Station Line",
-  "contract_line": "Contract Line",
-  "teeth_line": "Teeth Line",
-  "helicopter_line": "Helicopter Line",
-  "orchard_line": "Orchard Line",
-  "ironwood_line": "Ironwood Line",
-  "leopard_line": "Leopard Line",
-  "rain_line": "Rain Line",
-  "notes_line": "Notes Line",
-  "vehicle_line": "Vehicle Line",
-  "beluga_line": "Beluga Line",
-  "weak_line": "Weak Line",
-  "salmon_line": "Salmon Line",
-  "tamboti_line": "Tamboti Line",
-  "scoter_line": "Scoter Line",
-  "bowhead_line": "Bowhead Line",
-  "name_line": "Name Line",
-  "team_line": "Team Line",
-  "hawk_line": "Hawk Line",
-  "merganser_line": "Merganser Line",
-  "clothing_line": "Clothing Line",
-  "dehorning_line": "Dehorning Line",
-  "robins_line": "Robins Line",
-  "liters_line": "Liters Line",
-  "ambush_line": "Ambush Line",
-  "tourism_line": "Tourism Line",
-  "cranberry_line": "Cranberry Line",
-  "comments_line": "Comments Line",
-  "fulmar_line": "Fulmar Line",
-  "marten_line": "Marten Line",
-  "mukoro_line": "Mukoro Line",
-  "dovekie_line": "Dovekie Line",
-  "aardwolf_line": "Aardwolf Line",
-  "mahogany_line": "Mahogany Line",
-  "none_line": "None Line",
-  "plantain_line": "Plantain Line",
-  "sunny_line": "Sunny Line",
-  "nationality_line": "Nationality Line",
-  "grader_line": "Grader Line",
-  "walrus_line": "Walrus Line",
-  "fish_line": "Fish Line",
-  "features_line": "Features Line",
-  "sandpiper_line": "Sandpiper Line",
-  "lights_line": "Lights Line",
-  "catapult_line": "Catapult Line",
-  "fowl_line": "Fowl Line",
-  "old_line": "Old Line",
-  "sheep_line": "Sheep Line",
-  "fresh_line": "Fresh Line",
-  "puffin_line": "Puffin Line",
-  "empty_line": "Empty Line",
-  "lark_line": "Lark Line",
-  "gunshot_line": "Gunshot Line",
-  "cave_line": "Cave Line",
-  "muskox_line": "Muskox Line",
-  "flowers_line": "Flowers Line",
-  "crabs_line": "Crabs Line",
-  "ivory_line": "Ivory Line",
-  "poaching_line": "Poaching Line",
-  "scales_line": "Scales Line",
-  "turaco_line": "Turaco Line",
-  "cocoa_line": "Cocoa Line",
-  "seagull_line": "Seagull Line",
-  "pike_line": "Pike Line",
-  "raven_line": "Raven Line",
-  "followed_line": "Followed Line",
-  "python_line": "Python Line",
-  "ngansah_line": "Ngansah Line",
-  "ebony_line": "Ebony Line",
-  "ridge_line": "Ridge Line",
-  "longspur_line": "Longspur Line",
-  "shell_line": "Shell Line",
-  "clearing_line": "Clearing Line",
-  "trapping_line": "Trapping Line",
-  "ox_line": "Ox Line",
-  "crocodile_line": "Crocodile Line",
-  "bundles_line": "Bundles Line",
-  "bushfire_line": "Bushfire Line",
-  "kg_line": "Kg Line",
-  "number_line": "Number Line",
-  "commiphora_line": "Commiphora Line",
-  "lightning_line": "Lightning Line",
-  "mopani_line": "Mopani Line",
-  "yes_line": "Yes Line",
-  "plover_line": "Plover Line",
-  "tail_line": "Tail Line",
-  "skull_line": "Skull Line",
-  "good_line": "Good Line",
-  "recent_line": "Recent Line",
-  "destroyed_line": "Destroyed Line",
-  "owl_line": "Owl Line",
-  "school_line": "School Line",
-  "roadbloack_line": "Roadbloack Line",
-  "scuplin_line": "Scuplin Line",
-  "disease_line": "Disease Line",
-  "ostrich_line": "Ostrich Line",
-  "terminalia_line": "Terminalia Line",
-  "paw_line": "Paw Line",
-  "tsessebe_line": "Tsessebe Line",
-  "breakdown_line": "Breakdown Line",
-  "paddle_line": "Paddle Line",
-  "manufacturer_line": "Manufacturer Line",
-  "leadwood_line": "Leadwood Line",
-  "mane_line": "Mane Line",
-  "giraffe_line": "Giraffe Line",
-  "bad_line": "Bad Line",
-  "handgun_line": "Handgun Line",
-  "knobkierie_line": "Knobkierie Line",
-  "pig_line": "Pig Line",
-  "fence_line": "Fence Line",
-  "raft_line": "Raft Line",
-  "pangolin_line": "Pangolin Line",
-  "valley_line": "Valley Line",
-  "horse_line": "Horse Line",
-  "electrocuted_line": "Electrocuted Line",
-  "landmine_line": "Landmine Line",
-  "marker_line": "Marker Line",
-  "redpoll_line": "Redpoll Line",
-  "genet_line": "Genet Line",
-  "recovered_line": "Recovered Line",
-  "steenbok_line": "Steenbok Line",
-  "rosewood_line": "Rosewood Line",
-  "guillemot_line": "Guillemot Line",
-  "mamba_line": "Mamba Line",
-  "no_line": "No Line",
-  "condition_line": "Condition Line",
-  "notching_line": "Notching Line",
-  "reeds_line": "Reeds Line",
-  "muskrat_line": "Muskrat Line",
-  "grysbok_line": "Grysbok Line",
-  "tobacco_line": "Tobacco Line",
-  "elephant_line": "Elephant Line",
-  "bait_line": "Bait Line",
-  "telescope_line": "Telescope Line",
-  "culling_line": "Culling Line",
-  "viper_line": "Viper Line",
-  "beaver_line": "Beaver Line",
-  "bags_line": "Bags Line",
-  "falcon_line": "Falcon Line",
-  "manatee_line": "Manatee Line",
-  "weeds_line": "Weeds Line",
-  "agriculture_line": "Agriculture Line",
-  "kraal_line": "Kraal Line",
-  "tortoise_line": "Tortoise Line",
-  "other_line": "Other Line",
-  "meter_line": "Meter Line",
-  "foot_line": "Foot Line",
-  "mongoose_line": "Mongoose Line",
-  "dehydration_line": "Dehydration Line",
-  "donkey_line": "Donkey Line",
-  "willows_line": "Willows Line",
-  "full_line": "Full Line",
-  "windmill_line": "Windmill Line",
-  "cod_line": "Cod Line",
-  "water_line": "Water Line",
-  "adequate_line": "Adequate Line",
-  "mussels_line": "Mussels Line",
-  "pieces_line": "Pieces Line",
-  "tern_line": "Tern Line",
-  "cloudy_line": "Cloudy Line",
-  "iroko_line": "Iroko Line",
-  "ptarmigan_line": "Ptarmigan Line",
-  "rifle_line": "Rifle Line",
-  "pepper_line": "Pepper Line",
-  "predation_line": "Predation Line",
-  "manketti_line": "Manketti Line",
-  "hwc_line": "Hwc Line",
-  "branding_line": "Branding Line",
-  "claws_line": "Claws Line",
-  "aardvark_line": "Aardvark Line",
-  "fisher_line": "Fisher Line",
-  "river_line": "River Line",
-  "accident_line": "Accident Line",
-  "waterhole_line": "Waterhole Line",
-  "potto_line": "Potto Line",
-  "murre_line": "Murre Line",
-  "wolf_line": "Wolf Line",
-  "wolverine_line": "Wolverine Line",
-  "grayling_line": "Grayling Line",
-  "collected_line": "Collected Line",
-  "banana_line": "Banana Line",
-  "bones_line": "Bones Line",
-  "fat_line": "Fat Line",
-  "silencer_line": "Silencer Line",
-  "distance_line": "Distance Line",
-  "offence_line": "Offence Line",
-  "cobra_line": "Cobra Line",
-  "litter_line": "Litter Line",
-  "fighting_line": "Fighting Line",
-  "translocated_line": "Translocated Line",
-  "corn_line": "Corn Line",
-  "rock_line": "Rock Line",
-  "swan_line": "Swan Line",
-  "grenade_line": "Grenade Line",
-  "collaring_line": "Collaring Line",
-  "units_line": "Units Line",
-  "periwinkle_line": "Periwinkle Line",
-  "cassava_line": "Cassava Line",
-  "serval_line": "Serval Line",
-  "grassland_line": "Grassland Line",
-  "blackberr_crowberry": "Blackberr Crowberry",
-  "weapon_kakivak": "Weapon Kakivak",
-  "illegal_ettlement": "Illegal Ettlement",
-  "elephants_mixed": "Elephants Mixed",
-  "yellow_baboon": "Yellow Baboon",
-  "spotted_hyena": "Spotted Hyena",
-  "elephant_bulls": "Elephant Bulls",
-  "dik_dik": "Dik Dik",
-  "elephant_tracks": "Elephant Tracks",
-  "roan_antelope": "Roan Antelope",
-  "grants_gazelle": "Grants Gazelle",
-  "olive_baboon": "Olive Baboon",
-  "common_duiker": "Common Duiker",
-  "wild_dog": "Wild Dog",
-  "lesser_kudu": "Lesser Kudu",
-  "vervet_monkey": "Vervet Monkey",
-  "greater_kudu": "Greater Kudu",
-  "water_source": "Water Source",
-  "active_cultivation": "Active Cultivation",
-  "cattle_trail": "Cattle Trail",
-  "logging_recent": "Logging Recent",
-  "rock_art": "Rock Art",
-  "bush_track": "Bush Track",
-  "foot_path": "Foot Path",
-  "drying_rack": "Drying Rack",
-  "log_beehives": "Log Beehives",
-  "modern_beehives": "Modern Beehives",
-  "agriculture_fallow": "Agriculture Fallow",
-  "fishing_net": "Fishing Net",
-  "logging_active": "Logging Active",
-  "goliath_heron": "Goliath Heron",
-  "fish_eagle": "Fish Eagle",
-  "egyptian_goose": "Egyptian Goose",
-  "grey_heron": "Grey Heron",
-  "tawny_eagle": "Tawny Eagle",
-  "black_eagle": "Black Eagle",
-  "openbill_stork": "Openbill Stork",
-  "greater_egret": "Greater Egret",
-  "police_station": "Police Station",
-  "water_pump": "Water Pump",
-  "beehive_fence": "Beehive Fence",
-  "park_gate": "Park Gate",
-  "video_camera": "Video Camera",
-  "poaching_rep": "Poaching Rep",
-  "poachersighting_rep": "Poachersighting Rep",
-  "mining_rep": "Mining Rep",
-  "raven_rep": "Raven Rep",
-  "conflict_rep": "Conflict Rep",
-  "contact_rep": "Contact Rep",
-  "bench_rep": "Bench Rep",
-  "donkey_rep": "Donkey Rep",
-  "sit_rep": "Sit Rep",
-  "brownhyena_rep": "Brownhyena Rep",
-  "hippo_rep": "Hippo Rep",
-  "sighting_rep": "Sighting Rep",
-  "shark_sighting": "Shark Sighting",
-  "radio_rep": "Radio Rep",
-  "processing_rep": "Processing Rep",
-  "culvert_rep": "Culvert Rep",
-  "cameratrap_rep": "Cameratrap Rep",
-  "visual_rep": "Visual Rep",
-  "spottedhyena_rep": "Spottedhyena Rep",
-  "nest_rep": "Nest Rep",
-  "carcass_rep": "Carcass Rep",
-  "loon_rep": "Loon Rep",
-  "restroom_rep": "Restroom Rep",
-  "shot_rep": "Shot Rep",
-  "fence_rep": "Fence Rep",
-  "warthog_rep": "Warthog Rep",
-  "poison_rep": "Poison Rep",
-  "migration_rep": "Migration Rep",
-  "no_rep": "No Rep",
-  "trafficker_rep": "Trafficker Rep",
-  "buffalo_rep": "Buffalo Rep",
-  "litter_rep": "Litter Rep",
-  "inaturalist_rep": "Inaturalist Rep",
-  "camel_rep": "Camel Rep",
-  "date_rep": "Date Rep",
-  "steps_rep": "Steps Rep",
-  "zebra_rep": "Zebra Rep",
-  "rainfall_report": "Rainfall Report",
-  "deforestation_rep": "Deforestation Rep",
-  "mammal_rep": "Mammal Rep",
-  "ostrich_rep": "Ostrich Rep",
-  "sandpiper_rep": "Sandpiper Rep",
-  "generic_rep": "Generic Rep",
-  "sheep_rep": "Sheep Rep",
-  "den_rep": "Den Rep",
-  "charcoal_rep": "Charcoal Rep",
-  "wildebeest_rep": "Wildebeest Rep",
-  "eland_rep": "Eland Rep",
-  "patrol_rep": "Patrol Rep",
-  "evidence_rep": "Evidence Rep",
-  "medevac_rep": "Medevac Rep",
-  "ditch_rep": "Ditch Rep",
-  "fishing_rep": "Fishing Rep",
-  "mgr_rep": "Mgr Rep",
-  "vehicleoverspeed_rep": "Vehicleoverspeed Rep",
-  "hunt_rep": "Hunt Rep",
-  "bull_rep": "Bull Rep",
-  "feeding_rep": "Feeding Rep",
-  "sensor_rep": "Sensor Rep",
-  "pangolin_rep": "Pangolin Rep",
-  "fire_rep": "Fire Rep",
-  "mist_rep": "Mist Rep",
-  "snare_rep": "Snare Rep",
-  "goat_rep": "Goat Rep",
-  "crossing_rep": "Crossing Rep",
-  "passerine_rep": "Passerine Rep",
-  "chick_rep": "Chick Rep",
-  "egr_rep": "Egr Rep",
-  "tactics_rep": "Tactics Rep",
-  "water_rep": "Water Rep",
-  "activity_rep": "Activity Rep",
-  "radar_rep": "Radar Rep",
-  "impala_rep": "Impala Rep",
-  "mammals_observation": "Mammals Observation",
-  "cycad_rep": "Cycad Rep",
-  "hwc_rep": "Hwc Rep",
-  "hermine_rep": "Hermine Rep",
-  "ptarmigan_rep": "Ptarmigan Rep",
-  "yes_rep": "Yes Rep",
-  "gull_rep": "Gull Rep",
-  "immobility_rep": "Immobility Rep",
-  "baboon_rep": "Baboon Rep",
-  "bridge_rep": "Bridge Rep",
-  "spoor_rep": "Spoor Rep",
-  "vehiclemovement_rep": "Vehiclemovement Rep",
-  "rainfall_rep": "Rainfall Rep",
-  "crpl_rep": "Crpl Rep",
-  "aardvark_rep": "Aardvark Rep",
-  "ogf_rep": "Ogf Rep",
-  "arson_rep": "Arson Rep",
-  "sim_rep": "Sim Rep",
-  "rhinopoached_rep": "Rhinopoached Rep",
-  "vandalism_rep": "Vandalism Rep",
-  "boma_rep": "Boma Rep",
-  "boardwalk_rep": "Boardwalk Rep",
-  "hawk_rep": "Hawk Rep",
-  "falcon_rep": "Falcon Rep",
-  "lemming_rep": "Lemming Rep",
-  "firms_rep": "Firms Rep",
-  "hornbillsighting_rep": "Hornbillsighting Rep",
-  "barrier_rep": "Barrier Rep",
-  "chimpanzee_rep": "Chimpanzee Rep",
-  "burn_rep": "Burn Rep",
-  "animalfence_rep": "Animalfence Rep",
-  "traffic_rep": "Traffic Rep",
-  "rhinonatural_rep": "Rhinonatural Rep",
-  "meerkat_rep": "Meerkat Rep",
-  "operation_rep": "Operation Rep",
-  "locust_rep": "Locust Rep",
-  "hide_rep": "Hide Rep",
-  "arrest_rep": "Arrest Rep",
-  "police_rep": "Police Rep",
-  "ropeless_rep": "Ropeless Rep",
-  "giraffe_rep": "Giraffe Rep",
-  "unknown_rep": "Unknown Rep",
-  "confiscation_rep": "Confiscation Rep",
-  "threats_rep": "Threats Rep",
-  "subject_proximity": "Subject Proximity",
-  "accident_rep": "Accident Rep",
-  "ofish_rep": "Ofish Rep",
-  "eider_rep": "Eider Rep",
-  "wayfinding_rep": "Wayfinding Rep",
-  "cow_rep": "Cow Rep",
-  "intervention_rep": "Intervention Rep",
-  "light_rep": "Light Rep",
-  "birds_rep": "Birds Rep",
-  "sensor_mode": "Sensor Mode",
-  "profile_queries": "Profile Queries",
-  "save_as": "Save As",
-  "map_mode": "Map Mode",
-  "patrol_queries": "Patrol Queries",
-  "query_mode": "Query Mode",
-  "entity_queries": "Entity Queries",
-  "survey_queries": "Survey Queries",
-  "plan_mode": "Plan Mode",
-  "point_queries": "Point Queries",
-  "patrol_mode": "Patrol Mode",
-  "report_mode": "Report Mode",
-  "import_black": "Import Black",
-  "save_black": "Save Black",
-  "pdf_black": "Pdf Black",
-  "sync_black": "Sync Black",
-  "filter_black": "Filter Black",
-  "reset_black": "Reset Black",
-  "new_black": "New Black",
-  "export_black": "Export Black",
-  "delete_black": "Delete Black",
-  "edit_black": "Edit Black",
-  "fence_attendant": "Fence Attendant",
-  "thaumatibis_giganteax": "Giant Ibis",
-  "phoenicoparrus_andinus": "Andean Flamingo",
-  "varanus_salvator": "Water Monitor",
-  "carcharhinus_leucas": "Bull Shark",
-  "varecia_rubra": "Red Ruffed Lemur",
-  "podocnemis_erythrocephala": "Red-headed Amazon River Turtle",
-  "bycanistes_brevis": "Silvery-cheeked Hornbill",
-  "bycanistes_subcylindricus": "Black-and-white-casqued Hornbill",
-  "xenopirostris_damii": "Dam's Vanga",
-  "ceiba_pentandra": "Kapok Tree",
-  "ovis_ammon": "Argali",
-  "capricornis_sumatraensis": "Sumatran Serow",
-  "anthracoceros_albirostris": "Oriental Pied Hornbill",
-  "buceros_bicornis": "Great Hornbill",
-  "schetba_rufa": "Rufous Vanga",
-  "elephas_maximus": "Asian Elephant",
-  "salvinia_molesta": "Giant Salvinia",
-  "quercus_humboldtii": "Colombian Oak",
-  "dolichonyx_oryzivorus": "Bobolink",
-  "cardisoma_crassum": "Blue Land Crab",
-  "salvator_rufescens": "Red Monitor",
-  "thalassarche_chlororhynchos": "Yellow-nosed Albatross",
-  "capricornis_thar": "Himalayan Serow",
-  "cichla_temensis": "Speckled Peacock Bass",
-  "podocnemis_sextuberculata": "Six-tubercled Amazon River Turtle",
-  "tapirus_pinchaque": "Mountain Tapir",
-  "arapaima_gigas": "Arapaima",
-  "ophiophagus_hannah": "King Cobra",
-  "physignathus_cocincinus": "Chinese Water Dragon",
-  "kobus_kob": "Kob",
-  "kobus_ellipsiprymnus": "Waterbuck",
-  "podocnemis_expansa": "Arrau Turtle",
-  "alouatta_palliata": "Mantled Howler",
-  "tyto_soumagnei": "Madagascar Red Owl",
-  "ledipochelys_olivacea": "Olive Ridley Sea Turtle",
-  "hyaena_rown": "Spotted Hyena",
-  "hyaena_brown": "Brown Hyena",
-  "pseudibis_davisoni": "White-shouldered Ibis",
-  "crocodylus_cataphractus": "African Slender-snouted Crocodile",
-  "diomedea_spp": "Albatross",
-  "espeletia_sp": "Espeletia",
-  "dasypus_novemcinctus": "Nine-banded Armadillo",
-  "pygathrix_nigripes": "Black-shanked Douc",
-  "propithecus_diadema": "Diademed Sifaka",
-  "crocuta_crocuta": "Spotted Hyena",
-  "pan_troglodytes_ellioti": "Nigeria-Cameroon Chimpanzee",
-  "pseudoplatystoma_fasciatum": "Barred Sorubim",
-  "cercopithecus_nictitans_nictitans": "Greater Spot-nosed Monkey",
-  "ateles_hybridus_brunneus": "Brown Spider Monkey",
-  "charadrius_thoracicus": "Chestnut-banded Plover",
-  "perissodactyla": "Odd-toed Ungulates",
-  "saccopteryx_bilineata": "Greater Sac-winged Bat",
-  "astrochelys_radiata": "Radiated Tortoise",
-  "commiphora": "Myrrh",
-  "hippopotamidae": "Hippopotamuses",
-  "scales": "Scales",
-  "coendou_prehensilis": "Brazilian Porcupine",
-  "speothos_venaticus": "Bush Dog",
-  "atherurus_africanus": "African Brush-tailed Porcupine",
-  "proboscoidea": "Elephants",
-  "penelope_purpurascens": "Crested Guan",
-  "crocodylus_intermedius": "Orinoco Crocodile",
-  "cetartiodactyla": "Even-toed Ungulates",
-  "perissodactyl": "Odd-toed Ungulates",
-  "lutjanus_argentiventris": "Yellow Snapper",
-  "litopenaeus_occidentalis": "Western White Shrimp",
-  "bycanistes_bucinator": "Trumpeter Hornbill",
-  "mazama_rufina": "Little Red Brocket",
-  "mustelus_henlei": "Brown Smooth-hound",
-  "gorilla_gorilla_diehli": "Cross River Gorilla",
-  "thunnus_obesus": "Bigeye Tuna",
-  "cercopithecidae": "Old World Monkeys",
-  "trachypithecus_germaini": "Germain's Langur",
-  "psittacus_erithacus": "African Grey Parrot",
-  "muntiacus_muntjak": "Indian Muntjac",
-  "tragelaphus_sylvaticus": "Cape Bushbuck",
-  "penelope_purpurascens": "Crested Guan",
-  "herpestes_urva": "Crab-eating Mongoose",
-  "trachypithecus_delacouri": "Delacour's Langur",
-  "gorilla_beringei_graueri": "Grauer's Gorilla",
-}
+def load_scientific_names():
+    with open(SCIENTIFIC_NAMES, 'r', encoding='utf-8') as f:
+        return {line.strip().split(';')[0]: line.strip().split(';')[1] for line in f.readlines()}
 
-def determine_style(keywords):
-    if not keywords:
-        return ""
-    if keywords[0].lower() == "aerial":
-        return "aerial"
-    if keywords[0] == "SMART":
-        if len(keywords) > 1:
-            if keywords[1].lower() == "mono":
-                return "monochrome"
-            return keywords[1]
-        return ""
-    if keywords[0] == "EarthRanger":
-        return "compact"
-    return keywords[0]
-
-def process_icon_name(icon_name, keywords):
+def normalize_filename(filename):
     """
-    Process icon name to convert scientific names to colloquial names
-    and preserve scientific names as keywords.
+    Normalize filename to create a key:
+    - Remove file extension
+    - Replace spaces with underscores
+    - Remove "icon" suffix (case insensitive)
+    - Remove "glyph" suffix (case insensitive)
+    - Remove "line" suffix (case insensitive)
+    - Remove "color" suffix (case insensitive)
+    - Remove "black" suffix (case insensitive)
+    - Remove "rep" suffix (case insensitive)
+    - Remove "ns" suffix (case insensitive)
+    - Remove "_1" and "_2" suffixes
+    - Remove apostrophes and parentheses
+    - Convert to lowercase
+    
+    Args:
+        filename (str): The filename to normalize
+        
+    Returns:
+        str: Normalized key
     """
-    # Extract scientific name from filename (remove suffixes like _color_icon, _glyph_icon, etc. and also plain _icon)
-    scientific_name = re.sub(r'_(color|glyph|line|rep|ns|black|mode|queries|attendant|icon)_icon?$', '', icon_name, flags=re.IGNORECASE)
-    scientific_name = re.sub(r'_(color|glyph|line|rep|ns|black|mode|queries|attendant|icon)$', '', scientific_name, flags=re.IGNORECASE)
+    # Remove file extension
+    name_without_ext = os.path.splitext(filename)[0]
     
-    # Convert underscores to spaces and title case for display
-    raw_name = scientific_name.replace('_', ' ').title()
-
-    # Use the scientific name as the lookup key
-    lookup_key = scientific_name.lower()
+    # Replace spaces with underscores
+    normalized = name_without_ext.replace(' ', '_')
     
-    if lookup_key in SCIENTIFIC_NAME_LOOKUP:
-        colloquial_name = SCIENTIFIC_NAME_LOOKUP[lookup_key]
-        # Add the original scientific name (title-cased) as keyword
-        if raw_name not in keywords:
-            keywords.append(raw_name)
-        return colloquial_name, keywords
+    # Remove "icon" suffix (case insensitive)
+    normalized = re.sub(r'_icon$', '', normalized, flags=re.IGNORECASE)
+    
+    # Remove "glyph" suffix (case insensitive)
+    normalized = re.sub(r'_glyph$', '', normalized, flags=re.IGNORECASE)
+    
+    # Remove "line" suffix (case insensitive)
+    normalized = re.sub(r'_line$', '', normalized, flags=re.IGNORECASE)
+    
+    # Remove "color" suffix (case insensitive)
+    normalized = re.sub(r'_color$', '', normalized, flags=re.IGNORECASE)
 
-    # If no scientific name match, proceed with normal processing
-    # Remove trailing "Icon"
-    clean_name = re.sub(r'\s*Icon$', '', raw_name, flags=re.IGNORECASE)
-    # Remove whole words "glyph" or "color" (case-insensitive)
-    clean_name = re.sub(r'\b(glyph|color)\b', '', clean_name, flags=re.IGNORECASE)
-    # Remove extra spaces
-    clean_name = clean_name.strip()
+    # Remove "black" suffix (case insensitive)
+    normalized = re.sub(r'_black$', '', normalized, flags=re.IGNORECASE)
 
-    return clean_name, keywords
+    # Remove "rep" suffix (case insensitive)
+    normalized = re.sub(r'_rep$', '', normalized, flags=re.IGNORECASE)
 
-def scan_icons():
+    # Remove "rep" suffix (case insensitive)
+    normalized = re.sub(r'_ns$', '', normalized, flags=re.IGNORECASE)
+
+    # Remove "_1" suffix
+    normalized = re.sub(r'_1$', '', normalized)
+    
+    # Remove "_2" suffix
+    normalized = re.sub(r'_2$', '', normalized)
+    
+    # Remove apostrophes and parentheses
+    normalized = normalized.replace("'", "").replace("(", "").replace(")", "")
+    
+    # Convert to lowercase
+    normalized = normalized.lower()
+    
+    return normalized
+
+def extract_source_from_filename(filename):
+    """
+    Extract source from filename path prefix.
+    Source is the first directory in the path.
+    
+    Args:
+        filename (str): The filename path
+        
+    Returns:
+        str: Source string
+    """
+    # Split the path by slashes
+    path_parts = filename.split('/')
+    
+    # If there's only one part (no directory), return empty string
+    if len(path_parts) <= 1:
+        return ""
+    
+    # Get the first directory (top-level folder)
+    source = path_parts[0]
+    
+    return source
+
+def scan_icons_directory(icons_dir='icons', lookup_table=None):
+    """
+    Scan the icons directory recursively and return a list of file objects.
+    
+    Args:
+        icons_dir (str): Path to the icons directory
+        lookup_table (dict): Dictionary mapping keys to names
+        
+    Returns:
+        list: List of dictionaries containing file information
+    """
     icons = []
-    for root, dirs, files in os.walk(ICONS_DIR):
+    
+    # Check if icons directory exists
+    if not os.path.exists(icons_dir):
+        print(f"Error: Directory '{icons_dir}' not found.")
+        return icons
+    
+    # Walk through the icons directory recursively
+    for root, dirs, files in os.walk(icons_dir):
         for file in files:
-            ext = os.path.splitext(file)[1].lower()
-            if ext in SUPPORTED_EXTENSIONS:
-                rel_dir = os.path.relpath(root, ICONS_DIR)
-                keywords = [k for k in rel_dir.split(os.sep) if k != '.'] if rel_dir != '.' else []
-                icon_path = os.path.join(root, file)
-                icon_path = icon_path.replace("\\", "/")  # For Windows compatibility
-                icon_name = os.path.splitext(file)[0]
-                
-                # Process the icon name and keywords
-                clean_name, updated_keywords = process_icon_name(icon_name, keywords)
-                
-                icons.append({
-                    "name": clean_name,
-                    "filename": os.path.relpath(icon_path, ICONS_DIR).replace("\\", "/"),
-                    "description": "",
-                    "keywords": updated_keywords,
-                    "style": determine_style(updated_keywords)
-                })
+            # Get the full path of the file
+            full_path = os.path.join(root, file)
+            
+            # Get the relative path from the icons directory
+            relative_path = os.path.relpath(full_path, icons_dir)
+            
+            # Convert Windows backslashes to forward slashes for consistency
+            filename = relative_path.replace("\\", "/")
+            
+            # Create normalized key from filename
+            key = normalize_filename(file)
+            
+            # Extract source from filename path
+            source = extract_source_from_filename(filename)
+            
+            # Look up name from the lookup table
+            name = lookup_table.get(key, "") if lookup_table else ""
+            
+            # If no name found, convert key to title case
+            if not name:
+                name = key.replace('_', ' ').title()
+            
+            # Create object with filename, key, source, and name
+            icon_object = {
+                "filename": filename,
+                "key": key,
+                "source": source,
+                "name": name
+            }
+            
+            icons.append(icon_object)
+    
     return icons
 
 def main():
-    icons = scan_icons()
-    with open(OUTPUT_JSON, 'w') as f:
-        json.dump({"icons": icons}, f, indent=2, ensure_ascii=False)
-    print("Written {} icons to {}".format(len(icons), OUTPUT_JSON))
+    """
+    Main function to scan icons and create JSON file.
+    """
+    print("Scanning icons directory...")
+    
+    # Load the lookup table
+    lookup_table = load_scientific_names()
+    
+    # Scan the icons directory
+    icons = scan_icons_directory(lookup_table=lookup_table)
+    
+    if not icons:
+        print("No icons found.")
+        return
+    
+    # Sort icons by source first, then by key
+    icons.sort(key=lambda x: (x['source'], x['key']))
+    
+    # Write to JSON file
+    try:
+        with open('icons.json', 'w', encoding='utf-8') as f:
+            json.dump(icons, f, indent=2, ensure_ascii=False)
+        
+        print(f"Successfully created icons.json")
+        print(f"Found {len(icons)} files in the icons directory")
+        
+    except Exception as e:
+        print(f"Error writing JSON file: {e}")
 
 if __name__ == "__main__":
-    main()
+    main() 
