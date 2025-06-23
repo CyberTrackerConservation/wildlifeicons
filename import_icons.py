@@ -129,9 +129,37 @@ def extract_tags_from_filename(filename):
     
     return tags
 
+def load_existing_icons():
+    """
+    Load existing icons from icons.json if it exists.
+    
+    Returns:
+        dict: Dictionary mapping filename to icon object for existing icons
+    """
+    existing_icons = {}
+    
+    if os.path.exists('icons.json'):
+        try:
+            with open('icons.json', 'r', encoding='utf-8') as f:
+                icons_data = json.load(f)
+                
+            # Handle both array format and object with icons property
+            icons_list = icons_data if isinstance(icons_data, list) else icons_data.get('icons', [])
+            
+            for icon in icons_list:
+                existing_icons[icon['filename']] = icon
+                
+            print(f"Loaded {len(existing_icons)} existing icons from icons.json")
+            
+        except Exception as e:
+            print(f"Warning: Could not load existing icons.json: {e}")
+    
+    return existing_icons
+
 def scan_icons_directory(icons_dir='icons', lookup_table=None):
     """
     Scan the icons directory recursively and return a list of file objects.
+    Preserves existing readonly entries from icons.json.
     
     Args:
         icons_dir (str): Path to the icons directory
@@ -141,6 +169,9 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
         list: List of dictionaries containing file information
     """
     icons = []
+    
+    # Load existing icons from icons.json
+    existing_icons = load_existing_icons()
     
     # Check if icons directory exists
     if not os.path.exists(icons_dir):
@@ -159,6 +190,13 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
             # Convert Windows backslashes to forward slashes for consistency
             filename = relative_path.replace("\\", "/")
             
+            # Check if this icon already exists and is readonly
+            if filename in existing_icons and existing_icons[filename].get('readonly', False):
+                # Use the existing readonly entry
+                icons.append(existing_icons[filename])
+                print(f"Preserved readonly icon: {filename}")
+                continue
+            
             # Create normalized key from filename
             key = normalize_filename(file)
             
@@ -175,7 +213,8 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
             if not name:
                 name = key.replace('_', ' ').title()
             
-            # Create object with filename, key, source, and name
+            # Create object with filename, key, source, name, and tags
+            # Note: readonly is not set here - it defaults to false for new entries
             icon_object = {
                 "filename": filename,
                 "key": key,
@@ -204,6 +243,10 @@ def main():
         print("No icons found.")
         return
     
+    # Count readonly icons
+    readonly_count = sum(1 for icon in icons if icon.get('readonly', False))
+    new_count = len(icons) - readonly_count
+    
     # Sort icons by source first, then by key
     icons.sort(key=lambda x: (x['source'], x['key']))
     
@@ -213,7 +256,9 @@ def main():
             json.dump(icons, f, indent=2, ensure_ascii=False)
         
         print(f"Successfully created icons.json")
-        print(f"Found {len(icons)} files in the icons directory")
+        print(f"Total icons: {len(icons)}")
+        print(f"New icons generated: {new_count}")
+        print(f"Readonly icons preserved: {readonly_count}")
         
     except Exception as e:
         print(f"Error writing JSON file: {e}")
