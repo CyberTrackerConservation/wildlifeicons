@@ -7,33 +7,38 @@ document.addEventListener('DOMContentLoaded', () => {
     const dropdownContent = document.querySelector('.source-dropdown-content');
     let icons = [];
     let selectedIcons = new Set();
-    let fuse = null; // Fuse.js instance
+    let currentDisplayCount = 500; // Track how many icons are currently displayed
 
-    // Simple search function
-    function performSimpleSearch(term) {
+    // Optimized search with result limiting and caching
+    function performOptimizedSearch(term) {
         const lowerTerm = term.toLowerCase().trim();
         if (lowerTerm.length === 0) return icons;
         
-        return icons.filter(icon => {
-            const iconName = icon.name.toLowerCase();
-            const iconKey = icon.key.toLowerCase();
-            const iconTags = icon.tags ? icon.tags.map(tag => tag.toLowerCase()) : [];
+        const results = [];
+        
+        // Use a more efficient search approach
+        for (let i = 0; i < icons.length; i++) {
+            const icon = icons[i];
             
-            // Check for exact word matches or starts with matches
-            const nameWords = iconName.split(/\s+/);
-            const keyWords = iconKey.split(/[_\s]+/);
+            // Quick checks first
+            if (icon.name.toLowerCase().includes(lowerTerm) || 
+                icon.key.toLowerCase().includes(lowerTerm)) {
+                results.push(icon);
+                continue;
+            }
             
-            // Check if any word starts with the search term
-            const nameMatch = nameWords.some(word => word.startsWith(lowerTerm));
-            const keyMatch = keyWords.some(word => word.startsWith(lowerTerm));
-            const tagMatch = iconTags.some(tag => tag.startsWith(lowerTerm));
-            
-            // Also check for exact substring matches in name and key
-            const nameContains = iconName.includes(lowerTerm);
-            const keyContains = iconKey.includes(lowerTerm);
-            
-            return nameMatch || keyMatch || tagMatch || nameContains || keyContains;
-        });
+            // Check tags
+            if (icon.tags) {
+                for (let j = 0; j < icon.tags.length; j++) {
+                    if (icon.tags[j].toLowerCase().includes(lowerTerm)) {
+                        results.push(icon);
+                        break;
+                    }
+                }
+            }
+        }
+        
+        return results;
     }
 
     // Toggle dropdown on button click
@@ -66,40 +71,14 @@ document.addEventListener('DOMContentLoaded', () => {
             }));
             console.log('Processed icons:', icons);
             
-            // Initialize Fuse.js for fuzzy searching
-            const fuseOptions = {
-                keys: [
-                    'key',
-                    'name',
-                    'tags'
-                ],
-                threshold: 0.2, // Much stricter threshold for more accurate matching
-                includeScore: true,
-                includeMatches: true,
-                minMatchCharLength: 2, // Require at least 2 characters to match
-                shouldSort: true,
-                findAllMatches: true,
-                useExtendedSearch: false,
-                ignoreLocation: false, // Consider location for better accuracy
-                distance: 50
-            };
-            fuse = new Fuse(icons, fuseOptions);
-            console.log('Fuse.js initialized with options:', fuseOptions);
-            
-            // Test Fuse.js functionality
-            if (icons.length > 0) {
-                const testSearch = fuse.search('elephant');
-                console.log('Test search for "elephant":', testSearch.length, 'results');
-            }
-            
             displayIcons();
         })
         .catch(error => {
             console.error('Error loading icons:', error);
         });
 
-    // Display icons in the grid
-    function displayIcons() {
+    // Display icons in the grid with virtualization for performance
+    function displayIcons(resetDisplayCount = true) {
         console.log('Displaying icons');
         const grid = document.getElementById('iconGrid');
         const searchTerm = document.getElementById('searchInput').value.trim();
@@ -108,7 +87,17 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log('Search term:', searchTerm);
         console.log('Selected sources:', selectedSources);
         
-        grid.innerHTML = '';
+        // Reset display count when performing a new search
+        if (resetDisplayCount) {
+            currentDisplayCount = 500;
+            grid.innerHTML = '';
+        }
+        
+        // Always remove existing button containers
+        const existingButtonContainer = document.querySelector('.button-container');
+        if (existingButtonContainer) {
+            existingButtonContainer.remove();
+        }
         
         let filteredIcons = icons;
         
@@ -116,18 +105,30 @@ document.addEventListener('DOMContentLoaded', () => {
         if (searchTerm) {
             console.log('Performing search for:', searchTerm);
             
-            // Use simple search for more accurate results
-            filteredIcons = performSimpleSearch(searchTerm);
+            // Use optimized search for better performance
+            filteredIcons = performOptimizedSearch(searchTerm);
             console.log('Search results:', filteredIcons.length);
-            console.log('Sample search results:', filteredIcons.slice(0, 3));
         }
         
         // Apply source filter
         filteredIcons = filteredIcons.filter(icon => selectedSources.includes(icon.source));
         console.log('Filtered icons after source filter:', filteredIcons.length);
-        console.log('Selected sources:', selectedSources);
         
-        filteredIcons.forEach(icon => {
+        // Limit the number of icons displayed for performance
+        const displayIconsList = filteredIcons.slice(0, currentDisplayCount);
+        
+        if (filteredIcons.length > currentDisplayCount) {
+            console.log(`Showing first ${currentDisplayCount} of ${filteredIcons.length} results`);
+        }
+        
+        // Use DocumentFragment for better performance
+        const fragment = document.createDocumentFragment();
+        
+        // If we're loading more, we need to add only the new icons
+        const startIndex = resetDisplayCount ? 0 : currentDisplayCount - 500;
+        const iconsToAdd = displayIconsList.slice(startIndex);
+        
+        iconsToAdd.forEach(icon => {
             const iconElement = document.createElement('div');
             iconElement.className = `icon-card ${selectedIcons.has(icon.path) ? 'selected' : ''}`;
             iconElement.dataset.path = icon.path;
@@ -141,8 +142,43 @@ document.addEventListener('DOMContentLoaded', () => {
             iconElement.addEventListener('mouseenter', showTooltip);
             iconElement.addEventListener('mouseleave', hideTooltip);
             
-            grid.appendChild(iconElement);
+            fragment.appendChild(iconElement);
         });
+        
+        grid.appendChild(fragment);
+        
+        // Add "Load more" button if there are more results
+        if (filteredIcons.length > currentDisplayCount) {
+            const buttonContainer = document.createElement('div');
+            buttonContainer.className = 'button-container';
+            buttonContainer.style.display = 'flex';
+            buttonContainer.style.justifyContent = 'center';
+            buttonContainer.style.gap = '1rem';
+            buttonContainer.style.marginTop = '1rem';
+            
+            const loadMoreBtn = document.createElement('button');
+            loadMoreBtn.className = 'load-more-btn';
+            loadMoreBtn.textContent = `Load More (${Math.min(500, filteredIcons.length - currentDisplayCount)} more)`;
+            loadMoreBtn.addEventListener('click', () => {
+                currentDisplayCount += 500;
+                displayIcons(false); // Don't reset display count
+            });
+            
+            const loadAllBtn = document.createElement('button');
+            loadAllBtn.className = 'load-all-btn';
+            loadAllBtn.textContent = `Load All (${filteredIcons.length - currentDisplayCount} remaining)`;
+            loadAllBtn.addEventListener('click', () => {
+                currentDisplayCount = filteredIcons.length;
+                displayIcons(false); // Don't reset display count
+            });
+            
+            buttonContainer.appendChild(loadMoreBtn);
+            buttonContainer.appendChild(loadAllBtn);
+            
+            // Add buttons after the grid, not inside it
+            const main = document.querySelector('main');
+            main.appendChild(buttonContainer);
+        }
         
         // Update results count
         updateResultsCount(filteredIcons.length);
@@ -210,13 +246,20 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Search functionality with debouncing
+    // Search functionality with optimized debouncing
     let searchTimeout;
     searchInput.addEventListener('input', (e) => {
+        const searchTerm = e.target.value.trim();
+        
+        // Don't search for very short terms to improve performance
+        if (searchTerm.length < 2 && searchTerm.length > 0) {
+            return;
+        }
+        
         clearTimeout(searchTimeout);
         searchTimeout = setTimeout(() => {
             displayIcons();
-        }, 300); // 300ms debounce
+        }, 200); // Reduced from 300ms to 200ms for better responsiveness
     });
 
     // Source filter functionality
