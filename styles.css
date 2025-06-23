@@ -557,7 +557,9 @@ footer {
 }
 
 .icon-card.selected {
+    background-color: #e8f5e9;
     border-color: #2c5e2c;
+    box-shadow: 0 0 0 2px #2c5e2c;
 }
 
 .icon-card img {
