@@ -470,6 +470,36 @@ footer {
     color: var(--text-color);
     border: 1px solid var(--border-color);
     border-radius: 6px;
+    padding: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.github-btn:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.request-btn {
+    position: absolute;
+    top: 1rem;
+    right: 4.5rem;
+    background-color: var(--card-background);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
     padding: 0.5rem 1rem;
     cursor: pointer;
     display: flex;
@@ -484,16 +514,12 @@ footer {
     z-index: 10;
 }
 
-.github-btn:hover {
+.request-btn:hover {
     background-color: var(--primary-color);
     color: white;
     border-color: var(--primary-color);
     transform: scale(1.05);
     text-decoration: none;
-}
-
-.github-btn i {
-    font-size: 1.2rem;
 }
 
 .cart-content {
