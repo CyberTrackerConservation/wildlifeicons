@@ -13140,258 +13140,6 @@
     ]
   },
   {
-    "filename": "SMART/color/.303_color_icon.svg",
-    "key": ".303",
-    "source": "SMART",
-    "name": ".303",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.303_line_icon.svg",
-    "key": ".303",
-    "source": "SMART",
-    "name": ".303",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.303_glyph_icon.svg",
-    "key": ".303",
-    "source": "SMART",
-    "name": ".303",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.308_color_icon.svg",
-    "key": ".308",
-    "source": "SMART",
-    "name": ".308",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.308_line_icon.svg",
-    "key": ".308",
-    "source": "SMART",
-    "name": ".308",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.308_glyph_icon.svg",
-    "key": ".308",
-    "source": "SMART",
-    "name": ".308",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.32_color_icon.svg",
-    "key": ".32",
-    "source": "SMART",
-    "name": ".32",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.32_line_icon.svg",
-    "key": ".32",
-    "source": "SMART",
-    "name": ".32",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.32_glyph_icon.svg",
-    "key": ".32",
-    "source": "SMART",
-    "name": ".32",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.357_color_icon.svg",
-    "key": ".357",
-    "source": "SMART",
-    "name": ".357",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.357_line_icon.svg",
-    "key": ".357",
-    "source": "SMART",
-    "name": ".357",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.357_glyph_icon.svg",
-    "key": ".357",
-    "source": "SMART",
-    "name": ".357",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.375_color_icon.svg",
-    "key": ".375",
-    "source": "SMART",
-    "name": ".375",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.375_line_icon.svg",
-    "key": ".375",
-    "source": "SMART",
-    "name": ".375",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.375_glyph_icon.svg",
-    "key": ".375",
-    "source": "SMART",
-    "name": ".375",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.38_color_special_icon.svg",
-    "key": ".38_color_special",
-    "source": "SMART",
-    "name": ".38 Color Special",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/color/.38_special_color_icon.svg",
-    "key": ".38_special",
-    "source": "SMART",
-    "name": ".38 Special",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.38_special_line_icon.svg",
-    "key": ".38_special",
-    "source": "SMART",
-    "name": ".38 Special",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.38_special_glyph_icon.svg",
-    "key": ".38_special",
-    "source": "SMART",
-    "name": ".38 Special",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.40_color_icon.svg",
-    "key": ".40",
-    "source": "SMART",
-    "name": ".40",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.40_line_icon.svg",
-    "key": ".40",
-    "source": "SMART",
-    "name": ".40",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.40_glyph_icon.svg",
-    "key": ".40",
-    "source": "SMART",
-    "name": ".40",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.45_color_icon.svg",
-    "key": ".45",
-    "source": "SMART",
-    "name": ".45",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.45_line_icon.svg",
-    "key": ".45",
-    "source": "SMART",
-    "name": ".45",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.45_glyph_icon.svg",
-    "key": ".45",
-    "source": "SMART",
-    "name": ".45",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
-    "filename": "SMART/color/.458_color_icon.svg",
-    "key": ".458",
-    "source": "SMART",
-    "name": ".458",
-    "tags": [
-      "color"
-    ]
-  },
-  {
-    "filename": "SMART/line/.458_line_icon.svg",
-    "key": ".458",
-    "source": "SMART",
-    "name": ".458",
-    "tags": [
-      "line"
-    ]
-  },
-  {
-    "filename": "SMART/mono/.458_glyph_icon.svg",
-    "key": ".458",
-    "source": "SMART",
-    "name": ".458",
-    "tags": [
-      "mono"
-    ]
-  },
-  {
     "filename": "SMART/color/0,22_color_icon.svg",
     "key": "0,22",
     "source": "SMART",
@@ -13491,12 +13239,48 @@
     ]
   },
   {
+    "filename": "SMART/line/303_line_icon.svg",
+    "key": "303",
+    "source": "SMART",
+    "name": "303",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/303_glyph_icon.svg",
+    "key": "303",
+    "source": "SMART",
+    "name": "303",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
     "filename": "SMART/color/308_color_icon.svg",
     "key": "308",
     "source": "SMART",
     "name": "308",
     "tags": [
       "color"
+    ]
+  },
+  {
+    "filename": "SMART/line/308_line_icon.svg",
+    "key": "308",
+    "source": "SMART",
+    "name": "308",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/308_glyph_icon.svg",
+    "key": "308",
+    "source": "SMART",
+    "name": "308",
+    "tags": [
+      "mono"
     ]
   },
   {
@@ -13518,6 +13302,24 @@
     ]
   },
   {
+    "filename": "SMART/line/32_line_icon.svg",
+    "key": "32",
+    "source": "SMART",
+    "name": "32",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/32_glyph_icon.svg",
+    "key": "32",
+    "source": "SMART",
+    "name": "32",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
     "filename": "SMART/color/357_color_icon.svg",
     "key": "357",
     "source": "SMART",
@@ -13527,10 +13329,55 @@
     ]
   },
   {
+    "filename": "SMART/line/357_line_icon.svg",
+    "key": "357",
+    "source": "SMART",
+    "name": "357",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/357_glyph_icon.svg",
+    "key": "357",
+    "source": "SMART",
+    "name": "357",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
     "filename": "SMART/color/375_color_icon.svg",
     "key": "375",
     "source": "SMART",
     "name": "375",
+    "tags": [
+      "color"
+    ]
+  },
+  {
+    "filename": "SMART/line/375_line_icon.svg",
+    "key": "375",
+    "source": "SMART",
+    "name": "375",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/375_glyph_icon.svg",
+    "key": "375",
+    "source": "SMART",
+    "name": "375",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
+    "filename": "SMART/color/38_color_special_icon.svg",
+    "key": "38_color_special",
+    "source": "SMART",
+    "name": "38 Color Special",
     "tags": [
       "color"
     ]
@@ -13545,12 +13392,48 @@
     ]
   },
   {
+    "filename": "SMART/line/38_special_line_icon.svg",
+    "key": "38_special",
+    "source": "SMART",
+    "name": "38 Special",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/38_special_glyph_icon.svg",
+    "key": "38_special",
+    "source": "SMART",
+    "name": "38 Special",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
     "filename": "SMART/color/40_color_icon.svg",
     "key": "40",
     "source": "SMART",
     "name": "40",
     "tags": [
       "color"
+    ]
+  },
+  {
+    "filename": "SMART/line/40_line_icon.svg",
+    "key": "40",
+    "source": "SMART",
+    "name": "40",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/40_glyph_icon.svg",
+    "key": "40",
+    "source": "SMART",
+    "name": "40",
+    "tags": [
+      "mono"
     ]
   },
   {
@@ -13563,12 +13446,48 @@
     ]
   },
   {
+    "filename": "SMART/line/45_line_icon.svg",
+    "key": "45",
+    "source": "SMART",
+    "name": "45",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/45_glyph_icon.svg",
+    "key": "45",
+    "source": "SMART",
+    "name": "45",
+    "tags": [
+      "mono"
+    ]
+  },
+  {
     "filename": "SMART/color/458_color_icon.svg",
     "key": "458",
     "source": "SMART",
     "name": "458",
     "tags": [
       "color"
+    ]
+  },
+  {
+    "filename": "SMART/line/458_line_icon.svg",
+    "key": "458",
+    "source": "SMART",
+    "name": "458",
+    "tags": [
+      "line"
+    ]
+  },
+  {
+    "filename": "SMART/mono/458_glyph_icon.svg",
+    "key": "458",
+    "source": "SMART",
+    "name": "458",
+    "tags": [
+      "mono"
     ]
   },
   {

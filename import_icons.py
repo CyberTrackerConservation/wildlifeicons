@@ -156,6 +156,55 @@ def load_existing_icons():
     
     return existing_icons
 
+def rename_dot_files(icons_dir='icons'):
+    """
+    Rename all dot files in the icons directory to make them compatible with GitHub Pages.
+    This should be done before scanning the directory.
+    
+    Args:
+        icons_dir (str): Path to the icons directory
+        
+    Returns:
+        int: Number of files renamed
+    """
+    renamed_count = 0
+    
+    if not os.path.exists(icons_dir):
+        print(f"Error: Directory '{icons_dir}' not found.")
+        return renamed_count
+    
+    # Walk through the icons directory recursively
+    for root, dirs, files in os.walk(icons_dir):
+        for file in files:
+            # Check if the file starts with a dot
+            if file.startswith('.'):
+                # Get the full path to the original file
+                original_path = os.path.join(root, file)
+                
+                # Create the new filename without the leading dot
+                new_file = file[1:]  # Remove the leading dot
+                new_path = os.path.join(root, new_file)
+                
+                # Check if the new filename already exists
+                if os.path.exists(new_path):
+                    print(f"Warning: Cannot rename '{file}' to '{new_file}' - file already exists")
+                    continue
+                
+                try:
+                    # Actually rename the file on disk
+                    os.rename(original_path, new_path)
+                    print(f"Renamed: '{file}' -> '{new_file}' in {root}")
+                    renamed_count += 1
+                except Exception as e:
+                    print(f"Error renaming file '{file}': {e}")
+    
+    if renamed_count > 0:
+        print(f"Renamed {renamed_count} dot files for GitHub Pages compatibility")
+    else:
+        print("No dot files found to rename")
+    
+    return renamed_count
+
 def scan_icons_directory(icons_dir='icons', lookup_table=None):
     """
     Scan the icons directory recursively and return a list of file objects.
@@ -189,6 +238,11 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
             
             # Convert Windows backslashes to forward slashes for consistency
             filename = relative_path.replace("\\", "/")
+            
+            # Skip dot files (they should have been renamed already)
+            if file.startswith('.'):
+                print(f"Skipping dot file: {filename}")
+                continue
             
             # Check if this icon already exists and is readonly
             if filename in existing_icons and existing_icons[filename].get('readonly', False):
@@ -235,6 +289,9 @@ def main():
     
     # Load the lookup table
     lookup_table = load_scientific_names()
+    
+    # Rename dot files first
+    rename_dot_files()
     
     # Scan the icons directory
     icons = scan_icons_directory(lookup_table=lookup_table)

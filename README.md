@@ -26,6 +26,8 @@ A searchable repository of wildlife icons.
    ```
 3. The script will automatically generate entries in `icons.json` for all new icons
 
+**Note**: Files that start with a dot (`.`) will be automatically renamed by removing the leading dot to ensure compatibility with GitHub Pages.
+
 ### Manual Method
 
 1. Add your icon file to the `icons` directory
