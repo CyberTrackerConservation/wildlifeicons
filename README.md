@@ -81,6 +81,16 @@ This is a static website that can be served directly from GitHub Pages. No build
    ```
 3. Open `http://localhost:8000` in your browser
 
+## Acknowledgements
+
+This repository includes icons from several conservation technology platforms and organizations:
+
+- **[SMART](https://smartconservationtools.org)** - Spatial Monitoring and Reporting Tool for conservation management
+- **[EarthRanger](https://www.earthranger.com/)** - Real-time conservation software for protected area management
+- **[WCS](https://wcs.org)** - Wildlife Conservation Society
+
+We thank these organizations for their contributions to conservation technology and for making their icon libraries available to the broader conservation community.
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
