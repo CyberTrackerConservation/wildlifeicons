@@ -471,6 +471,7 @@ footer {
     flex: 1;
     font-size: 0.9rem;
     color: #333;
+    text-align: left;
 }
 
 .cart-item .remove-btn {
@@ -504,6 +505,11 @@ footer {
 .download-btn:disabled {
     opacity: 0.5;
     cursor: not-allowed;
+}
+
+/* Add space between download buttons */
+.download-btn + .download-btn {
+    margin-top: 0.5rem;
 }
 
 .select-btn {

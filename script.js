@@ -272,8 +272,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const cartContent = document.querySelector('.cart-content');
     const cartItems = document.querySelector('.cart-items');
     const cartCount = document.querySelector('.cart-count');
+    const downloadPngBtn = document.getElementById('downloadPngBtn');
 
-    console.log('Cart elements:', { cartBtn, cartContent, cartItems, cartCount, downloadBtn });
+    console.log('Cart elements:', { cartBtn, cartContent, cartItems, cartCount, downloadBtn, downloadPngBtn });
 
     // Toggle cart dropdown
     cartBtn.addEventListener('click', (e) => {
@@ -331,6 +332,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Enable/disable download button
         downloadBtn.disabled = count === 0;
+        downloadPngBtn.disabled = count === 0;
     }
 
     // Handle icon selection
@@ -428,6 +430,70 @@ document.addEventListener('DOMContentLoaded', () => {
                 const link = document.createElement('a');
                 link.href = URL.createObjectURL(content);
                 link.download = 'selected-icons.zip';
+                link.click();
+            });
+    });
+
+    // PNG Download functionality
+    downloadPngBtn.addEventListener('click', async () => {
+        console.log('Downloading selected icons as PNGs:', selectedIcons);
+        const zip = new JSZip();
+        
+        // Track used names to handle duplicates
+        const usedNames = new Map();
+        
+        // Add each selected icon to the zip as PNG
+        for (const path of selectedIcons) {
+            try {
+                // Find the icon data to get the name
+                const icon = icons.find(i => i.path === path);
+                if (!icon) {
+                    console.error(`Icon not found for path: ${path}`);
+                    continue;
+                }
+                
+                // Create PNG path by replacing .svg with .png
+                const pngPath = path.replace('.svg', '.png');
+                
+                // Try to fetch the PNG file
+                const response = await fetch(pngPath);
+                if (!response.ok) {
+                    console.warn(`PNG file not found for ${path}, skipping`);
+                    continue;
+                }
+                
+                const blob = await response.blob();
+                
+                // Create filename from icon name
+                let filename = icon.name;
+                
+                // Handle duplicates by appending incrementing numbers
+                if (usedNames.has(filename)) {
+                    const count = usedNames.get(filename) + 1;
+                    usedNames.set(filename, count);
+                    filename = `${icon.name} (${count})`;
+                } else {
+                    usedNames.set(filename, 1);
+                }
+                
+                // Add .png extension
+                filename = `${filename}.png`;
+                
+                // Sanitize filename (remove invalid characters)
+                filename = filename.replace(/[<>:"/\\|?*]/g, '_');
+                
+                zip.file(filename, blob);
+            } catch (error) {
+                console.error(`Error adding ${path} to PNG zip:`, error);
+            }
+        }
+        
+        // Generate and download the zip file
+        zip.generateAsync({type: 'blob'})
+            .then(content => {
+                const link = document.createElement('a');
+                link.href = URL.createObjectURL(content);
+                link.download = 'selected-icons-pngs.zip';
                 link.click();
             });
     });
