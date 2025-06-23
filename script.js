@@ -132,23 +132,69 @@ document.addEventListener('DOMContentLoaded', () => {
             iconElement.className = `icon-card ${selectedIcons.has(icon.path) ? 'selected' : ''}`;
             iconElement.dataset.path = icon.path;
             iconElement.dataset.name = icon.name;
+            iconElement.dataset.tags = icon.tags ? JSON.stringify(icon.tags) : '';
             iconElement.innerHTML = `
                 <img src="${icon.path}" alt="${icon.name}">
-                <div class="icon-info">
-                    <span class="icon-name">${icon.name}</span>
-                    <div class="icon-tags">
-                        ${icon.tags && icon.tags.length > 0 ? icon.tags.map(tag => `<span class="tag">${tag}</span>`).join('') : ''}
-                    </div>
-                </div>
-                <div class="select-indicator">
-                    <i class="fas ${selectedIcons.has(icon.path) ? 'fa-check' : 'fa-plus'}"></i>
-                </div>
             `;
+            
+            // Add tooltip functionality
+            iconElement.addEventListener('mouseenter', showTooltip);
+            iconElement.addEventListener('mouseleave', hideTooltip);
+            
             grid.appendChild(iconElement);
         });
         
         // Update results count
         updateResultsCount(filteredIcons.length);
+    }
+
+    // Tooltip functionality
+    function showTooltip(event) {
+        const card = event.currentTarget;
+        const name = card.dataset.name;
+        const tags = card.dataset.tags ? JSON.parse(card.dataset.tags) : [];
+        
+        // Remove any existing tooltip
+        const existingTooltip = document.querySelector('.icon-tooltip');
+        if (existingTooltip) {
+            existingTooltip.remove();
+        }
+        
+        // Create tooltip
+        const tooltip = document.createElement('div');
+        tooltip.className = 'icon-tooltip';
+        tooltip.innerHTML = `
+            <div class="tooltip-name">${name}</div>
+            ${tags.length > 0 ? `<div class="tooltip-tags">${tags.map(tag => `<span class="tooltip-tag">${tag}</span>`).join('')}</div>` : ''}
+        `;
+        
+        document.body.appendChild(tooltip);
+        
+        // Position tooltip
+        const rect = card.getBoundingClientRect();
+        const tooltipRect = tooltip.getBoundingClientRect();
+        
+        let left = rect.left + (rect.width / 2) - (tooltipRect.width / 2);
+        let top = rect.bottom + 10;
+        
+        // Adjust if tooltip goes off screen
+        if (left < 10) left = 10;
+        if (left + tooltipRect.width > window.innerWidth - 10) {
+            left = window.innerWidth - tooltipRect.width - 10;
+        }
+        if (top + tooltipRect.height > window.innerHeight - 10) {
+            top = rect.top - tooltipRect.height - 10;
+        }
+        
+        tooltip.style.left = left + 'px';
+        tooltip.style.top = top + 'px';
+    }
+
+    function hideTooltip() {
+        const tooltip = document.querySelector('.icon-tooltip');
+        if (tooltip) {
+            tooltip.remove();
+        }
     }
 
     // Update results count display
@@ -256,12 +302,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 console.log('Removing from cart:', path);
                 selectedIcons.delete(path);
                 card.classList.remove('selected');
-                card.querySelector('.select-indicator i').className = 'fas fa-plus';
             } else {
                 console.log('Adding to cart:', path);
                 selectedIcons.add(path);
                 card.classList.add('selected');
-                card.querySelector('.select-indicator i').className = 'fas fa-check';
             }
             
             updateCart();
@@ -280,7 +324,6 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.querySelector(`.icon-card[data-path="${path}"]`);
             if (card) {
                 card.classList.remove('selected');
-                card.querySelector('.select-indicator i').className = 'fas fa-plus';
             }
             
             updateCart();
