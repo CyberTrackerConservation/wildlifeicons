@@ -2,11 +2,39 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('searchInput');
     const iconGrid = document.getElementById('iconGrid');
     const downloadBtn = document.getElementById('downloadBtn');
-    const styleCheckboxes = document.querySelectorAll('input[name="style"]');
-    const dropdownBtn = document.querySelector('.style-dropdown-btn');
-    const dropdownContent = document.querySelector('.style-dropdown-content');
+    const sourceCheckboxes = document.querySelectorAll('input[name="source"]');
+    const dropdownBtn = document.querySelector('.source-dropdown-btn');
+    const dropdownContent = document.querySelector('.source-dropdown-content');
     let icons = [];
     let selectedIcons = new Set();
+    let fuse = null; // Fuse.js instance
+
+    // Simple search function
+    function performSimpleSearch(term) {
+        const lowerTerm = term.toLowerCase().trim();
+        if (lowerTerm.length === 0) return icons;
+        
+        return icons.filter(icon => {
+            const iconName = icon.name.toLowerCase();
+            const iconKey = icon.key.toLowerCase();
+            const iconTags = icon.tags ? icon.tags.map(tag => tag.toLowerCase()) : [];
+            
+            // Check for exact word matches or starts with matches
+            const nameWords = iconName.split(/\s+/);
+            const keyWords = iconKey.split(/[_\s]+/);
+            
+            // Check if any word starts with the search term
+            const nameMatch = nameWords.some(word => word.startsWith(lowerTerm));
+            const keyMatch = keyWords.some(word => word.startsWith(lowerTerm));
+            const tagMatch = iconTags.some(tag => tag.startsWith(lowerTerm));
+            
+            // Also check for exact substring matches in name and key
+            const nameContains = iconName.includes(lowerTerm);
+            const keyContains = iconKey.includes(lowerTerm);
+            
+            return nameMatch || keyMatch || tagMatch || nameContains || keyContains;
+        });
+    }
 
     // Toggle dropdown on button click
     dropdownBtn.addEventListener('click', (e) => {
@@ -30,11 +58,40 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(response => response.json())
         .then(data => {
             console.log('Icons loaded:', data);
-            icons = data.icons.map(icon => ({
+            // Handle both array format and object with icons property
+            const iconsData = Array.isArray(data) ? data : data.icons;
+            icons = iconsData.map(icon => ({
                 ...icon,
                 path: `icons/${icon.filename}`
             }));
             console.log('Processed icons:', icons);
+            
+            // Initialize Fuse.js for fuzzy searching
+            const fuseOptions = {
+                keys: [
+                    'key',
+                    'name',
+                    'tags'
+                ],
+                threshold: 0.2, // Much stricter threshold for more accurate matching
+                includeScore: true,
+                includeMatches: true,
+                minMatchCharLength: 2, // Require at least 2 characters to match
+                shouldSort: true,
+                findAllMatches: true,
+                useExtendedSearch: false,
+                ignoreLocation: false, // Consider location for better accuracy
+                distance: 50
+            };
+            fuse = new Fuse(icons, fuseOptions);
+            console.log('Fuse.js initialized with options:', fuseOptions);
+            
+            // Test Fuse.js functionality
+            if (icons.length > 0) {
+                const testSearch = fuse.search('elephant');
+                console.log('Test search for "elephant":', testSearch.length, 'results');
+            }
+            
             displayIcons();
         })
         .catch(error => {
@@ -45,39 +102,79 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayIcons() {
         console.log('Displaying icons');
         const grid = document.getElementById('iconGrid');
-        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-        const selectedStyles = Array.from(document.querySelectorAll('input[name="style"]:checked')).map(cb => cb.value);
+        const searchTerm = document.getElementById('searchInput').value.trim();
+        const selectedSources = Array.from(document.querySelectorAll('input[name="source"]:checked')).map(cb => cb.value);
+        
+        console.log('Search term:', searchTerm);
+        console.log('Selected sources:', selectedSources);
         
         grid.innerHTML = '';
         
-        icons.forEach(icon => {
-            const matchesSearch = icon.name.toLowerCase().includes(searchTerm) || 
-                                (icon.keywords && icon.keywords.some(keyword => keyword.toLowerCase().includes(searchTerm)));
+        let filteredIcons = icons;
+        
+        // Apply search filter if search term exists
+        if (searchTerm) {
+            console.log('Performing search for:', searchTerm);
             
-            if (matchesSearch && selectedStyles.includes(icon.style)) {
-                const iconElement = document.createElement('div');
-                iconElement.className = `icon-card ${selectedIcons.has(icon.path) ? 'selected' : ''}`;
-                iconElement.dataset.path = icon.path;
-                iconElement.dataset.name = icon.name;
-                iconElement.innerHTML = `
-                    <img src="${icon.path}" alt="${icon.name}">
-                    <div class="icon-info">
-                        <span class="icon-name">${icon.name}</span>
+            // Use simple search for more accurate results
+            filteredIcons = performSimpleSearch(searchTerm);
+            console.log('Search results:', filteredIcons.length);
+            console.log('Sample search results:', filteredIcons.slice(0, 3));
+        }
+        
+        // Apply source filter
+        filteredIcons = filteredIcons.filter(icon => selectedSources.includes(icon.source));
+        console.log('Filtered icons after source filter:', filteredIcons.length);
+        console.log('Selected sources:', selectedSources);
+        
+        filteredIcons.forEach(icon => {
+            const iconElement = document.createElement('div');
+            iconElement.className = `icon-card ${selectedIcons.has(icon.path) ? 'selected' : ''}`;
+            iconElement.dataset.path = icon.path;
+            iconElement.dataset.name = icon.name;
+            iconElement.innerHTML = `
+                <img src="${icon.path}" alt="${icon.name}">
+                <div class="icon-info">
+                    <span class="icon-name">${icon.name}</span>
+                    <div class="icon-tags">
+                        ${icon.tags && icon.tags.length > 0 ? icon.tags.map(tag => `<span class="tag">${tag}</span>`).join('') : ''}
                     </div>
-                    <div class="select-indicator">
-                        <i class="fas ${selectedIcons.has(icon.path) ? 'fa-check' : 'fa-plus'}"></i>
-                    </div>
-                `;
-                grid.appendChild(iconElement);
-            }
+                </div>
+                <div class="select-indicator">
+                    <i class="fas ${selectedIcons.has(icon.path) ? 'fa-check' : 'fa-plus'}"></i>
+                </div>
+            `;
+            grid.appendChild(iconElement);
         });
+        
+        // Update results count
+        updateResultsCount(filteredIcons.length);
     }
 
-    // Search functionality
-    searchInput.addEventListener('input', displayIcons);
+    // Update results count display
+    function updateResultsCount(count) {
+        const totalCount = icons.length;
+        const searchInput = document.getElementById('searchInput');
+        const searchTerm = searchInput.value.trim();
+        
+        if (searchTerm) {
+            searchInput.placeholder = `Search icons... (${count} of ${totalCount} results)`;
+        } else {
+            searchInput.placeholder = `Search icons...`;
+        }
+    }
 
-    // Style filter functionality
-    styleCheckboxes.forEach(checkbox => {
+    // Search functionality with debouncing
+    let searchTimeout;
+    searchInput.addEventListener('input', (e) => {
+        clearTimeout(searchTimeout);
+        searchTimeout = setTimeout(() => {
+            displayIcons();
+        }, 300); // 300ms debounce
+    });
+
+    // Source filter functionality
+    sourceCheckboxes.forEach(checkbox => {
         checkbox.addEventListener('change', displayIcons);
     });
 

@@ -245,7 +245,7 @@ footer {
     }
 }
 
-.filters {
+.source-filters {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -255,18 +255,18 @@ footer {
     padding: 0.5rem;
 }
 
-.style-filters {
+.source-filters {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
 
-.style-dropdown {
+.source-dropdown {
     position: relative;
     display: inline-block;
 }
 
-.style-dropdown-btn {
+.source-dropdown-btn {
     background-color: rgba(255, 255, 255, 0.9);
     color: #2c5e2c;
     border: none;
@@ -281,11 +281,11 @@ footer {
     font-size: 1rem;
 }
 
-.style-dropdown-btn:hover {
+.source-dropdown-btn:hover {
     background-color: rgba(255, 255, 255, 1);
 }
 
-.style-dropdown-content {
+.source-dropdown-content {
     display: none;
     position: absolute;
     background-color: rgba(255, 255, 255, 0.95);
@@ -298,7 +298,7 @@ footer {
     right: 0;
 }
 
-.style-option {
+.source-option {
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
@@ -313,11 +313,11 @@ footer {
     text-align: left;
 }
 
-.style-option:hover {
+.source-option:hover {
     background-color: rgba(44, 62, 80, 0.1);
 }
 
-.style-option input[type="checkbox"] {
+.source-option input[type="checkbox"] {
     width: 20px !important;
     height: 20px !important;
     min-width: 20px !important;
@@ -342,19 +342,19 @@ footer {
     box-sizing: border-box;
 }
 
-.style-option input[type="checkbox"]:checked {
+.source-option input[type="checkbox"]:checked {
     background-color: #2c5e2c;
     border-color: #2c5e2c;
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='2.5' d='M6 10l3 3l6-6'/%3e%3c/svg%3e");
 }
 
-.style-option input[type="checkbox"]:focus {
+.source-option input[type="checkbox"]:focus {
     border-color: #2c5e2c;
     outline: 0;
     box-shadow: 0 0 0 0.25rem rgba(44, 94, 44, 0.25);
 }
 
-.style-option span {
+.source-option span {
     flex: 1;
     line-height: 1;
     font-size: 0.95rem;
@@ -363,7 +363,7 @@ footer {
     min-width: 0;
 }
 
-.icon-style {
+.icon-source {
     display: inline-block;
     padding: 0.25rem 0.5rem;
     background-color: #e8e8e8;
@@ -575,7 +575,7 @@ footer {
     margin-bottom: 0.25rem;
 }
 
-.icon-style {
+.icon-source {
     display: block;
     font-size: 0.8rem;
     color: #666;
@@ -601,4 +601,27 @@ footer {
 .icon-card.selected .select-indicator {
     background-color: #2c5e2c;
     color: white;
+}
+
+.icon-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.tag {
+    background-color: #e8f4fd;
+    color: #2c5e2c;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border: 1px solid #b3d9f2;
+    white-space: nowrap;
+}
+
+.tag:hover {
+    background-color: #d1ecf1;
+    border-color: #2c5e2c;
 } 

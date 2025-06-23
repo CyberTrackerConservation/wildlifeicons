@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
 </head>
 <body>
     <header>
@@ -16,30 +17,22 @@
                 <i class="fas fa-search search-icon"></i>
                 <input type="text" id="searchInput" placeholder="Search icons...">
             </div>
-            <div class="style-dropdown">
-                <button class="style-dropdown-btn">
-                    <span>Styles</span>
+            <div class="source-dropdown">
+                <button class="source-dropdown-btn">
+                    <span>Sources</span>
                     <i class="fas fa-chevron-down"></i>
                 </button>
-                <div class="style-dropdown-content">
-                    <label class="style-option">
-                        <input type="checkbox" name="style" value="color" checked>
-                        <span>Color</span>
+                <div class="source-dropdown-content">
+                    <label class="source-option">
+                        <input type="checkbox" name="source" value="SMART" checked>
+                        <span>SMART</span>
                     </label>
-                    <label class="style-option">
-                        <input type="checkbox" name="style" value="monochrome" checked>
-                        <span>Monochrome</span>
+                    <label class="source-option">
+                        <input type="checkbox" name="source" value="EarthRanger" checked>
+                        <span>EarthRanger</span>
                     </label>
-                    <label class="style-option">
-                        <input type="checkbox" name="style" value="compact" checked>
-                        <span>Compact</span>
-                    </label>
-                    <label class="style-option">
-                        <input type="checkbox" name="style" value="classic" checked>
-                        <span>Classic</span>
-                    </label>
-                    <label class="style-option">
-                        <input type="checkbox" name="style" value="aerial" checked>
+                    <label class="source-option">
+                        <input type="checkbox" name="source" value="Aerial" checked>
                         <span>Aerial</span>
                     </label>
                 </div>

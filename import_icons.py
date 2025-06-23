@@ -105,6 +105,30 @@ def extract_source_from_filename(filename):
     
     return source
 
+def extract_tags_from_filename(filename):
+    """
+    Extract tags from filename path.
+    Tags are the subfolders below the first subfolder of icons.
+    
+    Args:
+        filename (str): The filename path
+        
+    Returns:
+        list: List of tag strings
+    """
+    # Split the path by slashes
+    path_parts = filename.split('/')
+    
+    # If there are less than 2 parts, no subfolders to extract
+    if len(path_parts) < 2:
+        return []
+    
+    # Get all parts except the first one (source) and the filename
+    # This gives us the subfolder structure
+    tags = path_parts[1:-1] if len(path_parts) > 2 else []
+    
+    return tags
+
 def scan_icons_directory(icons_dir='icons', lookup_table=None):
     """
     Scan the icons directory recursively and return a list of file objects.
@@ -141,6 +165,9 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
             # Extract source from filename path
             source = extract_source_from_filename(filename)
             
+            # Extract tags from filename path
+            tags = extract_tags_from_filename(filename)
+            
             # Look up name from the lookup table
             name = lookup_table.get(key, "") if lookup_table else ""
             
@@ -153,7 +180,8 @@ def scan_icons_directory(icons_dir='icons', lookup_table=None):
                 "filename": filename,
                 "key": key,
                 "source": source,
-                "name": name
+                "name": name,
+                "tags": tags
             }
             
             icons.append(icon_object)
