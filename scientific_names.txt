@@ -489,3 +489,8 @@ trachypithecus_delacouri;Delacour's Langur
 gorilla_beringei_graueri;Grauer's Gorilla
 tragelaphus_angasii;Nyala
 tragelaphus_eurycerus;Bongo
+cacatuidae;Cockatoo
+casuarius;Cassowary
+dendrolagus;Tree-kangaroo
+tachyglossidae;Echidna
+phalanger;Cuscus
