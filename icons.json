@@ -36,6 +36,15 @@
     ]
   },
   {
+    "filename": "Aerial/bird/Birds.svg",
+    "key": "birds",
+    "source": "Aerial",
+    "name": "Birds",
+    "tags": [
+      "bird"
+    ]
+  },
+  {
     "filename": "Aerial/bird/Black Eagle.svg",
     "key": "black_eagle",
     "source": "Aerial",
@@ -531,6 +540,15 @@
     ]
   },
   {
+    "filename": "Aerial/human_activity/Human activity.svg",
+    "key": "human_activity",
+    "source": "Aerial",
+    "name": "Human Activity",
+    "tags": [
+      "human_activity"
+    ]
+  },
+  {
     "filename": "Aerial/wildlife/Impala.svg",
     "key": "impala",
     "source": "Aerial",
@@ -960,6 +978,15 @@
     "name": "Wildfire Recent",
     "tags": [
       "human_activity"
+    ]
+  },
+  {
+    "filename": "Aerial/wildlife/Wildlife.svg",
+    "key": "wildlife",
+    "source": "Aerial",
+    "name": "Wildlife",
+    "tags": [
+      "wildlife"
     ]
   },
   {
