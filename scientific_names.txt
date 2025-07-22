@@ -494,3 +494,392 @@ casuarius;Cassowary
 dendrolagus;Tree-kangaroo
 tachyglossidae;Echidna
 phalanger;Cuscus
+corals;Corals
+ara_macao;Scarlet macaw
+bison;Bison
+crocodylus_rhombifer;Cuban crocodile
+siamese_crocodile;Siamese crocodile
+gorilla_gorilla_gorilla;Western lowland gorilla
+grus_antigone;Sarus crane
+manta_ray;Giant manta
+humpback_whale;Humpback whale
+melanosuchus_niger;Black caiman
+mirounga_leonina;Southern elephant seal
+muntiacus_muntjac;Common muntjac
+walrus;Walrus
+panthera_tigris_altaica;Amur tiger
+podocnemis_unifilis;Yellow-spotted river turtle
+sharks;Sharks
+vultur_gryphus;Andean condor
+birds_(esp_iucnendemic_and_highly_traded);Birds (esp iucnendemic and highly traded)
+hylobates_pileatus;Pileated gibbon
+lagothrix_lagothricha;Humboldt's woolly monkey
+loxodonta_africana;African bush elephant
+macaca_arctoides;Stump-tailed macaque
+macaca_fascicularis;Crab-eating macaque
+macaca_nigra;Celebes crested macaque
+macaca_silenus;Lion-tailed macaque
+mandrillus_leucophaeus;Drill
+chlorocebus_tantalus;Tantalus monkey
+nycticebus_pygmaeus;Pygmy slow loris
+saguinus_leucopus;Silvery-brown bare-face tamarin
+trachypithecus_auratus;East javan langur
+trachypithecus_cristatus;Silvered langur
+trichechus_manatus;Caribbean manatee
+cacajao_calvus;Bald uacari
+plecturocebus_olallae;Olalla brother's titi
+capra_nubiana;Nubian ibex
+macaca_leonina;Northern pig-tailed macaque
+nomascus_gabriellae;Buff-cheeked gibbon
+nomascus_leucogenys;Northern white-cheeked crested gibbon
+nomascus_siki;Southern white-cheeked crested gibbon
+pygathrix_nigripes;Black-shanked douc
+trachypithecus_francoisi;Francois' langur
+trachypithecus_germaini;Germain's langur
+ateles_hybridus;Variegated spider monkey
+lagothrix_poeppigii;Poeppig's woolly monkey
+leontopithecus_chrysomelas;Golden-headed lion tamarin
+papio_anubis;Olive baboon
+ateles_chamek;Black spider monkey
+plecturocebus_modestus;Rio beni titi
+pecari_tajacu;Collared peccary
+dicerorhinus_sumatrensis;Asian two-horned rhinoceros
+eidolon_helvum;African straw-colored fruit bat
+elephas_maximus;Asiatic elephant
+eupetaurus_cinereus;Woolly flying squirrel
+hemitragus_jemlahicus;Himalayan tahr
+hypogeomys_antimena;Malagasy giant rat
+indri_indri;Indri
+propithecus_candidus;Silky sifaka
+propithecus_coquereli;Coquerel's sifaka
+eulemur_albifrons;White-fronted brown lemur
+eulemur_collaris;Red-collared lemur
+eulemur_fulvus;Brown lemur
+eulemur_rubriventer;Red-bellied lemur
+hapalemur_occidentalis;Northern bamboo lemur
+varecia_rubra;Red ruffed lemur
+varecia_variegata;Black-and-white ruffed lemur
+ateles_belzebuth;White-fronted spider monkey
+saguinus_oedipus;Cotton-top tamarin
+saguinus_bicolor;Brazilian bare-faced tamarin
+saguinus_geoffroyi;Geoffroy's tamarin
+leontopithecus_rosalia;Golden lion tamarin
+cebuella_pygmaea;Pygmy marmoset
+colobus_guereza;Mantled guereza
+cercopithecus_neglectus;De brazza's monkey
+mandrillus_sphinx;Mandrill
+rungwecebus_kipunji;Kipunji
+pithecia_monachus;Geoffroy's monk saki
+rhinoceros_unicornis;Indian one-horned rhinoceros
+lama_guanicoe;Guanaco
+hippopotamus_amphibius;Hippopotamus
+orycteropus_afer;Aardvark
+pteronura_brasiliensis;Giant otter
+aonyx_cinereus;Oriental small-clawed otter
+dendrolagus_matschiei;Huon tree-kangaroo
+dendrolagus_goodfellowi;Goodfellow's tree-kangaroo
+thylogale_calabyi;Calaby's pademelon
+bettongia_penicillata;Woylie
+pteropus_rodricensis;Rodriguez flying fox
+mazama_gouazoubira;South american brown brocket
+mazama_americana;Red brocket
+alces_alces;Moose
+mazama_nemorivaga;Amazonian brown brocket
+blastocerus_dichotomus;Marsh deer
+pudu_puda;Southern pudu
+muntiacus_vaginalis;Northern red muntjac
+mazama_rufina;Ecuador red brocket
+rangifer_tarandus;Caribou
+rucervus_duvaucelii;Barasingha
+dolichotis_patagonum;Patagonian mara
+lagidium_viscacia;Southern moutain viscacha
+cuniculus_paca;Lowland paca
+dasyprocta_fuliginosa;Black agouti
+hystrix_cristata;Crested porcupine
+trichechus_inunguis;Amazonian manatee
+tayassu_pecari;White-lipped peccary
+sus_scrofa;Wild boar
+babyrousa_celebensis;North sulawesi babirusa
+equus_quagga;Plains zebra
+tapirus_bairdii;Central american tapir
+tapirus_indicus;Malayan tapir
+tapirus_terrestris;South american tapir
+sylvilagus_transitionalis;New england cottontail
+crocuta_crocuta;Spotted hyena
+hyaena_hyaena;Striped hyena
+cryptoprocta_ferox;Fossa
+fossa_fossana;Malagasy civet
+gulo_gulo;Wolverine
+mustela_lutreolina;Indonesian mountain weasel
+herpestes_semitorquatus;Collared mongoose
+mydaus_javanensis;Sunda stink badger
+eira_barbara;Tayra
+martes_flavigula;Yellow-throated marten
+mustela_frenata;Long-tailed weasel
+potos_flavus;Kinkajou
+nasua_nasua;South american coati
+hemigalus_derbyanus;Banded palm civet
+arctictis_binturong;Binturong
+paguma_larvata;Masked palm civet
+prionodon_linsang;Banded linsang
+hydrurga_leptonyx;Leopard seal
+odobenus_rosmarus;Walrus
+bos_javanicus;Banteng
+bos_gaurus;Gaur
+dasypus_novemcinctus;Long-nosed armadillo
+myrmecophaga_tridactyla;Giant anteater
+priodontes_maximus;Giant armadillo
+tolypeutes_matacus;Southern three-banded armadillo
+aepyceros_melampus;Impala
+philantomba_monticola;Blue duiker
+cephalophus_rufilatus;Red-flanked duiker
+cephalophus_silvicultor;Yellow-backed Duiker
+damaliscus_lunatus;Topi
+gazella_leptoceros;Rhim gazelle
+gazella_subgutturosa;Goitered gazelle
+hippotragus_equinus;Roan antelope
+hippotragus_niger;Sable antelope
+kobus_ellipsiprymnus;Waterbuck
+kobus_kob;Kob
+kobus_vardonii;Puku
+ourebia_ourebi;Oribi
+pantholops_hodgsonii;Chiru
+redunca_redunca;Bohor reedbuck
+sylvicapra_grimmia;Bush duiker
+syncerus_caffer;African buffalo
+tragelaphus_derbianus;Giant eland
+balaenoptera_physalus;Fin whale
+eubalaena_australis;Southern right whale
+inia_geoffrensis;Amazon river dolphin
+megaptera_novaeangliae;Humpback whale
+eubalaena_glacialis;North atlantic right whale
+tursiops_aduncus;Indo-pacific bottlenose dolphin
+acinonyx_jubatus;Cheetah
+felis_nigripes;Black-footed cat
+leopardus_tigrinus;Little spotted cat
+leopardus_jacobita;Andean mountain cat
+panthera_tigris;Tiger
+prionailurus_bengalensis;Leopard cat
+panthera_uncia;Snow leopard
+okapia_johnstoni;Okapi
+muntiacus_muntjak;Red muntjac
+lemur_catta;Ring-tailed lemur
+arctonyx_hoevenii;Sumatran hog-badger
+sapajus_apella;Guianan brown capuchin
+cuon_alpinus;Dhole
+catagonus_wagneri;Chacoan peccary
+dasyprocta_punctata;Central american agouti
+lagostomus_maximus_argentine_plains_viscacha;
+alouatta_seniculus;Colombian red howler
+lycalopex_culpaeus;Culpeo
+rusa_unicolor;Sambar
+otocolobus_manul;Pallas's cat
+chrysocyon_brachyurus;Maned wolf
+equus_grevyi;Grevy's zebra
+allochrocebus_lhoesti;L'hoest's monkey
+piliocolobus_preussi;Preuss's red colobus
+piliocolobus_epieni;Niger delta red colobus
+leopardus_pardalis;Ocelot
+neofelis_nebulosa;Clouded leopard
+puma_concolor;Cougar
+capra_falconeri;Markhor
+potamochoerus_porcus;Red river hog
+hylochoerus_meinertzhageni;Giant forest hog
+bos_mutus;Wild yak
+pan_paniscus;Bonobo
+phacochoerus_africanus;Common wart-hog
+ursus_thibetanus;Asiatic black bear
+antilocapra_americana;Pronghorn
+panthera_leo;Lion
+procapra_gutturosa;Mongolian gazelle
+tragelaphus_eurycerus;Bongo
+tragelaphus_spekii;Sitatunga
+tragelaphus_scriptus;Bushbuck
+tragelaphus_imberbis;Lesser kudu
+tragelaphus_oryx;Common eland
+cebus_albifrons;Humboldt's white-fronted capuchin
+gorilla_beringei;Eastern gorilla
+lontra_felina;Marine otter
+ursus_arctos;Brown bear
+smutsia_gigantea;Giant Ground Pangolin
+manis_javanica;Sunda pangolin
+smutsia_temminckii;Ground pangolin
+phataginus_tetradactyla;Long-tailed Pangolin
+phataginus_tricuspis;White-bellied Tree Pangolin
+bison_bison;American bison
+orcaella_brevirostris;Irrawaddy dolphin
+panthera_onca;Jaguar
+sousa_teuszii;Atlantic humpback dolphin
+tremarctos_ornatus;Spectacled bear
+pongo_abelii;Sumatran orangutan
+helarctos_malayanus;Sun bear
+pongo_pygmaeus;Bornean orangutan
+martes_pennanti;Fisher
+pan_troglodytes;Chimpanzee
+balaenoptera_borealis;Sei whale
+gorilla_gorilla;Western gorilla
+giraffa_camelopardalis;Giraffe
+alcelaphus_buselaphus;Hartebeest
+vicugna_vicugna;Vicugna
+civettictis_civetta;African civet
+platanista_gangetica;Ganges river dolphin
+balaenoptera_musculus;Blue whale
+dugong_dugon;Dugong
+allochrocebus_preussi;Preuss's monkey
+panthera_pardus;Leopard
+tragelaphus_strepsiceros;Greater kudu
+lycaon_pictus;African wild dog
+melursus_ursinus;Sloth bear
+equus_hemionus;Asiatic wild ass
+lophocebus_albigena;Gray-cheeked mangabey
+pan_troglodytes_schweinfurthii;Eastern chimpanzee
+gorilla_beringei_graueri;Eastern lowland gorilla
+loxodonta_africana_cyclotis;African forest elephant
+pan_troglodytes_troglodytes;Central chimpanzee
+panthera_tigris_sumatrae;Sumatran tiger
+larus_atlanticus;Olrog's gull
+poikilocarbo_gaimardi;Red-legged cormorant
+leucocarbo_atriceps;Imperial shag
+mitu_tomentosum;Crestless curassow
+odocoileus_cariacou;Coues' white-tailed deer
+aepypodius_arfakianus;Wattled brushturkey
+alopias_pelagicus;Pelagic thresher shark
+anastomus_oscitans;Asian openbill
+anhinga_melanogaster;Darter
+anodorhynchus_hyacinthinus;Hyacinth macaw
+antigone_antigone;Sarus Crane
+ardeotis_nigriceps;Great indian bustard
+anguilla_rostrata;American eel
+batagur_trivittata;Burmese roofed turtle
+bubo_blakistoni;Blakiston's fish owl
+brotula_clarkae;Pacific bearded brotula
+brycon_amazonicus;Amazon Brycon
+caiman_yacare;Yacare caiman
+calidris_minutilla;Least sandpiper
+carcharhinus_falciformis;Silky shark
+caulolatilus_affinis;Pacific golden-eyed tilefish
+casuarius_bennetti;Dwarf cassowary
+bangsia_aureocincta;Gold-ringed tanager
+batagur_affinis;Southern river terrapin
+charadrius_wilsonia;Wilson's plover
+calidris_mauri;Western sandpiper
+coryphaena_hippurus;Mahi-mahi
+crocodylus_intermedius;Orinoco crocodile
+crax_alberti;Blue-knobbed curassow
+crax_rubra;Great curassow
+crocodylus_siamensis;Siamese crocodile
+cynoscion_reticulatus;Striped corvina
+diplectrum_eumelum;Orange-spotted sand perch
+emberiza_aureola;Yellow-breasted bunting
+crocodylus_acutus;American crocodile
+epinephelus_striatus;Nassau grouper
+falco_cherrug;Saker falcon
+geothlypis_formosa;Kentucky warbler
+glaucostegus_typus;Giant guitarfish
+gyps_africanus;White-backed vulture
+gyps_bengalensis;White-rumped vulture
+houbaropsis_bengalensis;Bengal florican
+hypanus_longus;Longtail stingray
+jabiru_mycteria;Jabiru
+lepidochelys_olivacea;Pacific ridley
+leptoptilos_dubius;Greater adjutant
+hyporthodus_acanthistius;Rooster Hind
+lutjanus_colorado;Colorado snapper
+lutjanus_argentiventris;Amarillo snapper
+macrocephalon_maleo;Maleo
+megapodius_decollatus;New guinea megapode
+merganetta_armata;Torrent duck
+leptoptilos_javanicus;Lesser adjutant
+mitu_salvini;Salvin's curassow
+mustelus_lunulatus;Sicklefin smoothhound
+mycteria_cinerea;Milky stork
+mobula_birostris;Oceanic Manta Ray
+necrosyrtes_monachus;Hooded vulture
+nothocercus_bonapartei;Highland tinamou
+odontaspis_ferox;Ragged-tooth shark
+mycteria_leucocephala;Painted stork
+paleosuchus_palpebrosus;Dwarf caiman
+pandion_haliaetus;Osprey
+pavo_muticus;Green peafowl
+penelope_jacquacu;Spix's guan
+pelecanus_philippensis;Spot-billed pelican
+penelope_perspicax;Cauca guan
+odontophorus_hyperythrus;Chestnut wood quail
+phoenicopterus_chilensis;Chilean flamingo
+phoenicopterus_roseus;Greater flamingo
+phoenicopterus_ruber;Greater flamingo
+phyllobates_terribilis;Golden poison frog
+picathartes_oreas;Grey-necked rock-fowl
+plagioscion_squamosissimus;South American Silver Croaker
+podocnemis_lewyana;Magdalena river turtle
+pseudibis_davisoni;White-shouldered ibis
+psittrichas_fulgidus;Pesquet's parrot
+psophia_crepitans;Grey-winged trumpeter
+rhincodon_typus;Whale shark
+rhinoplax_vigil;Helmeted hornbill
+pseudoplatystoma_magdaleniatum;Bagre Rayado
+spheniscus_magellanicus;Magellanic penguin
+sphyrna_lewini;Scalloped hammerhead
+scarus_perrico;Bumphead parrotfish
+sula_granti;Nazca booby
+talegalla_jobiensis;Collared brushturkey
+thaumatibis_gigantea;Giant ibis
+thunnus_albacares;Yellowfin tuna
+torgos_tracheliotos;Lappet-faced Vulture
+trigonoceps_occipitalis;White-headed vulture
+chelonoidis_denticulatus;Yellow-footed tortoise
+alosa_pseudoharengus;Alewife
+carcharias_taurus;Sand tiger
+mustelus_schmitti;Narrownose smooth-hound
+isurus_oxyrinchus;Shortfin mako
+carcharhinus_brachyurus;Bronze whaler
+eretmochelys_imbricata;Carey
+hoplias_malabaricus;Tigerfish
+dermochelys_coriacea;Leatherback
+calidris_alba;Sanderling
+rhea_americana;Greater rhea
+larus_scoresbii;Dolphin Gull
+eudyptes_chrysocome;Rockhopper penguin
+larus_dominicanus;Kelp gull
+rhea_pennata;Lesser rhea
+thalassarche_melanophris;Black-browed albatross
+pygoscelis_papua;Gentoo penguin
+panthera_pardus_orientalis;Amur leopard
+chelodina_mccordi;Roti island snake-necked turtle
+chelonoidis_carbonaria;Redfooted tortoise
+dermatemys_mawii;Central american river turtle
+geochelone_platynota;Burmese star tortoise
+mesoclemmys_dahli;Dahl’s sideneck turtle
+pelochelys_cantorii;Cantor’s giant softshell turtle
+podocnemis_expansa;Giant amazon river turtle
+sphyrnidae;Hammerhead sharks
+elephas_maximus_indicus;Indian elephant
+piaractus_brachypomus;Pirapatinga
+podocnemis_erythrocephala;Red-headed amazon side-neck turtle
+osteoglossum_bicirrhosum;Silver arawana
+colossoma_macropomum;Tambaqui
+nomascus_annamensis;Yellow-cheeked crested gibbon
+odontaspis_ferox;Smalltooth sand tiger
+loxodonta_cyclotis;African forest elephant
+acanthochelys_pallidipectoris;Chaco side-necked turtle
+acipenser_fulvescens;Lake sturgeon
+anolis_agassizi;Agassiz's anole
+arapaima_gigas;Arapaima
+attalea_maripa;Maripa Palm
+diploglossus_millepunctatus;Dotted galliwasp
+cacajao_calvus;White Bald-headed Uakari
+lepidocaryum_tenue;Caraná
+mauritia_flexuosa;Aguaje
+astronotus_ocellatus;Crombier
+prochilodus_nigricans;Black Prochilodus
+heros_efasciatus;Hero cichlid
+satanoperca_jurupari;Demon Eartheater
+chaetobranchus_flavescens;River patwa
+pterygoplichthys_pardalis;Amazon Sailfin Catfish
+aphanotorulus_emarginatus;Carachama
+hypselecara_temporalis;Chocolate Cichlid
+pseudorinelepis_genibarbis;Blue-lipped Pleco
+pseudoplatystoma_punctifer;Tiger Catfish
+brycon_melanopterus;Black-finned tetra
+pseudoplatystoma_tigrinum;Tiger Catfish
+cichla_monoculus;Toukounaré
