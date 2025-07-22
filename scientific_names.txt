@@ -669,7 +669,7 @@ sapajus_apella;Guianan brown capuchin
 cuon_alpinus;Dhole
 catagonus_wagneri;Chacoan peccary
 dasyprocta_punctata;Central american agouti
-lagostomus_maximus_argentine_plains_viscacha;
+lagostomus_maximus;Argentine plains viscacha
 alouatta_seniculus;Colombian red howler
 lycalopex_culpaeus;Culpeo
 rusa_unicolor;Sambar
